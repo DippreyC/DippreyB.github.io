@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Form</title>
 </head>
+
 <body>
     <h1>Register</h1>
-    
+
     <form>
         <label for="firstName">First Name</label>
-        <input id="firstName" type="text" required>
+        <input id="firstName" name="firstName" type="text" required placeholder="John">
 
         <label for="lastName">Last Name</label>
-        <input id="lastName" type="text" required>
+        <input id="lastName" name="lastName" type="text" required placeholder="Doe">
 
-        
-        <input type="radio" name="Gender" id="Male" value="male" required>
-    
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male" value="male" required>
+
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female" value="female" required>
+
+        </div>
+
+        <div>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="password" minlength="9" required>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday</label>
+            <select id="birthday">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+            </select>
+            <select id="birthday">
+                <option value="01">1</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            <select id="birthday">
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+            </select>
+        </div>
+
+        <button>Go!</button>
+
+    </form>
+
 </body>
+
 </html>
