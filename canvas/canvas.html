@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <title></title>
+    <script>
+        function filterResults() {
+            
+            let inputValue = document.getElementById("searchBar")
+            let searchValue = inputValue.value.toUpperCase();
+            
+            
+            
+            let boxes = document.getElementsByClassName("img-div");
+            
+            for(i = 0; i < boxes.length; i++){
+                let boxText = boxes[i].textContent;
+                
+                if(boxText.toUpperCase().indexOf(searchValue) > -1){
+                    boxes[i].style.display="";
+                }
+                else{
+                    boxes[i].style.display = "none";
+                    console.log(boxes[i]);
+                }
+                
+                
+            }
+
+
+        }
+
+    </script>
+
+
+    <style>
+        #wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .img-div {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            margin-left: 10px;
+            margin-top: 10px;
+
+        }
+
+        img {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+        }
+
+        .text-div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Amatic SC', Georgia;
+            font-size: 45px;
+
+        }
+
+        .small-text {
+            font-size: 30px !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #searchBar {
+            width: 100%;
+            margin: auto;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+            background-image: url(search-icon.png);
+            background-size: 30px;
+            background-position: 5px 6px;
+            background-repeat: no-repeat;
+            
+        }
+
+        .input-div {
+            display: flex;
+            flex-direction: row;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="input-div">
+        <input type="text" id="searchBar" onkeyup="filterResults()" placeholder="Try searching for HHS Hacks...">
+    </div>
+
+    <section id="wrapper" target="_parent">
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162575"  target="_parent">
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div">Academics <br>&amp; Grading</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div ">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdP_kT0-5CWFAT5NsUZbD4wF0IWvTQ2h2zKknUC3I9TJB0uQQ/viewform"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+
+                <div class="text-div small-text">Announcements</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162576" target="_parent">
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Bell<br>Schedules</div>
+            </a >
+        </div>
+
+
+
+
+
+        <div class="img-div">
+            <a href="#"  >
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">BLT<br>Committee</div>
+            </a>
+
+        </div>
+
+
+
+        <!-- Building Use form needs a Link -->
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/files/3184673?module_item_id=1723160" target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Building<br>Use Form</div>
+            </a>
+
+        </div>
+
+
+
+
+        <div class="img-div">
+            <a href="https://www.lisd.net/Page/20252"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Bus Request<br>Form</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/719/Hebron%20HS%20CIP.pdf"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Campus<br>Improvement<br>Plan Goals</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151953"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Canvas PD<br>[Required Monthly]</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://drive.google.com/file/d/1jxhV2k4Qqn9rJfrs3Q-TNQt4_8AUDsx9/view"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Class Not<br>In Door<br>Sign</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://www.lisd.net/domain/4137"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Clubs &amp;<br>Organizations</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162577"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Counseling</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162578"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">DAEP &amp;<br>ISS</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://docs.google.com/spreadsheets/d/15At39DPghre90F6nW3nk20MOt5Lz4lO1fRLTsckBRLM/edit#gid=105868715"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Discipline &amp; Referrals</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://drive.google.com/file/d/1rrAVOgF9uVh07vrhTPGuGZv46uJKPrNq/view"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Dress <br> Code</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="#" >
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png" >
+                <div class="text-div" style="text-align: center;">Duty <br> Roster</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/document/d/1qLx9UFUdKf0We1yuZiVN_aXkK7Z_wVuZ1o6LS_rs4rg/edit"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Emergency <br>Procedures</div>
+            </a>
+
+        </div>
+
+        <div class="img-div">
+            <a href="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/5629/Employee%20Handbook.pdf"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Employee<br>Document<br>Handbook</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="#" >
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Eportfolios</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="#" >
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">ESL Strategies</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151954"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">Faculty Meeting Videos</div>
+            </a>
+
+        </div>
+
+
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Faculty Pass Letter</div>
+            </a>
+
+        </div>
+
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Fax Numbers</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162579"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">Field Trips</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Flyer Posting Guidelines</div>
+            </a>
+
+        </div>
+
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151955"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Grants</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151956"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Hawk Time Lessons</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div " style="text-align: center;">
+                    HHS PLCs</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_156455"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    HHS Hacks</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    HHS Letterhead</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162580"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    LEAD</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Library Policies</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://www.lisd.net/domain/5239#calendar1/20191023/month"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    LISD Calendar</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/spreadsheets/d/1udZtQ0cjjjbOQw9olAnZXxBLHfXY8TtNnkDyzol8Zqc/edit#gid=0"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Master Schedule</div>
+            </a>
+
+        </div>
+
+        <!-- Office Staff page needs to be created MISSING -->
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Office Staff</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162581"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Parent Communication</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://drive.google.com/file/d/1MEPeKNIILOsZ9XZ63Ylyf5PkL4tjF_R8/view"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Phone Instructions</div>
+            </a>
+
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/spreadsheets/d/1ptEQVkLH5QP89SgRFHybmfFuna3gsqQJm34Dqho1-ig/edit#gid=0"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Phone Roster</div>
+            </a>
+
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSehYSPAIH299J7WyBkUcgO9g6D6TZBvgdDtuBIh0VDR05gPpA/viewform"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Planned Absence Request</div>
+            </a>
+        </div>
+
+
+
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Planning Calendar</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://www.smore.com/u/lesliedavenport"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Principal Weekly Update</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_156456"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div " style="text-align: center;">
+                    RTI, 504, <br>&amp; SPED</div>
+            </a>
+        </div>
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text " style="text-align: center;">
+                    Safety Information</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151957"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Staff Development</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/spreadsheets/d/1ptEQVkLH5QP89SgRFHybmfFuna3gsqQJm34Dqho1-ig/edit#gid=0"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Staff <br>Roster</div>
+            </a>
+        </div>
+
+
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_156458"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Student Handbook &amp; Code of Conduct</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text " style="text-align: center;">
+                    Student Recognition</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/viewerng/viewer?url=https://www.lisd.net//cms/lib/TX01918037/Centricity/Domain/4245/Attendance+Policies+At+A+Glance+2019.pdf"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Tardy &amp; <br>ID Policy</div>
+            </a>
+        </div>
+
+
+
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_147402"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Tech <br>Tips</div>
+            </a>
+        </div>
+
+        <div class="img-div">
+            <a href="https://support.lisd.net/LiveTime/WebObjects/LiveTime"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Tech Support:<br>Louis Thompson</div>
+            </a>
+        </div>
+
+
+
+        <div class="img-div">
+            <a href="http://tinyurl.com/HelpMeMissCrawford"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Tech Support:<br>Crawford</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_151958"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Testing</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://lisdtx.instructure.com/courses/101205/modules#module_162582"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    UIL <br>Information</div>
+            </a>
+        </div>
+
+
+        <div class="img-div">
+            <a href="https://docs.google.com/document/d/1YZDR2xIVxFgSr-oTGr19m78LjVK-BKUehpvmaLIFIuY/edit"  target="_parent">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div" style="text-align: center;">
+                    Visitor <br>Procedures</div>
+            </a>
+        </div>
+
+        <div class="img-div">
+            <a href="#">
+
+                <img src="https://dippreyb.github.io/canvas/canvas-button.png">
+                <div class="text-div small-text" style="text-align: center;">
+                    Work Orders <br>&amp; Keys</div>
+            </a>
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+</body>
+
+</html>
