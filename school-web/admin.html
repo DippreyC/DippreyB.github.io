@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<script>
+    var videoID;
+
+    $(document).click(function(event) {
+        var clicked = $(event.target.parentElement)[0].id;
+        playVideo(clicked);
+        videoID = clicked + "-video"
+    })
+
+    function playVideo(adminID) {
+        var adminVideo = document.getElementById(adminID + "-video");
+        var adminPic = document.getElementById(adminID + "-pic");
+
+        adminPic.style.display = "none";
+        adminVideo.style.display = "block";
+
+    }
+
+    //youtube
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    
+
+    function onYouTubeIframeAPIReady() {
+        var player1 = new YT.Player("boughton-video", {
+            height: '390',
+            width: '640',
+            videoId: 'c3Ys663pTnI',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+
+        var player2 = new YT.Player("garlinger-video", {
+            height: '390',
+            width: '640',
+            videoId: 'gyN_V9ss7fY',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+         var player3 = new YT.Player("zavar-video", {
+            height: '390',
+            width: '640',
+            videoId: 'SDPd6ufTRHM',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+        var player4 = new YT.Player("croll-video", {
+            height: '390',
+            width: '640',
+            videoId: 'F08youaPV8U',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+        var player5 = new YT.Player("mccoo-video", {
+            height: '390',
+            width: '640',
+            videoId: 'AOLg5IzsSnk',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+        var player6 = new YT.Player("kushnir-video", {
+            height: '390',
+            width: '640',
+            videoId: '8hGm0LP8qbc',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+        var player7 = new YT.Player("cragin-video", {
+            height: '390',
+            width: '640',
+            videoId: '4xl3JSXg7UY',
+            events: {
+                'onReady': onPlayerReady,
+
+            }
+        });
+        
+        
+    }
+
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+        event.target.playVideo();
+    }
+
+</script>
+<style>
+    body {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .admin-container {
+        border: 1px black solid;
+        width: fit-content;
+        padding: 15px;
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 300px;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        margin: 5px;
+    }
+
+    .admin-container h1 {
+        margin: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .title {
+        font-style: italic;
+        margin: 0 0 0 0;
+    }
+
+    .phone {
+        margin: 0 0 0 0;
+    }
+
+    .students {
+        margin: 0 0 0 0;
+    }
+
+    a {
+        color: #757575;
+        margin: 0 0 0 0;
+    }
+
+    img {
+        cursor: pointer;
+        max-width: 300px;
+
+    }
+    
+
+</style>
+
+<body>
+
+    <div id="boughton" class="admin-container">
+        
+        <img id="boughton-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/BoughtonHeadShot2020.jpg" />
+        
+        
+
+        <!-- Embed code here -->
+
+        <div id="boughton-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Amy Boughton</h1>
+        <p class="title">Principal</p>
+        <p class="phone">Phone: (469) 948-2802</p>
+        <a href="mailto:boughtona@lisd.net">boughtona@lisd.net</a>
+
+    </div>
+
+    <div id="garlinger" class="admin-container">
+        <img id="garlinger-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/JacobGarlinger.jpg" />
+
+        <!-- Embed code here -->
+
+        <div id="garlinger-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Jacob Garlinger</h1>
+        <p class="title">Associate Principal</p>
+        <p class="phone">Phone: (469) 948-3065</p>
+        <a href="mailto:garlingerj@lisd.net">garlingerj@lisd.net</a>
+        <p class="students">Students Lin - Ngo</p>
+
+    </div>
+    
+     <div id="zavar" class="admin-container">
+        <img id="zavar-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/Dr.VanessaZavar.jpg" />
+
+        <!-- Embed code here -->
+
+        <div id="zavar-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Dr. Vanessa Zavar</h1>
+        <p class="title">Assistant Principal</p>
+        <p class="phone">Phone: (469) 948-2808</p>
+        <a href="mailto:zavarv@lisd.net">zavarv@lisd.net</a>
+        <p class="students">Students A-Coli</p>
+
+    </div>
+    
+    <div id="croll" class="admin-container">
+        <img id="croll-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/download.png" />
+
+        <!-- Embed code here -->
+
+        <div id="croll-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Glen Croll</h1>
+        <p class="title">Assistant Principal</p>
+        <p class="phone">Phone: (469) 948-2818</p>
+        <a href="mailto:crollg@lisd.net">crollg@lisd.net</a>
+        <p class="students">Students Coll-Haw</p>
+
+    </div>
+    
+    <div id="mccoo" class="admin-container">
+        <img id="mccoo-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/BrianMcCoo.jpg" />
+
+        <!-- Embed code here -->
+
+        <div id="mccoo-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Brian McCoo</h1>
+        <p class="title">Assistant Principal</p>
+        <p class="phone">Phone: (469) 948-2814</p>
+        <a href="mailto:mccoob@lisd.net">mccoob@lisd.net</a>
+        <p class="students">Students Ngu - Sc</p>
+
+    </div>
+    
+    <div id="kushnir" class="admin-container">
+        <img id="kushnir-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/Jackie%20Kushnir.jpg" />
+
+        <!-- Embed code here -->
+
+        <div id="kushnir-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Jacquelyn Kushnir</h1>
+        <p class="title">Assistant Principal</p>
+        <p class="phone">Phone: (469) 948-2813</p>
+        <a href="mailto:kushnirj@lisd.net">kushnirj@lisd.net</a>
+        <p class="students">Students Hay - Lim</p>
+
+    </div>
+    
+    <div id="cragin" class="admin-container">
+        <img id="cragin-pic" src="https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/4049/LindaCragin.jpg" />
+
+        <!-- Embed code here -->
+
+        <div id="cragin-video" style="display: none">
+
+        </div>
+        <!-- End Embed code -->
+        <h1>Linda Cragin</h1>
+        <p class="title">Assistant Principal</p>
+        <p class="phone">Phone: (469) 948-2804</p>
+        <a href="mailto:craginl@lisd.net">craginl@lisd.net</a>
+        <p class="students">Students SE - Z</p>
+
+    </div>
+    
+    
+
+</body>
+
+</html>
