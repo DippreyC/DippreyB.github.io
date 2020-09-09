@@ -24,6 +24,90 @@
         adminPic.style.display = "none";
         adminVideo.style.display = "block";
 
+        if (adminID == "boughton") {
+            var player1 = new YT.Player("boughton-video", {
+                height: '390',
+                width: '640',
+                videoId: 'c3Ys663pTnI',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "garlinger") {
+            var player2 = new YT.Player("garlinger-video", {
+                height: '390',
+                width: '640',
+                videoId: 'gyN_V9ss7fY',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "zavar") {
+            var player3 = new YT.Player("zavar-video", {
+                height: '390',
+                width: '640',
+                videoId: 'SDPd6ufTRHM',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "croll") {
+            var player4 = new YT.Player("croll-video", {
+                height: '390',
+                width: '640',
+                videoId: 'F08youaPV8U',
+                events: {
+                     'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "mccoo") {
+            var player5 = new YT.Player("mccoo-video", {
+                height: '390',
+                width: '640',
+                videoId: 'AOLg5IzsSnk',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "kushnir") {
+            var player6 = new YT.Player("kushnir-video", {
+                height: '390',
+                width: '640',
+                videoId: '8hGm0LP8qbc',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+
+        if (adminID == "cragin") {
+            var player7 = new YT.Player("cragin-video", {
+                height: '390',
+                width: '640',
+                videoId: '4xl3JSXg7UY',
+                events: {
+                    'onReady': onPlayerReady,
+
+                }
+            });
+        }
+        
     }
 
     //youtube
@@ -33,86 +117,88 @@
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    // 3. This function creates an <iframe> (and YouTube player)
-    //    after the API code downloads.
-    
 
-    function onYouTubeIframeAPIReady() {
-        var player1 = new YT.Player("boughton-video", {
-            height: '390',
-            width: '640',
-            videoId: 'c3Ys663pTnI',
-            events: {
-                'onReady': onPlayerReady,
 
-            }
-        });
+
+    /*function onYouTubeIframeAPIReady() {
+         var player1 = new YT.Player("boughton-video", {
+             height: '390',
+             width: '640',
+             videoId: 'c3Ys663pTnI',
+             events: {
+                 //'onReady': onPlayerReady,
+
+             }
+         });
+         
 
         var player2 = new YT.Player("garlinger-video", {
             height: '390',
             width: '640',
             videoId: 'gyN_V9ss7fY',
             events: {
-                'onReady': onPlayerReady,
+                //'onReady': onPlayerReady,
 
             }
         });
-        
-         var player3 = new YT.Player("zavar-video", {
+
+        var player3 = new YT.Player("zavar-video", {
             height: '390',
             width: '640',
             videoId: 'SDPd6ufTRHM',
             events: {
-                'onReady': onPlayerReady,
+                //'onReady': onPlayerReady,
 
             }
         });
-        
+
         var player4 = new YT.Player("croll-video", {
             height: '390',
             width: '640',
             videoId: 'F08youaPV8U',
             events: {
-                'onReady': onPlayerReady,
+                // 'onReady': onPlayerReady,
 
             }
         });
-        
+
         var player5 = new YT.Player("mccoo-video", {
             height: '390',
             width: '640',
             videoId: 'AOLg5IzsSnk',
             events: {
-                'onReady': onPlayerReady,
+                //'onReady': onPlayerReady,
 
             }
         });
-        
+
         var player6 = new YT.Player("kushnir-video", {
             height: '390',
             width: '640',
             videoId: '8hGm0LP8qbc',
             events: {
-                'onReady': onPlayerReady,
+                //'onReady': onPlayerReady,
 
             }
         });
-        
+
         var player7 = new YT.Player("cragin-video", {
             height: '390',
             width: '640',
             videoId: '4xl3JSXg7UY',
             events: {
-                'onReady': onPlayerReady,
+                //'onReady': onPlayerReady,
 
             }
         });
-        
-        
+
+
     }
+    */
 
     // 4. The API will call this function when the video player is ready.
     function onPlayerReady(event) {
+        console.log(event);
         event.target.playVideo();
     }
 
@@ -165,17 +251,16 @@
         max-width: 300px;
 
     }
-    
 
 </style>
 
 <body>
 
     <div id="boughton" class="admin-container">
-        
+
         <img id="boughton-pic" src="BoughtonHeadShot2020.jpg" />
-        
-        
+
+
 
         <!-- Embed code here -->
 
@@ -206,8 +291,8 @@
         <p class="students">Students Lin - Ngo</p>
 
     </div>
-    
-     <div id="zavar" class="admin-container">
+
+    <div id="zavar" class="admin-container">
         <img id="zavar-pic" src="VanessaZavar.jpg" />
 
         <!-- Embed code here -->
@@ -223,7 +308,7 @@
         <p class="students">Students A-Coli</p>
 
     </div>
-    
+
     <div id="croll" class="admin-container">
         <img id="croll-pic" src="download.png" />
 
@@ -240,7 +325,7 @@
         <p class="students">Students Coll-Haw</p>
 
     </div>
-    
+
     <div id="mccoo" class="admin-container">
         <img id="mccoo-pic" src="BrianMcCoo.jpg" />
 
@@ -257,7 +342,7 @@
         <p class="students">Students Ngu - Sc</p>
 
     </div>
-    
+
     <div id="kushnir" class="admin-container">
         <img id="kushnir-pic" src="Jackie%20Kushnir.jpg" />
 
@@ -274,7 +359,7 @@
         <p class="students">Students Hay - Lim</p>
 
     </div>
-    
+
     <div id="cragin" class="admin-container">
         <img id="cragin-pic" src="LindaCragin.jpg" />
 
@@ -291,8 +376,8 @@
         <p class="students">Students SE - Z</p>
 
     </div>
-    
-    
+
+
 
 </body>
 
