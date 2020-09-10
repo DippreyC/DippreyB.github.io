@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <script>
@@ -24,15 +25,14 @@
         adminPic.style.display = "none";
         adminVideo.style.display = "block";
         console.log(window.innerWidth);
-        
+
         var screenWidth = window.innerWidth;
         var playerWidth;
         var playerHeight;
-        if(screenWidth < 400){
-            playerWidth =  '350';
+        if (screenWidth < 400) {
+            playerWidth = '350';
             playerHeight = '200';
-        }
-        else{
+        } else {
             playerWidth = '640';
             playerHeight = '390';
         }
@@ -42,7 +42,10 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: 'c3Ys663pTnI',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
                 }
@@ -54,7 +57,10 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: 'gyN_V9ss7fY',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
                 }
@@ -66,7 +72,10 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: 'SDPd6ufTRHM',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
                 }
@@ -78,9 +87,12 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: 'F08youaPV8U',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
-                     'onReady': onPlayerReady,
+                    'onReady': onPlayerReady,
 
                 }
             });
@@ -91,7 +103,10 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: 'AOLg5IzsSnk',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
 
@@ -104,7 +119,10 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: '8hGm0LP8qbc',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
 
@@ -117,14 +135,17 @@
                 height: playerHeight,
                 width: playerWidth,
                 videoId: '4xl3JSXg7UY',
-                playerVars: { 'autoplay': 1, 'fs': 1},
+                playerVars: {
+                    'autoplay': 1,
+                    'fs': 1
+                },
                 events: {
                     'onReady': onPlayerReady,
 
                 }
             });
         }
-        
+
     }
 
     //youtube
@@ -266,10 +287,9 @@
 
     img {
         cursor: pointer;
-        max-width: 200px;
+        max-width: 330px;
 
     }
-    
 
 </style>
 
@@ -282,11 +302,11 @@
 
 
         <!-- Embed code here -->
-        
+
         <div id="boughton-video" style="display: none">
 
         </div>
-        
+
         <!-- End Embed code -->
         <h1>Amy Boughton</h1>
         <p class="title">Principal</p>
