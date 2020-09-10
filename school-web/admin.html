@@ -23,11 +23,24 @@
 
         adminPic.style.display = "none";
         adminVideo.style.display = "block";
+        console.log(window.innerWidth);
+        
+        var screenWidth = window.innerWidth;
+        var playerWidth;
+        var playerHeight;
+        if(screenWidth < 400){
+            playerWidth =  '350';
+            playerHeight = '200';
+        }
+        else{
+            playerWidth = '640';
+            playerHeight = '390';
+        }
 
         if (adminID == "boughton") {
             var player1 = new YT.Player("boughton-video", {
-                height: '390',
-                width: '640',
+                height: playerHeight,
+                width: playerWidth,
                 videoId: 'c3Ys663pTnI',
                 events: {
                     'onReady': onPlayerReady,
@@ -253,6 +266,7 @@
         max-width: 200px;
 
     }
+    
 
 </style>
 
@@ -265,10 +279,11 @@
 
 
         <!-- Embed code here -->
-
+        
         <div id="boughton-video" style="display: none">
 
         </div>
+        
         <!-- End Embed code -->
         <h1>Amy Boughton</h1>
         <p class="title">Principal</p>
