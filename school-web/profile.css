@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.admin-container {
+    border: 1px black solid;
+    width: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+.admin-container h1 {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.title {
+    font-style: italic;
+    margin: 0 0 0 0;
+}
+
+.phone {
+    margin: 0 0 0 0;
+}
+
+.students {
+    margin: 0 0 0 0;
+}
+
+a {
+    color: #757575;
+    margin: 0 0 0 0;
+}
+
+img {
+    cursor: pointer;
+    max-width: 330px;
+
+
+}
