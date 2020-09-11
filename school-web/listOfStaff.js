@@ -1,6 +1,6 @@
 var staff = {
     "boughton": {
-        "pictureUrl": "BoughtonHeadShot2020.jpg",
+        "pictureUrl": "admin_pics/BoughtonHeadShot2020.jpg",
         "video": "c3Ys663pTnI",
         "name": "Amy Boughton",
         "title": "Principal",
@@ -9,7 +9,7 @@ var staff = {
         "students": ""
     },
     "garlinger": {
-        "pictureUrl": "JacobGarlinger.jpg",
+        "pictureUrl": "admin_pics/JacobGarlinger.jpg",
         "video": "gyN_V9ss7fY",
         "name": "Amy Boughton",
         "title": "Associate Principal",
@@ -18,7 +18,7 @@ var staff = {
         "students": "Students Lin - Ngo"
     },
     "zavar": {
-        "pictureUrl": "VanessaZavar.jpg",
+        "pictureUrl": "admin_pics/VanessaZavar.jpg",
         "video": "SDPd6ufTRHM",
         "name": "Dr. Vanessa Zavar",
         "title": "Assistant Principal",
@@ -27,7 +27,7 @@ var staff = {
         "students": "Students A-Coli"
     },
     "croll": {
-        "pictureUrl": "download.png",
+        "pictureUrl": "admin_pics/download.png",
         "video": "c3Ys663pTnI",
         "name": "Glen Croll",
         "title": "Assistant Principal",
@@ -36,7 +36,7 @@ var staff = {
         "students": "Students Coll-Haw"
     },
     "mccoo": {
-        "pictureUrl": "BrianMccoo.jpg",
+        "pictureUrl": "admin_pics/BrianMccoo.jpg",
         "video": "c3Ys663pTnI",
         "name": "Brian McCoo",
         "title": "Assistant Principal",
@@ -45,7 +45,7 @@ var staff = {
         "students": "Students Ngu - Sc"
     },
     "kushnir": {
-        "pictureUrl": "JackieKushnir.jpg",
+        "pictureUrl": "admin_pics/JackieKushnir.jpg",
         "video": "c3Ys663pTnI",
         "name": "Jacquelyn Kushnir",
         "title": "Assistant Principal",
@@ -54,7 +54,7 @@ var staff = {
         "students": "Students Hay - Lim"
     },
     "cragin": {
-        "pictureUrl": "LindaCragin.jpg",
+        "pictureUrl": "admin_pics/LindaCragin.jpg",
         "video": "c3Ys663pTnI",
         "name": "Linda Cragin",
         "title": "Assistant Principal",
