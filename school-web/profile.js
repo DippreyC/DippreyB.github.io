@@ -23,16 +23,17 @@ function makePlayer(videoID, width, height) {
 }
 
 function playVideo(adminID) {
+    
+    var screenWidth = window.innerWidth;
+    var playerWidth;
+    var playerHeight;
+    
     var adminVideo = document.getElementById(adminID + "-video");
     var adminPic = document.getElementById(adminID + "-pic");
 
     adminPic.style.display = "none";
     adminVideo.style.display = "block";
-    console.log(window.innerWidth);
 
-    var screenWidth = window.innerWidth;
-    var playerWidth;
-    var playerHeight;
     if (screenWidth < 600) {
         playerWidth = screenWidth - 40;
         playerHeight = playerWidth / 1.64;
@@ -41,12 +42,11 @@ function playVideo(adminID) {
         playerHeight = '390';
     }
 
-
     makePlayer(adminID,playerWidth,playerHeight);
 
 }
 
-//youtube
+//youtube API Stuff
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
