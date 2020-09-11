@@ -1,4 +1,3 @@
-
 var staff = {
     "boughton": {
         "pictureUrl": "BoughtonHeadShot2020.jpg",
@@ -9,7 +8,7 @@ var staff = {
         "email": "boughtona@lisd.net",
         "students": ""
     },
-    "garlinger":{
+    "garlinger": {
         "pictureUrl": "JacobGarlinger.jpg",
         "video": "gyN_V9ss7fY",
         "name": "Amy Boughton",
@@ -18,7 +17,7 @@ var staff = {
         "email": "garlingerj@lisd.net",
         "students": "Students Lin - Ngo"
     },
-    "zavar":{
+    "zavar": {
         "pictureUrl": "VanessaZavar.jpg",
         "video": "SDPd6ufTRHM",
         "name": "Dr. Vanessa Zavar",
@@ -27,7 +26,7 @@ var staff = {
         "email": "zavarv@lisd.net",
         "students": "Students A-Coli"
     },
-    "croll":{
+    "croll": {
         "pictureUrl": "download.png",
         "video": "c3Ys663pTnI",
         "name": "Glen Croll",
@@ -36,7 +35,7 @@ var staff = {
         "email": "crollg@lisd.net",
         "students": "Students Coll-Haw"
     },
-    "mccoo":{
+    "mccoo": {
         "pictureUrl": "BrianMccoo.jpg",
         "video": "c3Ys663pTnI",
         "name": "Brian McCoo",
@@ -45,7 +44,7 @@ var staff = {
         "email": "mccoob@lisd.net",
         "students": "Students Ngu - Sc"
     },
-    "kushnir":{
+    "kushnir": {
         "pictureUrl": "JackieKushnir.jpg",
         "video": "c3Ys663pTnI",
         "name": "Jacquelyn Kushnir",
@@ -54,7 +53,7 @@ var staff = {
         "email": "kushnirj@lisd.net",
         "students": "Students Hay - Lim"
     },
-    "cragin":{
+    "cragin": {
         "pictureUrl": "LindaCragin.jpg",
         "video": "c3Ys663pTnI",
         "name": "Linda Cragin",
