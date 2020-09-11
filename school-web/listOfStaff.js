@@ -11,7 +11,7 @@ var staff = {
     "garlinger": {
         "pictureUrl": "admin_pics/JacobGarlinger.jpg",
         "video": "gyN_V9ss7fY",
-        "name": "Amy Boughton",
+        "name": "Jacob Garlinger",
         "title": "Associate Principal",
         "phone": "Phone: (469) 948-3065",
         "email": "garlingerj@lisd.net",
