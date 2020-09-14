@@ -38,7 +38,7 @@ function makeProfiles(profileData) {
         <h1>${info.name}</h1>
         <p class="title">${info.title}</p>
         <p class="phone">${info.name}</p>
-        <a href="mailto:boughtona@lisd.net">${info.email}</a>
+        <a href="${info.email}">${info.email}</a>
         <p class="students">${info.students}</p>
         <img src="cancel.svg" class="close-button">
         `;
