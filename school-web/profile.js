@@ -4,21 +4,38 @@ $(document).click(
         var adminID = $(event.target.parentElement)[0].id;
 
         //nodeName()
-        if (event.target.classList == "profile-pic" ) {
+        if (event.target.classList == "profile-pic") {
             var screenWidth = window.innerWidth;
             if (screenWidth < 600) {
                 window.open("https://www.youtube.com/watch?v=" + staff[adminID].video + "");
             } else {
-                $(`#${adminID}-pic`).fadeOut(500);
+                hideElement(adminID+"-pic");
                 playVideo(adminID);
+                showElement(adminID+"-close-button");
             }
         }
 
-        if(event.target.classList == "close-button"){
+        if (event.target.classList[0] == "close-button") {
             stopProfileVideo(adminID);
+            hideElement(adminID+"-video");
+            hideElement(adminID+"-close-button");
+            showElement(adminID+"-pic");
+
         }
     }
 )
+async function showElement(elementID){
+    await sleep(500);
+    $(`#${elementID}`).fadeIn(500);
+}
+
+async function hideElement(elementID){
+    await sleep(50);
+    $(`#${elementID}`).fadeOut(500);
+}
+
+
+
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -38,9 +55,9 @@ function makeProfiles(profileData) {
         <h1>${info.name}</h1>
         <p class="title">${info.title}</p>
         <p class="phone">${info.name}</p>
-        <a href="${info.email}">${info.email}</a>
+        <a href="mailto:${info.email}">${info.email}</a>
         <p class="students">${info.students}</p>
-        <img src="cancel.svg" class="close-button">
+        <img src="cancel.svg" class="close-button" id="${key}-close-button" style="display:none">
         `;
 
         profileDiv.innerHTML = profileHTML;
@@ -51,21 +68,17 @@ function makeProfiles(profileData) {
     });
 }
 
-function stopProfileVideo(adminID){
-    const video  = document.getElementById(adminID+"-video");
-    console.log(video.player);
+function stopProfileVideo(adminID) {
+    const video = document.getElementById(adminID + "-video");
     video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-
-    
 }
 
 async function playVideo(adminID) {
     await sleep(490);
     var adminVideo = document.getElementById(adminID + "-video");
-    //add class .opened if element does not already contain class opened
-    adminVideo.style.display = "block";
-    //skip this if "adminID-video" has class opened
+    showElement(adminID+"-video");
     makePlayer(adminID);
+    window.location.hash = adminID + "-video";
 }
 
 function makePlayer(adminID) {
@@ -92,7 +105,6 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 function onPlayerReady(event) {
-    console.log(event.target);
     event.target.mute();
     event.target.playVideo();
 }
