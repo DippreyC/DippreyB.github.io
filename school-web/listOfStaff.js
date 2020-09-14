@@ -6,7 +6,7 @@ var staff = {
         "title": "Principal",
         "phone": "Phone: (469) 948-2802",
         "email": "boughtona@lisd.net",
-        "students": "",
+        "students": "&nbsp;",
         "category": "admin"
     },
     "garlinger": {
