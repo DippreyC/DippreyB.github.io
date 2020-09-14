@@ -1,11 +1,13 @@
 body {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .admin-container {
-    
     width: fit-content;
     padding: 25px;
     display: flex;
@@ -44,7 +46,8 @@ a {
 
 .profile-pic {
     cursor: pointer;
-    max-width: 400px;
+    max-width: 315px;
+
 }
 
 .profile-pic:hover{
@@ -65,7 +68,7 @@ a {
 
 .close-button:hover {
     
-    animation: close-button-animation .5s linear;
+    animation: close-button-animation .25s linear;
     background-color:rgba(0, 0, 0, .25);
 }
 

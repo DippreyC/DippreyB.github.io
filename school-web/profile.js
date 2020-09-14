@@ -52,25 +52,25 @@ function stopProfileVideo(profileVideo) {
 
 function makeProfiles(staffProfiles) {
     Object.entries(staffProfiles).forEach(entry => {
-        const [key, info] = entry;
+        const [key, fields] = entry;
 
         const profileDiv = document.createElement('div');
         profileDiv.id = key;
         profileDiv.classList.add("admin-container");
 
         const profileHTML = `   
-        <img id="${key}-pic" class="profile-pic" src="${info.pictureUrl}" />
+        <img id="${key}-pic" class="profile-pic" src="${fields.pictureUrl}" />
         <div id="${key}-video" style="display: none"></div>
-        <h1>${info.name}</h1>
-        <p class="title">${info.title}</p>
-        <p class="phone">${info.name}</p>
-        <a href="mailto:${info.email}">${info.email}</a>
-        <p class="students">${info.students}</p>
+        <h1>${fields.name}</h1>
+        <p class="title">${fields.title}</p>
+        <p class="phone">${fields.name}</p>
+        <a href="mailto:${fields.email}">${fields.email}</a>
+        <p class="students">${fields.students}</p>
         <img src="cancel.svg" class="close-button" id="${key}-close-button" style="display:none">
         `;
 
         profileDiv.innerHTML = profileHTML;
-        var mainElement = document.getElementById(`${info.category}`);
+        var mainElement = document.getElementById(`${fields.category}`);
         mainElement.appendChild(profileDiv);
     });
 }
