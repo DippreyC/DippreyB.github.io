@@ -46,7 +46,8 @@ a {
 
 .profile-pic {
     cursor: pointer;
-    max-width: 315px;
+    flex-basis: 200px;
+    max-width: 300px;
 
 }
 
