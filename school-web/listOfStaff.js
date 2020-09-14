@@ -36,7 +36,7 @@ var staff = {
         "students": "Students Coll-Haw"
     },
     "mccoo": {
-        "pictureUrl": "admin_pics/BrianMccoo.jpg",
+        "pictureUrl": "admin_pics/BrianMcCoo.jpg",
         "video": "c3Ys663pTnI",
         "name": "Brian McCoo",
         "title": "Assistant Principal",
