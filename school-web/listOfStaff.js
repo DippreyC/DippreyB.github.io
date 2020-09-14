@@ -6,7 +6,8 @@ var staff = {
         "title": "Principal",
         "phone": "Phone: (469) 948-2802",
         "email": "boughtona@lisd.net",
-        "students": ""
+        "students": "",
+        "category": "admin"
     },
     "garlinger": {
         "pictureUrl": "admin_pics/JacobGarlinger.jpg",
@@ -15,7 +16,8 @@ var staff = {
         "title": "Associate Principal",
         "phone": "Phone: (469) 948-3065",
         "email": "garlingerj@lisd.net",
-        "students": "Students Lin - Ngo"
+        "students": "Students Lin - Ngo",
+        "category": "admin"
     },
     "zavar": {
         "pictureUrl": "admin_pics/VanessaZavar.jpg",
@@ -24,7 +26,8 @@ var staff = {
         "title": "Assistant Principal",
         "phone": "Phone: (469) 948-2808",
         "email": "zavarv@lisd.net",
-        "students": "Students A-Coli"
+        "students": "Students A-Coli",
+        "category": "admin"
     },
     "croll": {
         "pictureUrl": "admin_pics/download.png",
@@ -34,6 +37,7 @@ var staff = {
         "phone": "Phone: (469) 948-2818",
         "email": "crollg@lisd.net",
         "students": "Students Coll-Haw"
+        ,"category": "admin"
     },
     "mccoo": {
         "pictureUrl": "admin_pics/BrianMcCoo.jpg",
@@ -42,7 +46,8 @@ var staff = {
         "title": "Assistant Principal",
         "phone": "Phone: (469) 948-2814",
         "email": "mccoob@lisd.net",
-        "students": "Students Ngu - Sc"
+        "students": "Students Ngu - Sc",
+        "category": "admin"
     },
     "kushnir": {
         "pictureUrl": "admin_pics/JackieKushnir.jpg",
@@ -51,7 +56,8 @@ var staff = {
         "title": "Assistant Principal",
         "phone": "Phone: (469) 948-2813",
         "email": "kushnirj@lisd.net",
-        "students": "Students Hay - Lim"
+        "students": "Students Hay - Lim",
+        "category": "admin"
     },
     "cragin": {
         "pictureUrl": "admin_pics/LindaCragin.jpg",
@@ -60,6 +66,7 @@ var staff = {
         "title": "Assistant Principal",
         "phone": "Phone: (469) 948-2804",
         "email": "craginl@lisd.net",
-        "students": "Students SE - Z"
+        "students": "Students SE - Z",
+        "category": "admin"
     },
 }

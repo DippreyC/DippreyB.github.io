@@ -1,48 +1,57 @@
 //jquery click event to store ID of element that was clicked.
 $(document).click(
     function (event) {
-        var adminID = $(event.target.parentElement)[0].id;
+        var profileID = $(event.target.parentElement)[0].id;
+        var profilePic = profileID+"-pic";
+        var profileVideo = profileID+"-video";
+        var profileCloseButton = profileID+"-close-button";
 
-        //nodeName()
         if (event.target.classList == "profile-pic") {
             var screenWidth = window.innerWidth;
             if (screenWidth < 600) {
-                window.open("https://www.youtube.com/watch?v=" + staff[adminID].video + "");
+                window.open("https://www.youtube.com/watch?v=" + staff[profileID].video + "");
             } else {
-                hideElement(adminID+"-pic");
-                playVideo(adminID);
-                showElement(adminID+"-close-button");
+                hideElement(profilePic);
+                showElement(profileVideo);
+                makePlayer(profileVideo,profileID);
+                showElement(profileCloseButton);
+                pageJump(profileVideo);
             }
         }
 
         if (event.target.classList[0] == "close-button") {
-            stopProfileVideo(adminID);
-            hideElement(adminID+"-video");
-            hideElement(adminID+"-close-button");
-            showElement(adminID+"-pic");
-
+            stopProfileVideo(profileVideo);
+            hideElement(profileVideo);
+            hideElement(profileCloseButton);
+            showElement(profilePic);
+            pageJump(profileID);
         }
     }
 )
-async function showElement(elementID){
-    await sleep(500);
-    $(`#${elementID}`).fadeIn(500);
+
+function makePlayer(profileVideo,profileID) {
+    var player = new YT.Player(profileVideo, {
+        height: "390",
+        width: "640",
+        videoId: staff[profileID].video,
+        playerVars: {
+            'autoplay': 1,
+            'fs': 1,
+            'enablejsapi': 1
+        },
+        events: {
+            'onReady': onPlayerReady,
+        }
+    })
 }
 
-async function hideElement(elementID){
-    await sleep(50);
-    $(`#${elementID}`).fadeOut(500);
+function stopProfileVideo(profileVideo) {
+    const video = document.getElementById(profileVideo);
+    video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 }
 
-
-
-
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-function makeProfiles(profileData) {
-    Object.entries(profileData).forEach(entry => {
+function makeProfiles(staffProfiles) {
+    Object.entries(staffProfiles).forEach(entry => {
         const [key, info] = entry;
 
         const profileDiv = document.createElement('div');
@@ -61,40 +70,28 @@ function makeProfiles(profileData) {
         `;
 
         profileDiv.innerHTML = profileHTML;
-        var mainElement = document.getElementById("main");
-
+        var mainElement = document.getElementById(`${info.category}`);
         mainElement.appendChild(profileDiv);
-
     });
 }
 
-function stopProfileVideo(adminID) {
-    const video = document.getElementById(adminID + "-video");
-    video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+async function showElement(elementID){
+    await sleep(500);
+    $(`#${elementID}`).fadeIn(500);
 }
 
-async function playVideo(adminID) {
-    await sleep(490);
-    var adminVideo = document.getElementById(adminID + "-video");
-    showElement(adminID+"-video");
-    makePlayer(adminID);
-    window.location.hash = adminID + "-video";
+async function hideElement(elementID){
+    await sleep(50);
+    $(`#${elementID}`).fadeOut(500);
 }
 
-function makePlayer(adminID) {
-    var player = new YT.Player(adminID + "-video", {
-        height: "390",
-        width: "640",
-        videoId: staff[adminID].video,
-        playerVars: {
-            'autoplay': 1,
-            'fs': 1,
-            'enablejsapi': 1
-        },
-        events: {
-            'onReady': onPlayerReady,
-        }
-    })
+async function pageJump(elementID){
+    await sleep(600);
+    document.getElementById(elementID).scrollIntoView({behavior: 'smooth'});
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 //youtube API Stuff
