@@ -1,4 +1,4 @@
-$(document).ready(function () {
+function enableJQuery() {
 
 
 
@@ -35,4 +35,4 @@ $(document).ready(function () {
 
   });
 
-});
+};
