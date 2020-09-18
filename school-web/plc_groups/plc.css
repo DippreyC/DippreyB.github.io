@@ -6,46 +6,23 @@ body {
 	background: #eceef1;
 	font-family: 'Slabo 27px', serif;
 	color: #333a45;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.wrapper {
-	margin: 5em auto;
-	max-width: 1000px;
-	background-color: #fff;
-	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
-}
-
-.header {
-	padding: 30px 30px 0;
-	text-align: center;
-}
-
-.header__title {
-	margin: 0;
-	text-transform: uppercase;
-	font-size: 2.5em;
-	font-weight: 500;
-	line-height: 1.1;
-}
-
-.header__subtitle {
-	margin: 0;
-	font-size: 1.5em;
-	color: #949fb0;
-	font-family: 'Yesteryear', cursive;
-	font-weight: 500;
-	line-height: 1.1;
-}
 
 .cards {
 	padding: 15px;
 	display: flex;
+	align-items: stretch;
 	flex-flow: row wrap;
 }
 
 .card {
 	margin: 15px;
-	width: calc((100% / 3) - 30px);
+	margin-top: 30px;
+	width: calc((100% / 2) - 30px);
 	transition: all 0.2s ease-in-out;
 }
 
@@ -62,21 +39,58 @@ body {
 }
 
 .card:hover .card__inner {
-	background-color: #1abc9c;
+	background-color: #2A51A3;
 	transform: scale(1.05);
+}
+
+.card:hover .meet-btn{
+	border: 2px solid black;
 }
 
 .card__inner {
 	width: 100%;
+	max-height: 650px;
+	height: 100%;
 	padding: 30px;
 	position: relative;
 	cursor: pointer;
 	background-color: #949fb0;
 	color: #eceef1;
-	font-size: 1.5em;
-	text-transform: uppercase;
+	font-size: 1em;
 	text-align: center;
 	transition: all 0.2s ease-in-out;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.plc-pic-wrapper{
+	width: 60%;
+}
+.plc-pic {
+	max-width: 80%;
+	min-width: 250px;
+	object-fit: cover;
+}
+.plc-info{
+	width: 100%;
+}
+.plc-title{
+	margin: 0;
+}
+
+.meet-btn{
+	padding: 20px;
+	max-width: 300px;
+	background-color: #2A51A3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.card.is-expanded .card__inner .plc-info .meet-btn{
+	border: 2px solid black;
 }
 
 .card__inner:after {
@@ -127,7 +141,7 @@ body {
 }
 
 .card.is-expanded .card__inner {
-	background-color: #1abc9c;
+	background-color: #2A51A3;
 }
 
 .card.is-expanded .card__inner:after {
@@ -153,6 +167,7 @@ body {
 	min-height: 200px;
 	overflow: visible;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	opacity: 1;
 }
 
@@ -171,20 +186,17 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-	.card:nth-of-type(3n+2) .card__expander {
+	.card:nth-of-type(2n+2) .card__expander {
 		margin-left: calc(-100% - 30px);
 	}
 
-	.card:nth-of-type(3n+3) .card__expander {
-		margin-left: calc(-200% - 60px);
-	}
-
+	
 	.card:nth-of-type(3n+4) {
 		clear: left;
 	}
 
 	.card__expander {
-		width: calc(300% + 60px);
+		width: calc(200% + 30px);
 	}
 }
 
