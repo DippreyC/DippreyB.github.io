@@ -66,6 +66,7 @@ body {
 	transition: all 0.2s ease-in-out;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	height: 60vh;
 }
 
@@ -87,6 +88,7 @@ body {
 	background-color: #2A51A3;
 	margin-left: auto;
 	margin-right: auto;
+	justify-self: flex-end;
 }
 
 .card.is-expanded .card__inner .plc-info .meet-btn{
