@@ -257,14 +257,6 @@ body {
 		margin-left: calc(-100% - 30px);
 	}
 
-	.card:nth-of-type(4n+3) .card__expander {
-		margin-left: calc(-200% - 60px);
-	}
-
-	.card:nth-of-type(4n+2) .card__expander {
-		margin-left: calc(-100% - 30px);
-	}
-
 	.card__expander {
 		width: calc(200% + 30px);
 	}
