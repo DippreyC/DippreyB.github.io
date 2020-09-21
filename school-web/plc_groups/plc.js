@@ -13,7 +13,7 @@ var plc = {
     },
 
     "apush": {
-        "title": "AP Us History",
+        "title": "AP US History",
         "blurb": "Greetings! We have been teaching APUSH since 2009 and AP GOV (Fitz) since 2010. We are thrilled to help our students engage master the skills needed to for both of our courses, whether online or in person!",
          "area" :"social"
     },
@@ -79,9 +79,9 @@ var plc = {
     },
 
     "english2": {
-        "title": "English ",
-        "blurb": "temp",
-        "area": "science"
+        "title": "English II",
+        "blurb": "In Sophomore Language Arts students will analyze authors’ choices and how they contribute to the overall purpose of a work. Eng. II focuses heavily on the use of persuasive language and texts.",
+        "area": "english"
     },
 
     "english2pap": {
@@ -102,10 +102,16 @@ var plc = {
         "area": "english"
     },
 
-    "English 4 AP": {
+    "english4ap": {
         "title": "English 4 AP",
-        "blurb": "temp",
-        "area": "science"
+        "blurb": "Hello! We are Jeanny Haneline and Kim Nickerson and we both teach English IV AP at Hebron.  We are excited for this school year and look forward to sharing our love of literature with our students. Our course is designed to prepare students for the AP Literature College Board exam.",
+        "area": "english"
+    },
+
+    "english4v": {
+        "title": "V English 4",
+        "blurb": "Hello! We are Samantha Sivils and Jeanny Haneline.  We both teach English 4 Virtual at Hebron High School.  While we don’t get to see our students every day, we enjoy making connections when we can in the virtual world.  We strive to prepare our students for real world expectations.",
+        "area": "english"
     },
 
     "finearts": {
@@ -158,7 +164,7 @@ var plc = {
 
     "psat": {
         "title": "PSAT Prep",
-        "blurb": "temp",
+        "blurb": "PSAT Team is an invitation-only 9-week class for juniors that focuses on verbal and math skills for the PSAT that is given in October. Skills learned in this class also boost SAT performance. We rely heavily on motivated students who work hard and are willing to dig into the details of this standardized test. Students have the opportunity to become Commended and even National Merit Scholarship winners. The Verbal instructors are excited about being back in school with this year’s team! The PSAT this year will be on Thursday, October 29th.",
         "area": "english"
     },
 
@@ -176,7 +182,7 @@ var plc = {
 
     "ushistory": {
         "title": "US History",
-        "blurb": "temp",
+        "blurb": "We prepare our students not only to do well on the STAAR test, but more importantly to be informed and educated citizens of the United States and ready to vote. ",
         "area": "social"
     },
 
@@ -195,8 +201,17 @@ var plc = {
     "worldhistoryap": {
         "title": "World History AP",
         "blurb": "temp",
-        "area": "science"
+        "area": "social"
     },
+
+    "vworldhistory": {
+        "title": "Virtual World History",
+        "blurb": `Jeff Hill- 6th Year at Hebron, teaches World History and is the Offensive Coordinator for The HHS Football Team
+        Chad Prock- 6th year at Hebron, teaches World History, World War II, and US Government 
+        Sarah Adams – 1st year at Hebron, teaches World History and JV Cheer Coach`,
+        "area": "social"
+    },
+
 
 
     

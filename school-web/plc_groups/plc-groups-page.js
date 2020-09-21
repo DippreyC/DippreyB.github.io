@@ -64,6 +64,7 @@ function loadStaff(staff) {
             `;
 
             staffDiv.innerHTML = staffHtml;
+            console.log(staffFields.plc);
             document.getElementById(`${staffFields.plc}-members`).appendChild(staffDiv);
     })
 }
