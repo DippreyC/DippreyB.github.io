@@ -15,6 +15,7 @@ body {
 	padding: 15px;
 	display: flex;
 	min-height: 100%;
+	width: 100%;
 	flex-flow: row wrap;
 	align-items: stretch;
 }
@@ -23,16 +24,18 @@ body {
 	margin: 15px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	width: calc((100% / 2) - 30px);
+	width: calc((100% / 4) - 30px);
 	display: flex;
 	flex-direction: column;
 	transition: all .2s ease-in-out;
+	
 }
 
 @media screen and (max-width: 991px) {
 	.card {
-		width: calc((100% / 2) - 30px);
+		width: calc((100% / 3) - 30px);
 	}
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -40,6 +43,8 @@ body {
 		width: 100%;
 	}
 }
+
+
 
 .card:hover .card__inner {
 	background-color: #2A51A3;
@@ -57,19 +62,18 @@ body {
 	cursor: pointer;
 	background-color: #333a45;
 	color: #eceef1;
-	font-size: 1em;
+	font-size: .85em;
 	text-align: center;
 	transition: all 0.2s ease-in-out;
 	display: flex;
 	flex-direction: column;
+	height: 80vh;
 }
-.plc-pic-wrapper{
-	width: 60%;
-}
+
 .plc-pic {
-	max-width: 80%;
-	min-width: 250px;
-	object-fit: cover;
+	width: 100%;
+	max-height: 40vh;
+	object-fit: contain;
 }
 .plc-info{
 	width: 100%;
@@ -250,12 +254,20 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-	.card:nth-of-type(2n+2) .card__expander {
+	.card:nth-of-type(4n+4) .card__expander {
+		margin-left: calc(-300% - 90px);
+	}
+
+	.card:nth-of-type(4n+3) .card__expander {
+		margin-left: calc(-200% - 60px);
+	}
+
+	.card:nth-of-type(4n+2) .card__expander {
 		margin-left: calc(-100% - 30px);
 	}
 
 	.card__expander {
-		width: calc(200% + 30px);
+		width: calc(400% + 90px);
 	}
 }
 

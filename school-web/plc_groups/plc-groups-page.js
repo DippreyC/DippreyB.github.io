@@ -38,6 +38,7 @@ function loadPlcDivs(plc) {
         `;
 
         plcDiv.innerHTML = plcHTML;
+        console.log(plcFields.area, plcFields.title);
         document.getElementById(`${plcFields.area}`).appendChild(plcDiv);
 
     })
