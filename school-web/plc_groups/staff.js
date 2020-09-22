@@ -10,9 +10,9 @@ var staff = {
         ]
     },
 
-    "barryB": {
+    "barry": {
         "firstName": "Brad ",
-        "lastName": "Berry",
+        "lastName": "Barry",
         "plc": "precal",
         "area": "math",
         "classes": [
@@ -59,7 +59,7 @@ var staff = {
 
     },
 
-    "beimeschJ": {
+    "beimesch": {
         "firstName": "James ",
         "lastName": "Beimesch",
         "plc": "algebra2",
@@ -93,7 +93,7 @@ var staff = {
 
     },
 
-    "axelsonM": {
+    "axelson": {
         "firstName": "Mark ",
         "lastName": "Axelson",
         "plc": "algebra2",
@@ -131,7 +131,7 @@ var staff = {
 
     },
 
-    "beimesch": {
+    "beimesch2": {
         "firstName": "James ",
         "lastName": "Beimesch",
         "plc": "algebra2pap",
@@ -143,7 +143,7 @@ var staff = {
 
     },
 
-    "axelson": {
+    "axelson2": {
         "firstName": "Mark ",
         "lastName": "Axelson",
         "plc": "algebra2pap",
@@ -155,7 +155,7 @@ var staff = {
 
     },
 
-    "barry": {
+    "barry2": {
         "firstName": "Brad ",
         "lastName": "Barry",
         "plc": "calculus",
@@ -245,7 +245,7 @@ var staff = {
 
     },
 
-    "gaikwadS": {
+    "gaikwad2": {
         "firstName": "Sunila ",
         "lastName": "Gaikwad",
         "plc": "stats",
@@ -257,7 +257,7 @@ var staff = {
 
     },
 
-    "garzaS": {
+    "garza2": {
         "firstName": "Matthew ",
         "lastName": "Garza",
         "plc": "stats",
@@ -509,7 +509,7 @@ var staff = {
 
     },
 
-    "hanelineV": {
+    "haneline2": {
         "firstName": "Jeanny ",
         "lastName": "Haneline",
         "plc": "english4v",
@@ -521,7 +521,7 @@ var staff = {
 
     },
 
-    "mayopsat": {
+    "mayo2": {
         "firstName": "Kate ",
         "lastName": "Mayo",
         "plc": "psat",
@@ -544,7 +544,7 @@ var staff = {
 
     },
 
-    "nickersonpsat": {
+    "nickerson2": {
         "firstName": "Kim ",
         "lastName": "Nickerson",
         "plc": "psat",
@@ -660,7 +660,7 @@ var staff = {
 
     },
 
-    "hutchisong": {
+    "hutchison2": {
         "firstName": "Coach  ",
         "lastName": "Hutchison",
         "plc": "government-econ",
@@ -753,7 +753,7 @@ var staff = {
 
     },
 
-    "taylorworld": {
+    "taylor2": {
         "firstName": "Chad ",
         "lastName": "Taylor",
         "plc": "worldhistory",
@@ -777,7 +777,7 @@ var staff = {
 
     },
 
-    "anderson": {
+    "andersonC": {
         "firstName": "Coach ",
         "lastName": "Anderson",
         "plc": "worldhistory",
@@ -1268,7 +1268,259 @@ var staff = {
 
     },
 
+    "bowling": {
+        "firstName": "Anne ",
+        "lastName": "Bowling",
+        "plc": "drill",
+        "area": "electives",
+        "classes": [
+            ["Silver Wings", "https://lisdtx.instructure.com/courses/126485"],
+            ["Dance I", "https://lisdtx.instructure.com/courses/127724"]
+        ]
 
+    },
+
+    "hobbs": {
+        "firstName": "Samantha ",
+        "lastName": "Hobbs",
+        "plc": "drill",
+        "area": "electives",
+        "classes": [
+            ["Drill Team", "url"],
+            ["V Dance I", "url"] 
+        ]
+    },
+    
+    "cautivar": {
+        "firstName": "Matthew ",
+        "lastName": "Cautivar",
+        "plc": "finearts2",
+        "area": "electives",
+        "classes": [
+            ["Chamber Orchestra", "https://lisdtx.instructure.com/courses/151783"],
+            ["Concert Orchestra", "https://lisdtx.instructure.com/courses/117015"],
+            ["Symphonic Orchestra", "https://lisdtx.instructure.com/courses/127672"],
+            ["V Orchestra Advanced","https://lisdtx.instructure.com/courses/148013"],
+            ["V Orchestra Intermediate","https://lisdtx.instructure.com/courses/148007"]
+        ]
+    },
+
+    "forster": {
+        "firstName": "Kyle ",
+        "lastName": "Forster",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"],
+            
+        ]
+
+    },
+
+    "anderson": {
+        "firstName": "Zach Anderson ",
+        "lastName": "temp",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"],
+        ]
+
+    },
+
+    "sullivan": {
+        "firstName": "Justin ",
+        "lastName": "Sullivan",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"],
+        ]
+
+    },
+
+    "sealy": {
+        "firstName": "Andy ",
+        "lastName": "Sealy",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"]
+        ]
+
+    },
+
+    "ratliff": {
+        "firstName": "Nathan ",
+        "lastName": "Ratliff",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["V Intermediate", "https://lisdtx.instructure.com/courses/148045"],
+            ["Concert Tenor/Bass", "https://lisdtx.instructure.com/courses/127562"],
+            ["Concert Treble", "https://lisdtx.instructure.com/courses/127583"]
+        ]
+
+    },
+
+    "mirmortazavi ": {
+        "firstName": "RaMina ",
+        "lastName": "Mirmortazavi",
+        "plc": "finearts2",
+        "area": "electives",
+        "classes": [
+            ["Premiere", "https://lisdtx.instructure.com/courses/127723"],
+            ["Bravo", "https://lisdtx.instructure.com/courses/127727"],
+            ["V Theatre", "https://lisdtx.instructure.com/courses/148019"],
+            ["Encore","https://lisdtx.instructure.com/courses/128092"]
+        ]
+
+    },
+
+    "carr": {
+        "firstName": "temp ",
+        "lastName": "temp",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", ""],
+            
+        ]
+
+    },
+
+    "berry": {
+        "firstName": "Stephanie ",
+        "lastName": "Berry",
+        "plc": "finearts2",
+        "area": "electives",
+        "classes": [
+            ["VTechnical Theatre", "https://lisdtx.instructure.com/courses/148021"],
+            ["Tech Theatre I", "https://lisdtx.instructure.com/courses/135350"],
+            ["Adv. Tech Theatre", "https://lisdtx.instructure.com/courses/135354"]
+        ]
+
+    },
+
+    "pruitt": {
+        "firstName": "Travis ",
+        "lastName": "Pruitt",
+        "plc": "finearts",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"]
+        ]
+
+    },
+
+    "hinderliter": {
+        "firstName": "Sarah ",
+        "lastName": "Hinderliter",
+        "plc": "finearts2",
+        "area": "electives",
+        "classes": [
+            ["missing", "url"],
+        ]
+
+    },
+
+    "horton": {
+        "firstName": "Larry ",
+        "lastName": "Horton",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["Spanish III", "https://lisdtx.instructure.com/courses/126058"],
+            ["Spanish III PAP", "https://lisdtx.instructure.com/courses/126063"],
+            ["V Spanish III PAP", "https://lisdtx.instructure.com/courses/141006"]
+        ]
+
+    },
+
+    "jacksonCamille": {
+        "firstName": "Camille ",
+        "lastName": "Jackson",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["French III PAP", "https://lisdtx.instructure.com/courses/126083 "],
+            ["French V", "https://lisdtx.instructure.com/courses/126090 "],
+            ["V French I", "https://lisdtx.instructure.com/courses/140919 "],
+            ["V French III PAP","https://lisdtx.instructure.com/courses/140925 "]
+        ]
+
+    },
+
+    "herring": {
+        "firstName": "Courtney ",
+        "lastName": "Herring",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["Latin I", "url"],
+            ["Latin III PAP", "url"],
+            ["V Latin I", "url"]
+        ]
+
+    },
+
+    "castleberg": {
+        "firstName": "Ericka ",
+        "lastName": "Castleberg",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["French I", "https://lisdtx.instructure.com/courses/126070"],
+            ["V French I", "https://lisdtx.instructure.com/courses/141008"]
+        ]
+
+    },
+
+    "shadow": {
+        "firstName": "Michelle ",
+        "lastName": "Shadow",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["ASL I", "https://lisdtx.instructure.com/courses/126117"],
+            ["ASL III", "https://lisdtx.instructure.com/courses/126419"]
+            
+        ]
+
+    },
+
+    "mentesana": {
+        "firstName": "Marta ",
+        "lastName": "Mentesana",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["ASL I-II", "https://lisdtx.instructure.com/courses/126113/modules"]
+        ]
+
+    },
+
+    "hall": {
+        "firstName": "Janie ",
+        "lastName": "Hall",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["V Spanish I", "https://lisdtx.instructure.com/courses/140999"]
+        ]
+
+    },
+
+    "carlson": {
+        "firstName": "Cathy ",
+        "lastName": "Carlson",
+        "plc": "language",
+        "area": "electives",
+        "classes": [
+            ["Spanish I", "https://lisdtx.instructure.com/courses/126038"]
+        ]
+
+    },
 
    
 

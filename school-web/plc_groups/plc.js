@@ -120,6 +120,12 @@ var plc = {
         "area": "electives"
     },
 
+    "finearts2": {
+        "title": "Fine Arts",
+        "blurb": "temp",
+        "area": "electives"
+    },
+
     "geometry": {
         "title": "Geometry",
         "blurb": "temp",
@@ -135,12 +141,12 @@ var plc = {
     "health": {
         "title": "Health",
         "blurb": "temp",
-        "area": "science"
+        "area": "electives"
     },
 
     "language": {
         "title": "World Languages",
-        "blurb": "temp",
+        "blurb": "The HHS World Language department is excited to introduce new language and culture into the lives of our students.  We are continually building communication skills in the areas of speaking, signing, writing, listening, and reading.  Our students also learn about the rich cultures of the communities who use these languages, and the histories that created them.",
         "area": "languages"
     },
 
