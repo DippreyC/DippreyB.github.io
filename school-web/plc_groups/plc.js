@@ -2,7 +2,8 @@ var plc = {
 
     "algebra2": {
         "title": "Algebra 2",
-        "blurb": "",
+        "blurb": `Hello! We are your on-level Algebra II Teachers! Click to see our courses.
+        `,
          "area" :"math"
     },
 
@@ -14,15 +15,22 @@ var plc = {
 
     "apush": {
         "title": "AP US History",
-        "blurb": "Greetings! We have been teaching APUSH since 2009 and AP GOV (Fitz) since 2010. We are thrilled to help our students engage master the skills needed to for both of our courses, whether online or in person!",
+        "blurb": "“AP US History is a rigorous course that seeks to have an honest discussion and debate about the origins and development of the United States. Using critical thinking and problem solving skills we set out to be the detectives of history, looking at both first hand and second hand accounts of the past and questioning both bias and authenticity.",
          "area" :"social"
     },
 
     "art": {
         "title": "Art",
-        "blurb": "Hello Hawk families! We’re excited to welcome you into the land of pencils, paint, and pottery, otherwise known as the land of the Arts! Thanks for stopping by! We know this is an unusual year, but as we’ve come to realize, the arts, more than ever, are essential to our students. Our priority is to bring your student a positive experience while fostering their “knack” and turning it into a skill. This year we are looking at working in visual journals, drawing, painting, ceramics in the coming semester, and as always, our survey class, Art 1. Art is for everyone! We are just happy to be here and bring it to your students! ",
+        "blurb": "Hello Hawk families! We’re excited to welcome you into the land of pencils, paint, and pottery, otherwise known as the land of the Arts! Thanks for stopping by! We know this is an unusual year, but as we’ve come to realize, the arts, more than ever, are essential to our students. Our priority is to bring your student a positive experience while fostering their “knack” and turning it into a skill.",
          "area" :"electives"
     },
+
+    "astronomy": {
+        "title": "Astronomy",
+        "blurb": "Mr. Ryman and Coach Mach are dedicated to inspiring young minds to discover the wonders of space.  Our classes are full of mind-bending and intellectually challenging activities exploring everything that outer space has to offer.",
+         "area" :"science"
+    },
+
 
     "avid": {
         "title": "AVID",
@@ -44,7 +52,7 @@ var plc = {
 
     "calculus": {
         "title": "Calculus",
-        "blurb": "We are the awesome AP Calculus Duo. We have been working together for multiple years to bring success to all students in our course. We have had very good scores on the AP test and both enjoy teaching all the different aspects of calculus from derivatives all the way to integrals. ",
+        "blurb": "We are excited to introduce our students to the wide world of higher level mathematics and the amazing doors that it can open for them. We will be studying how math can be used to calculate, analyze, explain, and even predict outcomes to practical problems from real world situations.",
         "area": "math"
     },
 
@@ -56,7 +64,7 @@ var plc = {
 
     "chemap": {
         "title": "AP Chemistry",
-        "blurb": "This is the AP Chemistry teacher group. AP Chemistry is a college level course that investigates college inorganic chemistry. If you are lucky enough to be in person, you will experience hands-on laboratory investigations and learn how to manipulate equipment used in chemistry research in the real world. Being successful in the lab along with the concepts in lecture will provide you with the experiences that will set the stage for a most successful college career in a STEM field.",
+        "blurb": "AP Chemistry is a college level course that investigates college inorganic chemistry. If you are lucky enough to be in person, you will experience hands-on laboratory investigations and learn how to manipulate equipment used in chemistry research in the real world.",
          "area" :"science"
     },
 
@@ -86,19 +94,25 @@ var plc = {
 
     "english2pap": {
         "title": "English 2 Pre-AP",
-        "blurb": "temp",
+        "blurb": "With a combined 78 years of teaching experience, the English II PreAP Team assists students in becoming confident writers, critical thinkers, and life-long readers.",
+        "area": "english"
+    },
+
+    "english2v": {
+        "title": "English 2 Virtual",
+        "blurb": "The Virtual English II Team assists students toward becoming critical thinkers that dig deeper into a variety of texts to acquire new information independently while finding their voice as writers and speakers. ",
         "area": "english"
     },
 
     "english3": {
         "title": "English 3",
-        "blurb": "temp",
+        "blurb": "English 3 has worked on using text evidence and commentary to support analytical responses, making connections within and across texts, evaluating elements on a text and composing an informational text of their choice. ",
         "area": "english"
     },
 
     "english4": {
         "title": "English 4",
-        "blurb": "temp",
+        "blurb": "Welcome Hebron Hawk senior parents. We are the English IV in-person teachers. We are excited to be working with your child this semester.  Our main goal is to prepare students for the next step of their journey.  Whether it be college, military, or work, your child can be confident and ready for the challenge.",
         "area": "english"
     },
 
@@ -114,21 +128,22 @@ var plc = {
         "area": "english"
     },
 
-    "finearts": {
-        "title": "Fine Arts",
-        "blurb": "temp",
+    "esl": {
+        "title": "ESL Team",
+        "blurb": "We, the ESL Team, are here to support ESL students in being successful in reaching their goals. We patiently work with students to help them overcome their obstacles. Our team is available to help students with questions, tutorials, and technology interventions.",
         "area": "electives"
     },
 
-    "finearts2": {
+    "finearts": {
         "title": "Fine Arts",
-        "blurb": "temp",
+        "blurb": "Welcome to Hebron Fine Arts!  Together we produce dozens of live music and drama performances throughout the year.  It might look a little bit different this year but we’re still excited to share these performances with you.  Stay tuned!",
         "area": "electives"
     },
+
 
     "geometry": {
         "title": "Geometry",
-        "blurb": "temp",
+        "blurb": "Students will develop inductive and deductive reasoning skills as they learn the basics of geometry. They will make and test conjectures about mathematical and real-world situations. Students will be introduced to proofs and will use them throughout the course to further develop their conceptual understanding, mathematical reasoning and algebraic skills.",
         "area": "math"
     },
 
@@ -140,7 +155,7 @@ var plc = {
 
     "health": {
         "title": "Health",
-        "blurb": "temp",
+        "blurb": "Welcome to Virtual Health! In this virtual class we will be using Edgeunity to learn how to live a healthy mental and physical life. This course is structured to be self paced with certain due dates throughout the nine weeks.",
         "area": "electives"
     },
 
@@ -152,19 +167,19 @@ var plc = {
 
     "lifescience": {
         "title": "Life Science",
-        "blurb": "temp",
+        "blurb": "The Life Science dept. consists of our highly skilled Biology, Anatamy  & Physiology, Envrionmanatal, and Aquatic sciecne teachers. Click below to view our courses.",
         "area": "science"
     },
 
     "physics": {
         "title": "Physics",
-        "blurb": "temp",
+        "blurb": "The Physics department is the most awesome part of science! It includes Austin Kaehn, who is one of our football coaches, Julie Cone, Science Department Chair, and, new to Hebron, Rachmad Tjachyadi (just call him Mr. T).  We have Hawk Pride too! Go Hawks!",
         "area": "science"
     },
 
     "precal": {
         "title": "Pre-Calculus",
-        "blurb": "temp",
+        "blurb": "Students will develop inductive and deductive reasoning skills as they learn the basics of geometry. They will make and test conjectures about mathematical and real-world situations. Students will be introduced to proofs and will use them throughout the course to further develop their conceptual understanding, mathematical reasoning and algebraic skills. ",
         "area": "math"
     },
 
@@ -176,13 +191,13 @@ var plc = {
 
     "psychology": {
         "title": "Psychology",
-        "blurb": "temp",
+        "blurb": "Psychology is the study of human behavior and encompasses the study of motivation, emotions, consciousness, human development, personality formation, psychological theories on behavior, stress, and abnormal psychology. Whether as an online course or in-person studying psychology is an adventure through the human mind and what motivates and drives human behavior, which applies to every student.",
         "area": "social"
     },
 
     "stats": {
         "title": "Statistics",
-        "blurb": "temp",
+        "blurb": "Mr. Garza is the in person Statistics teacher, new to Hebron. Ms. Gaikwad is the virtual Statistics teacher, 4th year at Hebron. You can ask either of us questions about Statistics.",
         "area": "math"
     },
 
@@ -194,19 +209,19 @@ var plc = {
 
     "vecon": {
         "title": "Virtual Economics",
-        "blurb": "temp",
+        "blurb": "The virtual economics department. Helping students make sound financial decisions since 2018.",
         "area": "social"
     },
 
     "worldhistory": {
         "title": "World History",
-        "blurb": "temp",
+        "blurb": "",
         "area": "social"
     },
 
     "worldhistoryap": {
         "title": "World History AP",
-        "blurb": "temp",
+        "blurb": "",
         "area": "social"
     },
 
@@ -217,6 +232,50 @@ var plc = {
         Sarah Adams – 1st year at Hebron, teaches World History and JV Cheer Coach`,
         "area": "social"
     },
+
+    "journalism": {
+        "title": "Journalism",
+        "blurb": "The department’s intro level courses of journalism and photojournalism are designed to teach the students the basics of the craft and prepare them to join one of our publication courses. The newspaper (The Hawk Eye), yearbook (The Talon) and broadcast (Hawk TV) programs are student-run organizations designed to allow students the opportunity to thoroughly, accurately and creatively cover the school. Their work has been consistently awarded with top state and national honors from regional and national scholastic journalism organizations.",
+        "area": "electives"
+    },
+
+    "debate": {
+        "title": "Speech & Debate",
+        "blurb": "Tim Lewis is the new Head Coach and Director of Debate. In this first season with the team, Tim has coached the first team in Hebron HS history to reach the elimination debates (top 70 teams in the country) of the National Speech and Debate Association Championship tournament and assisted students in winning a national debate community service award. If you are interested in joining the team, send an email at lewist@lisd.net! Anyone can join! ",
+        "area": "electives"
+    },
+
+    "aplanguage": {
+        "title": "Ap English Language and Composition",
+        "blurb": "In AP English, we seek to improve “students’ capacity to enter into consequential conversations with others about meaningful issues” (College Board APLAC Course Description). Our content is not a static set of facts or texts; current issues & events shape our classroom activities, and we adjust according to student interest.",
+        "area": "english"
+    },
+
+    "jrotc": {
+        "title": "NJROTC",
+        "blurb": "We are delighted to have you and your student be apart of our NJROTC unit.  Your cadet will experience a unique course of instruction that will be educational, motivational, and rewarding. Their experience in NJROTC will be the foundation for lifelong memories and close friendships. We sincerely believe the cadets in our program will benefit from the teamwork, self-disciplined, and leadership experience they will encounter.",
+        "area": "electives"
+    },
+
+    "homescience": {
+        "title": "Home and Food Science",
+        "blurb": "Welcome to Hebron food science! Click to view our classes.",
+        "area": "electives"
+    },
+
+    "mathmodels": {
+        "title": "Math Models",
+        "blurb": "Brooke Hartzler-Virtual Math Models & Chris Dunlap-In Person and Virtual Math Models",
+        "area": "math"
+    },
+
+    "base":{
+        "title": "BASE",
+        "blurb": "Hi, and Welcome to the BASE room.  Kathy Beasley and Shabana Merchant work to make this room a calming, relaxed environment that supports behavioral and academic success, particularly for students with learning or emotional differences. ",
+        "area": "electives"
+    }
+
+
 
 
 

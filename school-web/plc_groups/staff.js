@@ -300,10 +300,44 @@ var staff = {
         "plc": "bic",
         "area": "elective",
         "classes": [
-            ["BIC", "https://lisdtx.instructure.com/courses/137934"]
+            ["English I", "https://lisdtx.instructure.com/courses/137907"],
+            ["ENGLISH II ","https://lisdtx.instructure.com/courses/137909"],
+            ["ENGLISH IV","https://lisdtx.instructure.com/courses/151281"],
+            ["IPC","https://lisdtx.instructure.com/courses/137922"],
+            ["World History","https://lisdtx.instructure.com/courses/151288"],
+            ["US Govt","https://lisdtx.instructure.com/courses/151293"]
         ]
 
     },
+
+    "kauzlarich": {
+        "firstName": "Trisha ",
+        "lastName": "Kauzlarich",
+        "plc": "bic",
+        "area": "elective",
+        "classes": [
+        ]
+    },
+
+    "thompson": {
+        "firstName": "Mrs. ",
+        "lastName": "Thompson",
+        "plc": "bic",
+        "area": "elective",
+        "classes": [
+        ]
+    },
+
+    "muck": {
+        "firstName": "Mr. ",
+        "lastName": "Muck",
+        "plc": "bic",
+        "area": "elective",
+        "classes": [
+        ]
+    },
+
+    
 
     "sheehan": {
         "firstName": "Kaysi  ",
@@ -324,6 +358,19 @@ var staff = {
         "area": "elective",
         "classes": [
             ["English II", "https://lisdtx.instructure.com/courses/143465"],
+        ]
+
+    },
+
+    "randle": {
+        "firstName": "Erica  ",
+        "lastName": "Randle",
+        "plc": "english2",
+        "area": "elective",
+        "classes": [
+            ["Creative Writing", "https://lisdtx.instructure.com/courses/126446"],
+            ["Reading 1/2", "https://lisdtx.instructure.com/courses/126012"],
+            ["Reading 1/2", "https://lisdtx.instructure.com/courses/126006"]
         ]
 
     },
@@ -399,6 +446,32 @@ var staff = {
         ]
 
     },
+
+    "herndon": {
+        "firstName": "Chelsea ",
+        "lastName": "Herndon",
+        "plc": "english2v",
+        "area": "elective",
+        "classes": [
+            ["English II V", "https://lisdtx.instructure.com/courses/140934"],
+            ["English II V INC","https://lisdtx.instructure.com/courses/149502"]
+
+        ]
+
+    },
+
+    "flanders2": {
+        "firstName": "TC ",
+        "lastName": "Flanders",
+        "plc": "english2v",
+        "area": "english",
+        "classes": [
+            ["English II PAP", "https://lisdtx.instructure.com/courses/140944"],
+            ["English II", "https://lisdtx.instructure.com/courses/140936"]
+        ]
+
+    },
+    
 
 
     "goff": {
@@ -700,6 +773,18 @@ var staff = {
 
     },
 
+    "laurence": {
+        "firstName": "Jordan ",
+        "lastName": "Laurence",
+        "plc": "ushistory",
+        "area": "social",
+        "classes": [
+            ["US History", "https://lisdtx.instructure.com/courses/135509"],
+            ["US History", "https://lisdtx.instructure.com/courses/140711"],
+        ]
+
+    },
+
 
 
     "allee": {
@@ -777,7 +862,7 @@ var staff = {
 
     },
 
-    "andersonC": {
+    "andersonG": {
         "firstName": "Coach ",
         "lastName": "Anderson",
         "plc": "worldhistory",
@@ -1215,9 +1300,8 @@ var staff = {
         "plc": "business",
         "area": "electives",
         "classes": [
-            ["name", "url"],
-            ["name", "url"],
-            ["name", "url"]
+            ["Bus Info Mgmt", "https://lisdtx.instructure.com/courses/152976"],
+            ["TSDE", "https://lisdtx.instructure.com/courses/152972"]
         ]
 
     },
@@ -1294,7 +1378,7 @@ var staff = {
     "cautivar": {
         "firstName": "Matthew ",
         "lastName": "Cautivar",
-        "plc": "finearts2",
+        "plc": "finearts",
         "area": "electives",
         "classes": [
             ["Chamber Orchestra", "https://lisdtx.instructure.com/courses/151783"],
@@ -1366,7 +1450,7 @@ var staff = {
     "mirmortazavi ": {
         "firstName": "RaMina ",
         "lastName": "Mirmortazavi",
-        "plc": "finearts2",
+        "plc": "finearts",
         "area": "electives",
         "classes": [
             ["Premiere", "https://lisdtx.instructure.com/courses/127723"],
@@ -1392,7 +1476,7 @@ var staff = {
     "berry": {
         "firstName": "Stephanie ",
         "lastName": "Berry",
-        "plc": "finearts2",
+        "plc": "finearts",
         "area": "electives",
         "classes": [
             ["VTechnical Theatre", "https://lisdtx.instructure.com/courses/148021"],
@@ -1416,7 +1500,7 @@ var staff = {
     "hinderliter": {
         "firstName": "Sarah ",
         "lastName": "Hinderliter",
-        "plc": "finearts2",
+        "plc": "finearts",
         "area": "electives",
         "classes": [
             ["missing", "url"],
@@ -1522,7 +1606,306 @@ var staff = {
 
     },
 
-   
+    "ryman": {
+        "firstName": "Gary ",
+        "lastName": "Ryman",
+        "plc": "astronomy",
+        "area": "science",
+        "classes": [
+            ["Astronomy", "https://lisdtx.instructure.com/courses/126068"],
+            ["Environmental Systems", "https://lisdtx.instructure.com/courses/125985"]
+        ]
+
+    },
+
+    "mach": {
+        "firstName": "Eric ",
+        "lastName": "Mach",
+        "plc": "astronomy",
+        "area": "science",
+        "classes": [
+            ["Astronomy", "https://lisdtx.instructure.com/courses/126064"],
+            
+        ]
+
+    },
+
+    "williams": {
+        "firstName": "Alfreda ",
+        "lastName": "Williams",
+        "plc": "esl",
+        "area": "electives",
+        "classes": [
+            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
+        ]
+
+    },
+
+    "hirji": {
+        "firstName": "Naseem ",
+        "lastName": "Hirji",
+        "plc": "esl",
+        "area": "electives",
+        "classes": [
+            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
+        ]
+
+    },
+
+    "pedrazine": {
+        "firstName": "Carolyn ",
+        "lastName": "Pedrazine",
+        "plc": "esl",
+        "area": "electives",
+        "classes": [
+            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
+        ]
+
+    },
+
+    "evans": {
+        "firstName": "Ginny ",
+        "lastName": "Evans",
+        "plc": "esl",
+        "area": "electives",
+        "classes": [
+            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
+        ]
+
+    },
+
+    "jones": {
+        "firstName": "Steven ",
+        "lastName": "Jones",
+        "plc": "journalism",
+        "area": "electives",
+        "classes": [
+            ["Journalism", "https://lisdtx.instructure.com/courses/131108"],
+            ["Broadcast", "https://lisdtx.instructure.com/courses/129213"],
+            ["Newspaper", "https://lisdtx.instructure.com/courses/131143"]
+        ]
+
+    },
+
+    "cooper": {
+        "firstName": "Madalyn ",
+        "lastName": "Cooper",
+        "plc": "journalism",
+        "area": "electives",
+        "classes": [
+            ["Photojournalism", "https://lisdtx.instructure.com/courses/129203"],
+            ["Yearbook", "https://lisdtx.instructure.com/courses/131123"]
+
+        ]
+
+    },
+
+    "lewis": {
+        "firstName": "Tim ",
+        "lastName": "Lewis",
+        "plc": "debate",
+        "area": "electives",
+        "classes": [
+            ["Debate I", "https://lisdtx.instructure.com/courses/129203"],
+            ["Public Speaking I", "https://lisdtx.instructure.com/courses/131123"],
+            ["Varsity Speech & Debate", "https://lisdtx.instructure.com/courses/134998"]
+
+        ]
+
+    },
+
+    "jacksonCourtney": {
+        "firstName": "Courtney ",
+        "lastName": "Jackson",
+        "plc": "aplanguage",
+        "area": "english",
+        "classes": [
+            ["Leadworthy", "https://lisdtx.instructure.com/courses/136484"],
+            ["Varsity Cheer", "https://lisdtx.instructure.com/courses/127053"]
+        ]
+
+    },
+
+    "perkins": {
+        "firstName": "Nicole ",
+        "lastName": "Perkins",
+        "plc": "aplanguage",
+        "area": "english",
+        "classes": [
+            ["English III AP", "https://lisdtx.instructure.com/courses/125308"],
+        ]
+
+    },
+
+    "perkins": {
+        "firstName": "Nicole ",
+        "lastName": "Perkins",
+        "plc": "aplanguage",
+        "area": "english",
+        "classes": [
+            ["English III AP", "https://lisdtx.instructure.com/courses/125308"],
+        ]
+
+    },
+
+    "rooks2": {
+        "firstName": "Jeanette  ",
+        "lastName": "rooks",
+        "plc": "psat",
+        "area": "english",
+        "classes": [
+            ["PSAT Prep", "https://lisdtx.instructure.com/courses/125178"],
+            ["AP Language/Humanities", "https://lisdtx.instructure.com/courses/125324"]
+        ]
+
+    },
+
+    "bogus2": {
+        "firstName": "Blake ",
+        "lastName": "Bogus",
+        "plc": "english3",
+        "area": "english",
+        "classes": [
+            ["V English III", "https://lisdtx.instructure.com/courses/140957"],
+            ["V AP English III", "https://lisdtx.instructure.com/courses/140965"]
+        ]
+
+    },
+
+    "morales": {
+        "firstName": "Commander ",
+        "lastName": "Morales",
+        "plc": "jrotc",
+        "area": "electives",
+        "classes": [
+            ["Naval Sci 2", "https://lisdtx.instructure.com/courses/129263"],
+            ["Naval Sci 3", "https://lisdtx.instructure.com/courses/129278"],
+            ["Naval Sci 4", "https://lisdtx.instructure.com/courses/129281"],
+            ["Mltry SciIi", "https://lisdtx.instructure.com/courses/129291"],
+            ["Mltry SciIii Ay", "https://lisdtx.instructure.com/courses/129295"],
+        ]
+
+    },
+
+    "wilcox": {
+        "firstName": "Harold ",
+        "lastName": "Wilcox",
+        "plc": "jrotc",
+        "area": "electives",
+        "classes": [
+            ["Naval Sci 1", "https://lisdtx.instructure.com/courses/129255"],
+            
+        ]
+
+    },
+
+    "philips": {
+        "firstName": "Kris ",
+        "lastName": "Philips",
+        "plc": "homescience",
+        "area": "temp",
+        "classes": [
+            ["Food Science", "https://lisdtx.instructure.com/courses/143623"],
+        ]
+
+    },
+    
+    "rans": {
+        "firstName": "Jacqueline ",
+        "lastName": "Rans",
+        "plc": "homescience",
+        "area": "temp",
+        "classes": [
+            ["Interior Design", "https://lisdtx.instructure.com/courses/130145"],
+        ]
+
+    },
+
+    "soukup": {
+        "firstName": "Lana ",
+        "lastName": "Soukup",
+        "plc": "homescience",
+        "area": "temp",
+        "classes": [
+            ["Food Science", "https://lisdtx.instructure.com/courses/134951"],
+        ]
+
+    },
+
+    "weaver": {
+        "firstName": "Dianne ",
+        "lastName": "Weaver",
+        "plc": "business",
+        "area": "temp",
+        "classes": [
+            ["Pri. of Education and Training", "https://lisdtx.instructure.com/courses/143645"],
+            ["Money Matters", "https://lisdtx.instructure.com/courses/143623"],
+        ]
+
+    },
+
+    "hartzler": {
+        "firstName": "Brooke ",
+        "lastName": "Hartzler",
+        "plc": "mathmodels",
+        "area": "temp",
+        "classes": [
+            ["Geometry", "https://lisdtx.instructure.com/courses/141268"],
+            ["Math Models", "https://lisdtx.instructure.com/courses/141282"],
+        ]
+
+    },
+
+    "dunlap": {
+        "firstName": "Chris ",
+        "lastName": "Dunlap",
+        "plc": "mathmodels",
+        "area": "temp",
+        "classes": [
+            ["Math Models ", "https://lisdtx.instructure.com/courses/143480"],
+            ["V Math Models ", "https://lisdtx.instructure.com/courses/143484"]
+        ]
+
+    },
+
+    "beasley": {
+        "firstName": "Kathy ",
+        "lastName": "Beasley",
+        "plc": "base",
+        "area": "temp",
+        "classes": [
+            ["BASE", "https://lisdtx.instructure.com/courses/33120"],
+            
+        ]
+
+    },
+
+    "merchant": {
+        "firstName": "Shabana ",
+        "lastName": "Merchant",
+        "plc": "base",
+        "area": "temp",
+        "classes": [
+           
+        ]
+
+    },
+
+    "nitcholas": {
+        "firstName": "Coach ",
+        "lastName": "Nitcholas",
+        "plc": "leadership",
+        "area": "temp",
+        "classes": [
+            ["Student Leadership", "https://lisdtx.instructure.com/courses/126984"]
+        ]
+
+    },
+
+
+
+
+
 
 
 
