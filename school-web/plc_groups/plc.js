@@ -15,7 +15,7 @@ var plc = {
 
     "apush": {
         "title": "AP US History",
-        "blurb": "“AP US History is a rigorous course that seeks to have an honest discussion and debate about the origins and development of the United States. Using critical thinking and problem solving skills we set out to be the detectives of history, looking at both first hand and second hand accounts of the past and questioning both bias and authenticity.",
+        "blurb": "AP US History is a rigorous course that seeks to have an honest discussion and debate about the origins and development of the United States. Using critical thinking and problem solving skills we set out to be the detectives of history, looking at both first hand and second hand accounts of the past and questioning both bias and authenticity.",
          "area" :"social"
     },
 
@@ -191,7 +191,7 @@ var plc = {
 
     "psychology": {
         "title": "Psychology",
-        "blurb": "Psychology is the study of human behavior and encompasses the study of motivation, emotions, consciousness, human development, personality formation, psychological theories on behavior, stress, and abnormal psychology. Whether as an online course or in-person studying psychology is an adventure through the human mind and what motivates and drives human behavior, which applies to every student.",
+        "blurb": "Psychology is the study of human behavior and encompasses the study of motivation, emotions, consciousness, human development, personality formation, psychological theories on behavior, stress, and abnormal psychology.",
         "area": "social"
     },
 
@@ -220,7 +220,7 @@ var plc = {
     },
 
     "worldhistoryap": {
-        "title": "World History AP",
+        "title": "AP World History",
         "blurb": "",
         "area": "social"
     },
@@ -234,16 +234,11 @@ var plc = {
     },
 
     "journalism": {
-        "title": "Journalism",
-        "blurb": "The department’s intro level courses of journalism and photojournalism are designed to teach the students the basics of the craft and prepare them to join one of our publication courses. The newspaper (The Hawk Eye), yearbook (The Talon) and broadcast (Hawk TV) programs are student-run organizations designed to allow students the opportunity to thoroughly, accurately and creatively cover the school. Their work has been consistently awarded with top state and national honors from regional and national scholastic journalism organizations.",
-        "area": "electives"
+        "title": "Journalism, Speech & Debate",
+        "blurb": "Students develop skills covering multiple disciplines including journalism, broadcast, and speech and debate. Students who excel at our beginner classes have the opportunity to join our broadcast program HawkTV, The Hawk Eye newspaper, The Talon yearbook, or our elite Speech & Debate team. Each program has recieved honors at the state or national levels.",
+        "area": "electives",
     },
 
-    "debate": {
-        "title": "Speech & Debate",
-        "blurb": "Tim Lewis is the new Head Coach and Director of Debate. In this first season with the team, Tim has coached the first team in Hebron HS history to reach the elimination debates (top 70 teams in the country) of the National Speech and Debate Association Championship tournament and assisted students in winning a national debate community service award. If you are interested in joining the team, send an email at lewist@lisd.net! Anyone can join! ",
-        "area": "electives"
-    },
 
     "aplanguage": {
         "title": "Ap English Language and Composition",
@@ -253,7 +248,7 @@ var plc = {
 
     "jrotc": {
         "title": "NJROTC",
-        "blurb": "We are delighted to have you and your student be apart of our NJROTC unit.  Your cadet will experience a unique course of instruction that will be educational, motivational, and rewarding. Their experience in NJROTC will be the foundation for lifelong memories and close friendships. We sincerely believe the cadets in our program will benefit from the teamwork, self-disciplined, and leadership experience they will encounter.",
+        "blurb": "We are delighted to have you and your student be apart of our NJROTC unit.  Your cadet will experience a unique course of instruction that will be educational, motivational, and rewarding. Their experience in NJROTC will be the foundation for lifelong memories and close friendships.",
         "area": "electives"
     },
 
@@ -297,6 +292,12 @@ var plc = {
         "title": "Life Skills",
         "blurb": "The Life Skills team is compiled of veteran teachers and paraprofessionals that are passionate about meeting the needs of ALL students.  From student  ran businesses, Vocational opportunities in the community,  challenging academic and Life Skill instruction,  Circle of Friends and numerous other experiences that help our students achieve their goals, our Life Skills staff is one of the best in LISD!",
         "area": "electives"
+    },
+
+    "physicspap": {
+        "title": "Physics PAP",
+        "blurb": "In this course, we will study motion, forces, waves, sound, light, static electricity and electric circuits. We will be using both algebra and trigonometry in our problem solving. Physics is the most practical science you can learn, so whenever possible we will be relating what we do in class to what happens outside the classroom.",
+        "area": "science"
     },
 
 

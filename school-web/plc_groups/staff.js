@@ -319,25 +319,7 @@ var staff = {
         ]
     },
 
-    "thompson": {
-        "firstName": "Mrs. ",
-        "lastName": "Thompson",
-        "plc": "bic",
-        "area": "elective",
-        "classes": [
-        ]
-    },
 
-    "muck": {
-        "firstName": "Mr. ",
-        "lastName": "Muck",
-        "plc": "bic",
-        "area": "elective",
-        "classes": [
-        ]
-    },
-
-    
 
     "sheehan": {
         "firstName": "Kaysi  ",
@@ -480,9 +462,7 @@ var staff = {
         "plc": "english3",
         "area": "english",
         "classes": [
-            ["V English III", "https://lisdtx.instructure.com/courses/140955"],
-            ["name", "url"],
-            ["name", "url"]
+            ["V English III", "https://lisdtx.instructure.com/courses/140955"]
         ]
 
     },
@@ -1587,7 +1567,7 @@ var staff = {
         "plc": "language",
         "area": "electives",
         "classes": [
-            ["ASL I-II", "https://lisdtx.instructure.com/courses/126113/modules"]
+            ["ASL I - II", "https://lisdtx.instructure.com/courses/126113/modules"]
         ]
 
     },
@@ -1638,27 +1618,7 @@ var staff = {
 
     },
 
-    "williams": {
-        "firstName": "Alfreda ",
-        "lastName": "Williams",
-        "plc": "esl",
-        "area": "electives",
-        "classes": [
-            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
-        ]
-
-    },
-
-    "hirji": {
-        "firstName": "Naseem ",
-        "lastName": "Hirji",
-        "plc": "esl",
-        "area": "electives",
-        "classes": [
-            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
-        ]
-
-    },
+    
 
     "pedrazine": {
         "firstName": "Carolyn ",
@@ -1677,7 +1637,9 @@ var staff = {
         "plc": "esl",
         "area": "electives",
         "classes": [
-            ["ESL", "https://lisdtx.instructure.com/courses/153959"],
+            ["VESOL English II AY", "https://lisdtx.instructure.com/courses/149019 "],
+            ["VESOL English 1 AY", "https://lisdtx.instructure.com/courses/144312"],
+            ["VELDA 2 AY", "https://lisdtx.instructure.com/courses/149017"],
         ]
 
     },
@@ -1690,7 +1652,9 @@ var staff = {
         "classes": [
             ["Journalism", "https://lisdtx.instructure.com/courses/131108"],
             ["Broadcast", "https://lisdtx.instructure.com/courses/129213"],
-            ["Newspaper", "https://lisdtx.instructure.com/courses/131143"]
+            ["Newspaper", "https://lisdtx.instructure.com/courses/131143"],
+            ["The Hawk Eye", "https://www.hebronhawkeye.com"],
+            ["Hawk TV", "https://www.youtube.com/channel/UC1bhSAwfE92AW3ZpvUbpGrA"]
         ]
 
     },
@@ -1702,7 +1666,9 @@ var staff = {
         "area": "electives",
         "classes": [
             ["Photojournalism", "https://lisdtx.instructure.com/courses/129203"],
-            ["Yearbook", "https://lisdtx.instructure.com/courses/131123"]
+            ["Yearbook", "https://lisdtx.instructure.com/courses/131123"],
+            ["The Talon Website", "https://hebronyearbook.com/"]
+
 
         ]
 
@@ -1711,7 +1677,7 @@ var staff = {
     "lewis": {
         "firstName": "Tim ",
         "lastName": "Lewis",
-        "plc": "debate",
+        "plc": "journalism",
         "area": "electives",
         "classes": [
             ["Debate I", "https://lisdtx.instructure.com/courses/134991"],
@@ -1722,7 +1688,7 @@ var staff = {
 
     },
 
-    "jacksonCourtney": {
+    "jacksonC": {
         "firstName": "Courtney ",
         "lastName": "Jackson",
         "plc": "aplanguage",
@@ -1814,7 +1780,7 @@ var staff = {
         "plc": "homescience",
         "area": "temp",
         "classes": [
-            ["Food Science (fix)", "https://lisdtx.instructure.com/courses/143639"],
+            
         ]
 
     },
@@ -2100,8 +2066,63 @@ var staff = {
 
     },
 
+    "holley3": {
+        "firstName": "Dr. Kathleen ",
+        "lastName": "Holley",
+        "plc": "physicspap",
+        "area": "science",
+        "classes": [
+            ["V Physics PAP", "https://lisdtx.instructure.com/courses/143537"],
+            ["V AP Chemistry", "https://lisdtx.instructure.com/courses/143518"]
+        ]
 
+    },
 
+    "jenkins2": {
+        "firstName": "Bernard ",
+        "lastName": "Jenkins",
+        "plc": "physicspap",
+        "area": "science",
+        "classes": [
+            ["AP Physics 1", "https://lisdtx.instructure.com/courses/126044"],
+            ["Pre-AP Physics", "https://lisdtx.instructure.com/courses/125963"]
+        ]
+
+    },
+
+    "corbet": {
+        "firstName": "Deb ",
+        "lastName": "Corbet",
+        "plc": "ushistory",
+        "area": "temp",
+        "classes": [
+            ["Contact Students", "https://lisdtx.instructure.com/courses/67569"],
+            ["DECA", "https://lisdtx.instructure.com/courses/63993"]
+        ]
+
+    },
+
+    "farley": {
+        "firstName": "Jim ",
+        "lastName": "Farley",
+        "plc": "ushistory",
+        "area": "temp",
+        "classes": [
+            ["World History Inclusion", "https://lisdtx.instructure.com/courses/126127"]
+        ]
+
+    },
+
+    "duplanty": {
+        "firstName": "Michael ",
+        "lastName": "Duplanty",
+        "plc": "ipc",
+        "area": "temp",
+        "classes": [
+            ["V IPC", "https://lisdtx.instructure.com/courses/143527"]
+        ]
+
+    },
 
 
 
