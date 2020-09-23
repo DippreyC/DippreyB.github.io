@@ -1377,39 +1377,18 @@ var staff = {
         ]
     },
 
-    "forster": {
-        "firstName": "Kyle ",
-        "lastName": "Forster",
-        "plc": "finearts",
-        "area": "electives",
-        "classes": [
-            ["missing", "url"],
-            
-        ]
-
-    },
 
     "anderson": {
-        "firstName": "Zach Anderson ",
-        "lastName": "temp",
+        "firstName": "Zach ",
+        "lastName": "Anderson",
         "plc": "finearts",
         "area": "electives",
         "classes": [
-            ["missing", "url"],
+            ["Band", "https://lisdtx.instructure.com/courses/150413"],
         ]
 
     },
 
-    "sullivan": {
-        "firstName": "Justin ",
-        "lastName": "Sullivan",
-        "plc": "finearts",
-        "area": "electives",
-        "classes": [
-            ["missing", "url"],
-        ]
-
-    },
 
     "sealy": {
         "firstName": "Andy ",
@@ -1450,8 +1429,8 @@ var staff = {
     },
 
     "carr": {
-        "firstName": "temp ",
-        "lastName": "temp",
+        "firstName": "Alexander ",
+        "lastName": "Carr",
         "plc": "finearts",
         "area": "electives",
         "classes": [
@@ -1485,16 +1464,7 @@ var staff = {
 
     },
 
-    "hinderliter": {
-        "firstName": "Sarah ",
-        "lastName": "Hinderliter",
-        "plc": "finearts",
-        "area": "electives",
-        "classes": [
-            ["missing", "url"],
-        ]
-
-    },
+ 
 
     "horton": {
         "firstName": "Larry ",
@@ -2124,6 +2094,16 @@ var staff = {
 
     },
 
+ "moreau": {
+        "firstName": "Matt ",
+        "lastName": "Moreau",
+        "plc": "training",
+        "area": "temp",
+        "classes": [
+            ["Sports Med I", "https://lisdtx.instructure.com/courses/135803"]
+        ]
+
+    },
 
 
 

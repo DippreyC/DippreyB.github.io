@@ -2,7 +2,7 @@ var plc = {
 
     "algebra2": {
         "title": "Algebra 2",
-        "blurb": `Hello! We are your on-level Algebra II Teachers! Click to see our courses.
+        "blurb": `Hello! We are your on-level Algebra II Teachers! Click to see our courses. It has been exciting filling the students minds with matrices, absolute value functions, and inverses. We look forward to teaching them about quadratics, cube roots, logarithms, and rational functions.
         `,
          "area" :"math"
     },
@@ -40,7 +40,7 @@ var plc = {
 
     "bic": {
         "title": "BIC",
-        "blurb": "In the BIC classroom we will not only teach your student the curriculum but more importantly we will be teaching them the importance of Social Skills in everyday life.  The most important thing that we are hoping to teach your student is that no matter how dark your past was your future is always brighter.",
+        "blurb": "In the BIC classroom we will not only teach your student the curriculum but more importantly we will be teaching them the importance of Social Skills in everyday life.",
          "area" :"english"
     },
 
@@ -70,7 +70,7 @@ var plc = {
 
     "collegemath": {
         "title": "College Prep Math",
-        "blurb": "Our class is designed to prepare students to take the TSI exam prior to their first year in college and to refresh the concepts learned in Algebra 1 and Algebra 2.  ",
+        "blurb": "Our class is designed to prepare students to take the TSI exam prior to their first year in college and to refresh the concepts learned in Algebra 1 and Algebra 2.  <br><br>",
         "area": "math"
     },
 
@@ -185,7 +185,7 @@ var plc = {
 
     "psat": {
         "title": "PSAT Prep",
-        "blurb": "PSAT Team is an invitation-only 9-week class for juniors that focuses on verbal and math skills for the PSAT that is given in October. Skills learned in this class also boost SAT performance. We rely heavily on motivated students who work hard and are willing to dig into the details of this standardized test. Students have the opportunity to become Commended and even National Merit Scholarship winners. The Verbal instructors are excited about being back in school with this year’s team! The PSAT this year will be on Thursday, October 29th.",
+        "blurb": "PSAT Team is an invitation-only 9-week class for juniors that focuses on verbal and math skills for the PSAT that is given in October. Skills learned in this class also boost SAT performance. We rely heavily on motivated students who work hard and are willing to dig into the details of this standardized test. Students have the opportunity to become Commended and even National Merit Scholarship winners.",
         "area": "english"
     },
 
@@ -299,6 +299,13 @@ var plc = {
         "blurb": "In this course, we will study motion, forces, waves, sound, light, static electricity and electric circuits. We will be using both algebra and trigonometry in our problem solving. Physics is the most practical science you can learn, so whenever possible we will be relating what we do in class to what happens outside the classroom.",
         "area": "science"
     },
+
+    "training": {
+        "title": "Athletic Training",
+        "blurb": "This course is an in-depth study of athletic injuries with the purpose of introducing students to the profession of Athletic Training and Sports Medicine.  We use this class as a recruiting tool for Athletic Training Student Aides (ATSA); however your student taking this course does NOT have to become an ATSA.",
+        "area": "electives"
+    },
+
 
 
 
