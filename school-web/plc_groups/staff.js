@@ -2105,6 +2105,18 @@ var staff = {
 
     },
 
+    "smithD": {
+        "firstName": "Diana ",
+        "lastName": "Smith",
+        "plc": "ushistory",
+        "area": "temp",
+        "classes": [
+            ["US History", "https://lisdtx.instructure.com/courses/112014"],
+            ["PALS", "https://lisdtx.instructure.com/courses/129229"],
+        ]
+
+    },
+
 
 
 
