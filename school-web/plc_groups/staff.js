@@ -112,8 +112,8 @@ var staff = {
         "area": "math",
         "classes": [
             ["V Algebra II PAP", "https://lisdtx.instructure.com/courses/146475"],
-            ["name", "url"],
-            ["name", "url"]
+            ["PSAT Team 1", "https://lisdtx.instructure.com/courses/125175"],
+            ["PSAT Team 2", "https://lisdtx.instructure.com/courses/125186"]
         ]
 
     },
@@ -1314,6 +1314,17 @@ var staff = {
 
     },
 
+    "graham": {
+        "firstName": "Skylar ",
+        "lastName": "Graham",
+        "plc": "business",
+        "area": "electives",
+        "classes": [
+            ["Global Business", "https://lisdtx.instructure.com/courses/143614"],
+        ]
+
+    },
+
     "smith": {
         "firstName": "Ellery ",
         "lastName": "Smith",
@@ -1703,8 +1714,8 @@ var staff = {
         "plc": "debate",
         "area": "electives",
         "classes": [
-            ["Debate I", "https://lisdtx.instructure.com/courses/129203"],
-            ["Public Speaking I", "https://lisdtx.instructure.com/courses/131123"],
+            ["Debate I", "https://lisdtx.instructure.com/courses/134991"],
+            ["Public Speaking I", "https://lisdtx.instructure.com/courses/134977"],
             ["Varsity Speech & Debate", "https://lisdtx.instructure.com/courses/134998"]
 
         ]
@@ -1793,6 +1804,17 @@ var staff = {
         "area": "temp",
         "classes": [
             ["Food Science", "https://lisdtx.instructure.com/courses/143639"],
+        ]
+
+    },
+
+    "carriker": {
+        "firstName": "Katherine ",
+        "lastName": "Carriker",
+        "plc": "homescience",
+        "area": "temp",
+        "classes": [
+            ["Food Science (fix)", "https://lisdtx.instructure.com/courses/143639"],
         ]
 
     },
@@ -2015,6 +2037,70 @@ var staff = {
         ]
 
     },
+
+    "flores2": {
+        "firstName": "Michael ",
+        "lastName": "Flores",
+        "plc": "mathpsat",
+        "area": "math",
+        "classes": [
+            ["V Algebra II PAP", "https://lisdtx.instructure.com/courses/146475"],
+            ["PSAT Team 1", "https://lisdtx.instructure.com/courses/125175"],
+            ["PSAT Team 2", "https://lisdtx.instructure.com/courses/125186"]
+        ]
+
+    },
+
+    "meldrum2": {
+        "firstName": "Catherine ",
+        "lastName": "Meldrum",
+        "plc": "mathpsat",
+        "area": "math",
+        "classes": [
+            ["Pre-Calculus", "https://lisdtx.instructure.com/courses/141285"],
+            ["PAST Prep 2nd", "https://lisdtx.instructure.com/courses/125189"],
+            ["PAST Prep 3rd", "https://lisdtx.instructure.com/courses/125178"]
+        ]
+
+    },
+
+    "casalini": {
+        "firstName": "Cameron ",
+        "lastName": "Casalini",
+        "plc": "mathpsat",
+        "area": "math",
+        "classes": [
+            ["AP Statistics", "https://lisdtx.instructure.com/courses/125130"],
+            ["Virtual AP Statistics", "https://lisdtx.instructure.com/courses/141291"],
+            ["PAST Prep 1st", "https://lisdtx.instructure.com/courses/125183"],
+            ["PSAT Team 4th Period", "https://lisdtx.instructure.com/courses/125180"]
+        ]
+
+    },
+
+    "cummings": {
+        "firstName": "Karen ",
+        "lastName": "Cummings",
+        "plc": "lifeskills",
+        "area": "temp",
+        "classes": [
+            ["Cummings ALS", "https://lisdtx.instructure.com/courses/140359"]
+        ]
+
+    },
+
+    "goheen": {
+        "firstName": "Shannon ",
+        "lastName": "Goheen",
+        "plc": "lifeskills",
+        "area": "temp",
+        "classes": [
+            ["Mrs. G's Life Skills 2020", "https://lisdtx.instructure.com/courses/110483"]
+        ]
+
+    },
+
+
 
 
 

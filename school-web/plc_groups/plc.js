@@ -154,7 +154,7 @@ var plc = {
     },
 
     "health": {
-        "title": "Health",
+        "title": "Health & Leaership",
         "blurb": "Welcome to Virtual Health! In this virtual class we will be using Edgeunity to learn how to live a healthy mental and physical life. This course is structured to be self paced with certain due dates throughout the nine weeks.",
         "area": "electives"
     },
@@ -284,6 +284,18 @@ var plc = {
     "resource": {
         "title": "Resource",
         "blurb": "Mr. Sweany, Ms. Harvick, Mr. McElhenny welcome you to the 20-21 school year!",
+        "area": "electives"
+    },
+
+    "mathpsat": {
+        "title": "Math PSAT",
+        "blurb": "We are the Math PSAT Team Teachers. We specialize in the intricacies of the math content covered in the PSAT as well as the intricacies of the test itself. In our class, your students will how to successfully work and identify the various patterns and types of questions they’ll see on the PSAT.",
+        "area": "math"
+    },
+
+    "lifeskills": {
+        "title": "Life Skills",
+        "blurb": "The Life Skills team is compiled of veteran teachers and paraprofessionals that are passionate about meeting the needs of ALL students.  From student  ran businesses, Vocational opportunities in the community,  challenging academic and Life Skill instruction,  Circle of Friends and numerous other experiences that help our students achieve their goals, our Life Skills staff is one of the best in LISD!",
         "area": "electives"
     },
 
