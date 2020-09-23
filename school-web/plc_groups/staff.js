@@ -1118,7 +1118,7 @@ var staff = {
         "plc": "lifescience",
         "area": "temp",
         "classes": [
-            ["missing", "url"]
+            ["AP Environmental Sci", "https://lisdtx.instructure.com/courses/143549"]
         ]
 
     },
