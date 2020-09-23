@@ -273,9 +273,19 @@ var plc = {
         "title": "BASE",
         "blurb": "Hi, and Welcome to the BASE room.  Kathy Beasley and Shabana Merchant work to make this room a calming, relaxed environment that supports behavioral and academic success, particularly for students with learning or emotional differences. ",
         "area": "electives"
-    }
+    },
 
+    "ipc": {
+        "title": "IPC",
+        "blurb": "IPC is an introduction to Chemistry and Physics. During the year, we will be working towards understanding these subjects which includes everything from atoms to calculating the rate of acceleration. The first 9 weeks is the study of Chemistry and the second 9 weeks is Physics.",
+        "area": "science"
+    },
 
+    "resource": {
+        "title": "Resource",
+        "blurb": "Mr. Sweany, Ms. Harvick, Mr. McElhenny welcome you to the 20-21 school year!",
+        "area": "electives"
+    },
 
 
 

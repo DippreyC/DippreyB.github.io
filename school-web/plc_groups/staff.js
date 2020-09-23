@@ -1122,7 +1122,7 @@ var staff = {
     },
 
     "talton": {
-        "firstName": "temp ",
+        "firstName": "Deja ",
         "lastName": "Talton",
         "plc": "lifescience",
         "area": "temp",
@@ -1161,9 +1161,7 @@ var staff = {
         "plc": "physics",
         "area": "science",
         "classes": [
-            ["name", "url"],
-            ["name", "url"],
-            ["name", "url"]
+            ["Physics", "https://lisdtx.instructure.com/courses/143530"]
         ]
 
     },
@@ -1200,9 +1198,8 @@ var staff = {
         "plc": "physics",
         "area": "science",
         "classes": [
-            ["name", "url"],
-            ["name", "url"],
-            ["name", "url"]
+            ["AP Physics 1", "https://lisdtx.instructure.com/courses/126044"],
+            ["Pre-AP Physics", "https://lisdtx.instructure.com/courses/125963"]
         ]
 
     },
@@ -1541,9 +1538,9 @@ var staff = {
         "plc": "language",
         "area": "electives",
         "classes": [
-            ["Latin I", "url"],
-            ["Latin III PAP", "url"],
-            ["V Latin I", "url"]
+            ["Latin I", "https://lisdtx.instructure.com/courses/126097"],
+            ["Latin III PAP", "https://lisdtx.instructure.com/courses/126105"],
+            ["V Latin I", "https://lisdtx.instructure.com/courses/140929"]
         ]
 
     },
@@ -1726,16 +1723,6 @@ var staff = {
 
     },
 
-    "perkins": {
-        "firstName": "Nicole ",
-        "lastName": "Perkins",
-        "plc": "aplanguage",
-        "area": "english",
-        "classes": [
-            ["English III AP", "https://lisdtx.instructure.com/courses/125308"],
-        ]
-
-    },
 
     "perkins": {
         "firstName": "Nicole ",
@@ -1751,7 +1738,7 @@ var staff = {
     "rooks2": {
         "firstName": "Jeanette  ",
         "lastName": "rooks",
-        "plc": "psat",
+        "plc": "aplanguage",
         "area": "english",
         "classes": [
             ["PSAT Prep", "https://lisdtx.instructure.com/courses/125178"],
@@ -1763,7 +1750,7 @@ var staff = {
     "bogus2": {
         "firstName": "Blake ",
         "lastName": "Bogus",
-        "plc": "english3",
+        "plc": "aplanguage",
         "area": "english",
         "classes": [
             ["V English III", "https://lisdtx.instructure.com/courses/140957"],
@@ -1805,7 +1792,7 @@ var staff = {
         "plc": "homescience",
         "area": "temp",
         "classes": [
-            ["Food Science", "https://lisdtx.instructure.com/courses/143623"],
+            ["Food Science", "https://lisdtx.instructure.com/courses/143639"],
         ]
 
     },
@@ -1894,7 +1881,7 @@ var staff = {
     "nitcholas": {
         "firstName": "Coach ",
         "lastName": "Nitcholas",
-        "plc": "leadership",
+        "plc": "health",
         "area": "temp",
         "classes": [
             ["Student Leadership", "https://lisdtx.instructure.com/courses/126984"]
@@ -1902,9 +1889,132 @@ var staff = {
 
     },
 
+    "miller": {
+        "firstName": "Taren ",
+        "lastName": "Miller",
+        "plc": "english2",
+        "area": "temp",
+        "classes": [
+            ["V English II", "https://lisdtx.instructure.com/courses/152060"],
+        ]
 
+    },
 
+    "annang": {
+        "firstName": "Crystal ",
+        "lastName": "Annang",
+        "plc": "mathmodels",
+        "area": "temp",
+        "classes": [
+            ["V-Geometry SDi", "https://lisdtx.instructure.com/courses/152063"],
+            ["V-Math Models", "https://lisdtx.instructure.com/courses/152372"],
+            ["V-Math Models/Dunlap", "https://lisdtx.instructure.com/courses/143484"],
+            ["V-Chemistry/Carney ", "https://lisdtx.instructure.com/courses/143513"]
+        ]
 
+    },
+
+    
+    "talton2": {
+        "firstName": "Deja ",
+        "lastName": "Talton",
+        "plc": "ipc",
+        "area": "temp",
+        "classes": [
+            ["missing", "url"],
+        ]
+
+    },
+
+    "davis": {
+        "firstName": "Coach",
+        "lastName": "Davis",
+        "plc": "ipc",
+        "area": "temp",
+        "classes": [
+            ["IPC Davis", "https://lisdtx.instructure.com/courses/125187"],
+        ]
+
+    },
+
+    "reese": {
+        "firstName": "Annette",
+        "lastName": "Reese",
+        "plc": "ipc",
+        "area": "temp",
+        "classes": [
+            ["SDI", "https://lisdtx.instructure.com/courses/110645/announcements"],
+        ]
+
+    },
+
+    "sweany": {
+        "firstName": "Randal ",
+        "lastName": "Sweany",
+        "plc": "english4",
+        "area": "temp",
+        "classes": [
+            ["English IV", "https://lisdtx.instructure.com/courses/129033"]
+        ]
+
+    },
+
+    "sweany2": {
+        "firstName": "Randal ",
+        "lastName": "Sweany",
+        "plc": "resource",
+        "area": "temp",
+        "classes": [
+            ["English IV", "https://lisdtx.instructure.com/courses/129033"]
+        ]
+
+    },
+
+    "harvick": {
+        "firstName": "Drew ",
+        "lastName": "Harvick",
+        "plc": "resource",
+        "area": "temp",
+        "classes": [
+            ["English II", "https://lisdtx.instructure.com/courses/128180"]
+        ]
+
+    },
+
+    "mcelhenny": {
+        "firstName": "Tom ",
+        "lastName": "McElhenny",
+        "plc": "resource",
+        "area": "temp",
+        "classes": [
+            ["Geometry", "https://lisdtx.instructure.com/courses/149527"],
+            ["Math Models", "https://lisdtx.instructure.com/courses/154660"]
+        ]
+
+    },
+
+    "harvick2": {
+        "firstName": "Drew ",
+        "lastName": "Harvick",
+        "plc": "english2",
+        "area": "temp",
+        "classes": [
+            ["English II", "https://lisdtx.instructure.com/courses/128180"]
+        ]
+    },
+
+    "marrott": {
+        "firstName": "Miranda ",
+        "lastName": "Marrott",
+        "plc": "ipc",
+        "area": "temp",
+        "classes": [
+            ["SPED V ENV SYS", "https://lisdtx.instructure.com/courses/152591"],
+            ["SPED V IPC", "https://lisdtx.instructure.com/courses/151942"],
+            ["Contact", "https://lisdtx.instructure.com/courses/153061"]
+        ]
+
+    },
 
 
 
