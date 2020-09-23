@@ -2117,6 +2117,18 @@ var staff = {
 
     },
 
+    "cole": {
+        "firstName": "Michael ",
+        "lastName": "Cole",
+        "plc": "business",
+        "area": "temp",
+        "classes": [
+            ["Eng. Design and Pres.", "https://lisdtx.instructure.com/courses/130159"],
+            ["Architecture Design I", "https://lisdtx.instructure.com/courses/141314"],
+        ]
+
+    },
+
 
 
 
