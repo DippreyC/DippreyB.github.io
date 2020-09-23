@@ -837,7 +837,7 @@ var staff = {
         "plc": "worldhistory",
         "area": "social",
         "classes": [
-            ["missing link", "https://lisdtx.instructure.com/courses/126121"]
+            ["US History Inclusion", "https://lisdtx.instructure.com/courses/126121"]
         ]
 
     },

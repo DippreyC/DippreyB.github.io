@@ -22,7 +22,7 @@ body {
 
 .card {
 	margin: 15px;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-bottom: 15px;
 	width: calc((100% / 2) - 30px);
 	display: flex;
@@ -61,7 +61,7 @@ body {
 	cursor: pointer;
 	background-color: #333a45;
 	color: #eceef1;
-	font-size: .85em;
+	font-size: 14px;
 	text-align: center;
 	transition: all 0.2s ease-in-out;
 	display: flex;
@@ -174,6 +174,31 @@ body {
 }
 
 .canvas-link-container a:hover {
+	background-color: #333a45;
+	border: solid black 2px;
+}
+
+.nav-btn-container{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.nav-btn{
+	margin: 10px;
+	background-color:  #2A51A3;
+	padding: 10px;
+	color: white;
+	width: 25%;
+	text-align: center;
+	text-decoration: none;
+	border: solid black 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-btn:hover {
 	background-color: #333a45;
 	border: solid black 2px;
 }
