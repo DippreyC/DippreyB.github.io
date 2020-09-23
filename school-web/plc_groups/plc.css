@@ -11,6 +11,11 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+h1{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	display: block;
+}
 .cards {
 	padding: 15px;
 	display: flex;
@@ -22,7 +27,7 @@ body {
 
 .card {
 	margin: 15px;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 15px;
 	width: calc((100% / 2) - 30px);
 	display: flex;
