@@ -148,7 +148,7 @@ var plc = {
     },
 
     "government-econ": {
-        "title": "Government/Economics",
+        "title": "Government/ Economics",
         "blurb": "This is the awesome government and economics team here at HHS!",
         "area": "social"
     },
@@ -227,9 +227,9 @@ var plc = {
 
     "vworldhistory": {
         "title": "Virtual World History",
-        "blurb": `Jeff Hill- 6th Year at Hebron and is the Offensive Coordinator for The HHS Football.
+        "blurb": `Jeff Hill- 6th Year at Hebron.
         Chad Prock- 6th year at Hebron. 
-        Sarah Adams – 1st year at Hebron and JV Cheer Coach`,
+        Sarah Adams – 1st year at Hebron.`,
         "area": "social"
     },
 

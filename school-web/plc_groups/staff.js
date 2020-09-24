@@ -831,7 +831,7 @@ var staff = {
 
     },
 
-    "Farley": {
+    "farley": {
         "firstName": "Coach ",
         "lastName": "Farley",
         "plc": "worldhistory",
@@ -1694,7 +1694,7 @@ var staff = {
         "area": "english",
         "classes": [
             ["PSAT Prep", "https://lisdtx.instructure.com/courses/125178"],
-            ["AP Language/Humanities", "https://lisdtx.instructure.com/courses/125324"]
+            ["AP Lang/Humanities", "https://lisdtx.instructure.com/courses/125324"]
         ]
 
     },
