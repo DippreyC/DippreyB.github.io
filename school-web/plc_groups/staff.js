@@ -1107,7 +1107,8 @@ var staff = {
         "plc": "lifescience",
         "area": "temp",
         "classes": [
-            ["missing", "url"],
+            ["Aquatic Science", "https://lisdtx.instructure.com/courses/149872"],
+            ["IPC", "https://lisdtx.instructure.com/courses/136130"],
         ]
 
     },
@@ -1384,7 +1385,8 @@ var staff = {
         "plc": "finearts",
         "area": "electives",
         "classes": [
-            ["Band", "https://lisdtx.instructure.com/courses/150413"],
+            ["V Band Intermediate ", "https://lisdtx.instructure.com/courses/148030"],
+            ["Concert Band ", "https://lisdtx.instructure.com/courses/150413"],
         ]
 
     },
@@ -1396,7 +1398,7 @@ var staff = {
         "plc": "finearts",
         "area": "electives",
         "classes": [
-            ["missing", "url"]
+            ["Wind Symphony", "https://lisdtx.instructure.com/courses/116950"]
         ]
 
     },
@@ -1414,7 +1416,7 @@ var staff = {
 
     },
 
-    "mirmortazavi ": {
+    "mirmortazavi": {
         "firstName": "RaMina ",
         "lastName": "Mirmortazavi",
         "plc": "finearts",
@@ -1434,7 +1436,9 @@ var staff = {
         "plc": "finearts",
         "area": "electives",
         "classes": [
-            ["missing", ""],
+            ["A Cappella", "https://lisdtx.instructure.com/courses/127633"],
+            ["Belle Chanson", "https://lisdtx.instructure.com/courses/127611"],
+            ["V A Cappella & Belle Chanson", "https://lisdtx.instructure.com/courses/148002"],
             
         ]
 
@@ -1459,7 +1463,8 @@ var staff = {
         "plc": "finearts",
         "area": "electives",
         "classes": [
-            ["missing", "url"]
+            ["Virtual Advance", "https://lisdtx.instructure.com/courses/148033"],
+            ["Symphonic Band", "https://lisdtx.instructure.com/courses/144974"]
         ]
 
     },
@@ -1879,7 +1884,8 @@ var staff = {
         "plc": "ipc",
         "area": "temp",
         "classes": [
-            ["missing", "url"],
+            ["Aquatic Science", "https://lisdtx.instructure.com/courses/149872"],
+            ["IPC", "https://lisdtx.instructure.com/courses/136130"],
         ]
 
     },
@@ -2129,6 +2135,36 @@ var staff = {
 
     },
 
+    "kauzlarich": {
+        "firstName": "Trisha ",
+        "lastName": "Kauzlarich",
+        "plc": "resource",
+        "area": "temp",
+        "classes": [
+            ["Social Skills", "https://lisdtx.instructure.com/courses/151301"],
+            ["World Hist", "https://lisdtx.instructure.com/courses/154721"],
+            ["IPC", "https://lisdtx.instructure.com/courses/151272"],
+            ["ENV SYS", "https://lisdtx.instructure.com/courses/151258"],
+            ["Alg 2", "https://lisdtx.instructure.com/courses/151252"],
+            ["Geom", "https://lisdtx.instructure.com/courses/151270"],
+            ["Math Models", "https://lisdtx.instructure.com/courses/151254"],
+            ["Health", "https://lisdtx.instructure.com/courses/154620"],
+            ["PE", "https://lisdtx.instructure.com/courses/155602"],
+        ]
+
+    },
+
+    "taylorK": {
+        "firstName": "Kristi ",
+        "lastName": "Taylor",
+        "plc": "library",
+        "area": "temp",
+        "classes": [
+            ["Library Website", "https://www.hebronhighlibrary.com/"],
+            ["Orientation Video", "https://www.youtube.com/watch?v=XbBZ5AJZefg&t=60s"]
+        ]
+
+    },
 
 
 

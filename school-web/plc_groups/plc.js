@@ -227,9 +227,9 @@ var plc = {
 
     "vworldhistory": {
         "title": "Virtual World History",
-        "blurb": `Jeff Hill- 6th Year at Hebron, teaches World History and is the Offensive Coordinator for The HHS Football Team
-        Chad Prock- 6th year at Hebron, teaches World History, World War II, and US Government 
-        Sarah Adams – 1st year at Hebron, teaches World History and JV Cheer Coach`,
+        "blurb": `Jeff Hill- 6th Year at Hebron and is the Offensive Coordinator for The HHS Football.
+        Chad Prock- 6th year at Hebron. 
+        Sarah Adams – 1st year at Hebron and JV Cheer Coach`,
         "area": "social"
     },
 
@@ -290,7 +290,7 @@ var plc = {
 
     "lifeskills": {
         "title": "Life Skills",
-        "blurb": "The Life Skills team is compiled of veteran teachers and paraprofessionals that are passionate about meeting the needs of ALL students.  From student  ran businesses, Vocational opportunities in the community,  challenging academic and Life Skill instruction,  Circle of Friends and numerous other experiences that help our students achieve their goals, our Life Skills staff is one of the best in LISD!",
+        "blurb": "The Life Skills team is compiled of veteran teachers and paraprofessionals that are passionate about meeting the needs of ALL students.  From student  ran businesses, Vocational opportunities in the community,  challenging academic and Life Skill instruction, and Circle of Friends!",
         "area": "electives"
     },
 
@@ -303,6 +303,12 @@ var plc = {
     "training": {
         "title": "Athletic Training",
         "blurb": "This course is an in-depth study of athletic injuries with the purpose of introducing students to the profession of Athletic Training and Sports Medicine.  We use this class as a recruiting tool for Athletic Training Student Aides (ATSA); however your student taking this course does NOT have to become an ATSA.",
+        "area": "electives"
+    },
+
+    "library": {
+        "title": "HHS Library",
+        "blurb": "Welcome to the 20-21 school year! Please find links to our website and orientation video.",
         "area": "electives"
     },
 
