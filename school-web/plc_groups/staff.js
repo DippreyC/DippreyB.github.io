@@ -977,7 +977,7 @@ var staff = {
         "plc": "chem",
         "area": "science",
         "classes": [
-            ["missing links", "url"],
+            ["V Chemistry", "https://lisdtx.instructure.com/courses/143513"],
         ]
 
     },
@@ -2177,6 +2177,16 @@ var staff = {
 
     },
 
+    "cowgill": {
+        "firstName": "CJ ",
+        "lastName": "Cowgill",
+        "plc": "health",
+        "area": "temp",
+        "classes": [
+            ["Tennis", "https://lisdtx.instructure.com/courses/126930"]
+        ]
+
+    },
 
 }
 

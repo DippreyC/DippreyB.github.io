@@ -154,7 +154,7 @@ var plc = {
     },
 
     "health": {
-        "title": "Health & Leaership",
+        "title": "Health, Leaership, & PE",
         "blurb": "Welcome to Virtual Health! In this virtual class we will be using Edgeunity to learn how to live a healthy mental and physical life. This course is structured to be self paced with certain due dates throughout the nine weeks.",
         "area": "electives"
     },
@@ -311,6 +311,7 @@ var plc = {
         "blurb": "Welcome to the 20-21 school year! Please find links to our website and orientation video.",
         "area": "electives"
     },
+
 
 
 
