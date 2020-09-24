@@ -138,7 +138,7 @@ h1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 50%;
+	width: 40%;
 }
 .staff-name{
 	margin-top: 5px;
@@ -150,7 +150,7 @@ h1{
 	flex-direction: column;
 	align-items: center;
 	margin-left: 10px;
-	width: 50%;
+	width: 60%;
 	
 }
 
@@ -173,7 +173,7 @@ h1{
 	background-color:  #2A51A3;
 	padding: 10px;
 	color: white;
-	width: 80%;
+	width: 100%;
 	
 	text-align: center;
 	text-decoration: none;
