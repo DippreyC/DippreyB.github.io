@@ -62,7 +62,7 @@ var plc = {
          "area" :"science"
     },
 
-    "chemap": {
+    "apchem": {
         "title": "AP Chemistry",
         "blurb": "AP Chemistry is a college level course that investigates college inorganic chemistry. If you are lucky enough to be in person, you will experience hands-on laboratory investigations and learn how to manipulate equipment used in chemistry research in the real world.",
          "area" :"science"

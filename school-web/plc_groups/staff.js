@@ -997,7 +997,7 @@ var staff = {
     "hunt2": {
         "firstName": "Gale ",
         "lastName": "Hunt",
-        "plc": "chemap",
+        "plc": "apchem",
         "area": "science",
         "classes": [
             ["Chemistry PAP", "https://lisdtx.instructure.com/courses/151183"],
@@ -1009,7 +1009,7 @@ var staff = {
     "boyd2": {
         "firstName": "Kerri ",
         "lastName": "Boyd",
-        "plc": "chemap",
+        "plc": "apchem",
         "area": "science",
         "classes": [
             ["Chemistry PAP", "https://lisdtx.instructure.com/courses/143492"],
@@ -1021,7 +1021,7 @@ var staff = {
     "holley": {
         "firstName": "Dr. Kathleen ",
         "lastName": "Holley",
-        "plc": "chemap",
+        "plc": "apchem",
         "area": "science",
         "classes": [
             ["V Physics PAP", "https://lisdtx.instructure.com/courses/143537"],
@@ -1379,7 +1379,7 @@ var staff = {
     },
 
 
-    "anderson": {
+    "andersonZ": {
         "firstName": "Zach ",
         "lastName": "Anderson",
         "plc": "finearts",
@@ -2166,6 +2166,16 @@ var staff = {
 
     },
 
+    "doherty": {
+        "firstName": "Linda ",
+        "lastName": "Doherty",
+        "plc": "lifeskills",
+        "area": "temp",
+        "classes": [
+            ["Life Skills","https://lisdtx.instructure.com/courses/102378/pages/welcome-to-life-skills-2020-2021"]
+        ]
+
+    },
 
 
 }
