@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#library-wrapper {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.book-card {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.book-card img{
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+    
+}

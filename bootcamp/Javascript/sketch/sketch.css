@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.cell-active{
+    background-color: black;
+}
+
+#options-panel {
+    padding-top: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 300px;
+    width: 100%;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+}
+
+#sketch-wrapper {
+    margin-top: 50px;
+    max-width: 100%;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
