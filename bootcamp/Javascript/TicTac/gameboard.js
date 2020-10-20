@@ -26,13 +26,11 @@ const gameBoard = (() => {
             return diagonalValue;
         else if(!board.includes("empty"))
             return "draw";
-        else return "keep playing";
-        
     }
 
     const checkRows = () => {
         for(let i = 0; i <= 6; i+=3){
-            if(board[i] != "empty" && board[i+1] == board[i+2] && board[i] == board[i+1])
+            if(board[i] != "empty" && board[i+1] === board[i+2] && board[i] === board[i+1] && board[i] === board[i+2])
                 return board[i];
         }
 
@@ -49,9 +47,9 @@ const gameBoard = (() => {
     }
     
     const checkDiag = () => {
-        if(board[0] != "empty" && board[4] == board[8] && board[0] == board[4])
+        if(board[0] != "empty" && board[4] === board[8] && board[0] === board[4] && board[0] ===board[8])
             return board[0];
-        if(board[2] != "empty" && board[4] == board[6] && board[0] == board[2])
+        if(board[2] != "empty" && board[4] === board[6] && board[4] === board[2] && board[2] ===board[6])
             return board[2];
         
             return "n";

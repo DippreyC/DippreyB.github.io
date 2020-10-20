@@ -10,4 +10,4 @@ const Player = (name,symbol,number) => {
     return {setName,getName,getSymbol,getNumber};
 }
 
-const player1 = Player("caine","Z",1);
+
