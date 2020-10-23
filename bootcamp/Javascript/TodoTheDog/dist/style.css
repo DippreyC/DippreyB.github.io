@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 10px;
+}
+.projects-header{
+    font-size: 20px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.project-title{
+    padding: 10px;
+}
+.active-project{
+    background-color: white;
+}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding:10px;
+}
