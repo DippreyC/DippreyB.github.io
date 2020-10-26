@@ -5,21 +5,20 @@ class Application {
     constructor(){
         this.currentProjectIndex = 0;
         this.projects = [];
-
         this.addProject("Path of Exile");
         this.addProject("World of Warcraft");
-        this.renderApplication();
-        this.addDefaultTasks();
-        
         this.setActiveProject(0);
+        this.addDefaultTasks();
+        this.renderApplication();
     }
 
     renderApplication() {
-        this.renderSideBar()
+        this.renderProjects()
         this.renderTasks();
     }
 
-    renderSideBar(){
+    renderProjects(){
+        this.clearProjects();
         this.projects.forEach((project) => {
             new DomFactory(project).renderElement();
         })
@@ -35,17 +34,33 @@ class Application {
     addProject(title) {
         const newProject = new Project(title);
         this.projects.push(newProject);
+        this.renderProjects();
+    }
+
+    removeProject(index){
+        this.projects.splice(index,1);
+        console.log(this.projects);
+        this.currentProjectIndex = 0;
+        this.setActiveProject(0);
     }
 
     setActiveProject(index){
-        this.clearTasks()
+        this.clearTasks();
+        this.projects[this.currentProjectIndex].active = false;
         this.currentProjectIndex = index;
+        this.projects[this.currentProjectIndex].active = true;
+        this.renderProjects();
         this.renderTasks();
     }
+
 
     clearTasks(){
         document.getElementById("tasks").innerHTML = "";
     }
+    clearProjects(){
+        document.getElementById("projects").innerHTML ="";
+    }
+
 
     addDefaultTasks(){
         this.projects[0].addTask("Get exalted orbs.","Farm heist for more orbs",false,"10/23/2020","10/24/2020");
