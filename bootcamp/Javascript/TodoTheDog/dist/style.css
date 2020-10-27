@@ -1,17 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #projects-wrapper {
     display: flex;
     flex-direction: column;
-    
-    background-color: rgba(0, 0, 0, 0.2);
-    
+    color: #16697A;
     padding: 10px;
+    width: 25%;
+    min-width: 300px;
 }
 .projects-header{
     width: 100%;
@@ -22,6 +25,13 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#projects-header-title{
+    cursor: pointer;
+    display: flex;
+}
+#projects-header-title:hover{
+    transform: scale(1.1);
+}
 #add-project-btn{
     padding-top: 2.5px;
     padding-bottom: 2.5px;
@@ -31,44 +41,117 @@ body{
 }
 #add-project-btn:hover {
     background-color: rgba(0, 0, 0, 0.2);
-    
+    cursor: pointer;
 }
 #projects {
-    display: flex;
+    display: none;
     flex-direction: column;
-
 }
-.project-title{
+.projects-hidden{
+    display: flex !important;
+    animation: drop-down 300ms ease-in-out forwards;
+}
+
+@keyframes drop-down{
+    0%{
+       transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.project{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    color: #82C0CC;
     align-items: center;
+}
+.project:hover{
+   transform: scale(1.1);
+   transition: .25s;
+}
+.project:hover .project-remove-btn{
+    visibility: visible;
 }
 .project-name{
     padding: 20px;
+    width: 100%;
+    cursor: pointer;
 }
-
 .project-remove-btn{
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
     border-radius: 20%;
+    cursor: pointer;
+    visibility: hidden;
+}
+.project-remove-btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.active-project{
+    color: #FFA62B;
+}
+.active-project:hover {
+    color:rgba(255, 166, 43,0.7);
 }
 
-.active-project{
-    background-color: white;
+
+#tasks-wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
 }
+#tasks-header{
+    align-self: center;
+}
+
 #tasks {
     display: flex;
     flex-direction: column;
-    padding:10px;
+    
+}
+.task {
+    min-height: 50px;
+    outline: 1px solid black;
+    width: 100%;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.task-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.task-content-column{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.task-btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.task-btns i{
+    margin-left: 10px;
+}
+.task-completion-bar {
+    background-color: salmon;
+    height: 10px;
     width: 100%;
 }
-.task-title {
-    min-height: 50px;
-    padding: 10px;
-    outline: 1px solid black;
-    width: 50%;
+.task-completed {
+    background-color: palegreen;
 }
+
+
+
 
 
 .modal{
@@ -81,6 +164,7 @@ body{
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
+    
 }
 
 .modal-content{

@@ -6,6 +6,7 @@ class Project{
         this.title = title;
         this.tasks = [];
         this.active = false;
+        this.loaded = false;
     }
 
     addTask(title,description,status,startDate,endDate){

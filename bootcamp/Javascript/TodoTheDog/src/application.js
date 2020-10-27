@@ -7,20 +7,22 @@ class Application {
         this.projects = [];
         this.addProject("Path of Exile");
         this.addProject("World of Warcraft");
-        this.setActiveProject(0);
+        
         this.addDefaultTasks();
         this.renderApplication();
+        this.setActiveProject(0);
     }
 
     renderApplication() {
         this.renderProjects()
-        this.renderTasks();
+        //this.renderTasks();
     }
 
     renderProjects(){
-        this.clearProjects();
+        //this.clearProjects();
         this.projects.forEach((project) => {
             new DomFactory(project).renderElement();
+            project.loaded = true;
         })
     }
 
@@ -35,22 +37,32 @@ class Application {
         const newProject = new Project(title);
         this.projects.push(newProject);
         this.renderProjects();
+        if(this.projects.length == 1)
+            this.setActiveProject(0);
     }
 
     removeProject(index){
+        
+        new DomFactory(this.projects[index]).removeElement();
         this.projects.splice(index,1);
-        console.log(this.projects);
         this.currentProjectIndex = 0;
-        this.setActiveProject(0);
+        if(this.projects.length < 1){
+            this.clearTasks();
+        }
+        else this.setActiveProject(0);
     }
 
     setActiveProject(index){
         this.clearTasks();
         this.projects[this.currentProjectIndex].active = false;
+        document.getElementsByClassName("project")[this.currentProjectIndex].classList.remove("active-project");
+        
         this.currentProjectIndex = index;
         this.projects[this.currentProjectIndex].active = true;
-        this.renderProjects();
+        document.getElementsByClassName("project")[this.currentProjectIndex].classList.toggle("active-project");
         this.renderTasks();
+        document.getElementById("tasks-header").innerHTML = this.projects[this.currentProjectIndex].title;
+
     }
 
 
@@ -73,15 +85,3 @@ class Application {
 
 export default Application;
 
-/* setActiveProject should be called from index.html as part of an event listener.
-   When called should remove the current existing active-project class and add it to the clicked element
-   
-   render tasks should be passed a Project.
-
-   eventListener(click, (e) => {
-       clickedProject = e.target;
-       getClass or ID of clickedProject.
-       passID to setActiveProject
-   })
-
-*/

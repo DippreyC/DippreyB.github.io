@@ -10,7 +10,7 @@ window.addEventListener("load", function(e){
     document.getElementById("projects").addEventListener("click", function(e){
         
         var index = Array.prototype.indexOf.call(this.children, e.target.parentNode);
-        console.log(e.target);
+        
 
         if(e.target.classList.contains("project-name")){
             application.setActiveProject(index);
@@ -26,7 +26,9 @@ window.addEventListener("load", function(e){
 
     //open modal window event
     document.getElementsByClassName("projects-header")[0].addEventListener("click", function(e){
-        if(e.target.id = "add-project-btn"){
+
+        
+        if(e.target.id == "add-project-btn"){
             const modal = document.getElementById("myModal");
             const closeModal = document.getElementsByClassName("modal-close")[0];
             const modalSubmit = document.getElementById("project-submit-btn");
@@ -48,14 +50,27 @@ window.addEventListener("load", function(e){
 
 
         }
+
+        if(e.target.id == "projects-header-title" || e.target.classList.contains("material-icons")){
+            console.log("hiding projects");
+            document.getElementById("projects").classList.toggle("projects-hidden");
+        }
         
     });
 
 
 
+    document.getElementById("tasks").addEventListener("click",function(e){
+        console.log(e.target)
+        //when target is check btn, edit task status for task object in project.
+        //add completed class to closest completion bar.
+        //write complete task method in application
+
+    });
+
+    
+
 });
-
-
 /*
 const testProject = new Project("Test Project");
 testProject.addTask("caine","please work",false,"10/20/22","10/40/12");
