@@ -1,23 +1,21 @@
 class Task {
-    constructor(title,description,status,startDate,endDate){
+    constructor(title,description,complete,endDate){
         this.className = "Task";
         this.title = title;
         this.description = description;
-        this.status = status;
-        this.startDate =startDate;
+        this.complete = complete;
         this.endDate = endDate;
     }
 
     updateFields(title,description,status,startDate,endDate){
         this.title = title;
         this.description = description;
-        this.status = status;
-        this.startDate =startDate;
+        this.complete = status;
         this.endDate = endDate;
     }
 
     completeTask(){
-        this.status = true;
+        this.complete = true;
     }
 }
 

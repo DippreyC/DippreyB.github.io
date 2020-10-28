@@ -6,21 +6,39 @@ const application = new Application();
 
 
 window.addEventListener("load", function(e){
+
+    //set Header to current project
+    document.querySelector("#tasks-header").innerHTML = document.querySelector(".active-project").innerHTML;
     
+
+    //rewrite all this shit
     document.getElementById("projects").addEventListener("click", function(e){
-        
-        var index = Array.prototype.indexOf.call(this.children, e.target.parentNode);
-        
+        const project = e.target.parentNode;
+        const index = Array.prototype.indexOf.call(this.children, project);
 
         if(e.target.classList.contains("project-name")){
+            if(this.children.length > 0)
+                this.querySelector(".active-project").classList.toggle("active-project");
+            project.classList.toggle("active-project");
             application.setActiveProject(index);
         }
 
-        if(e.target.classList.contains("project-remove-btn")){
+        if(e.target.classList.contains("project-remove-btn") && this.children.length > 1){
+            
+            if(project.classList.contains("active-project")){
+                project.remove();
+                if(this.children.length > 0)
+                this.querySelector(".project").classList.add("active-project");
+            }
+            else project.remove();
+            
             application.removeProject(index);
         }
-
         
+        
+        //if(this.children.length > 0)
+        document.querySelector("#tasks-header").innerHTML = document.querySelector(".active-project").innerHTML;
+        //else document.querySelector("#tasks-header").innerHTML = "Create a project!"
     });
 
 
@@ -42,7 +60,7 @@ window.addEventListener("load", function(e){
                 }
                 if(e.target == modalSubmit){
                     modal.style.display = "none";
-                    application.addProject(modalInput.value);
+                    application.addProject(modalInput.value,false);
                     modalInput.value = "";
                    
                 }
@@ -59,14 +77,82 @@ window.addEventListener("load", function(e){
     });
 
 
-
     document.getElementById("tasks").addEventListener("click",function(e){
-        console.log(e.target)
-        //when target is check btn, edit task status for task object in project.
-        //add completed class to closest completion bar.
-        //write complete task method in application
 
+        const parentTask = e.target.closest(".task");
+        const index = Array.prototype.indexOf.call(this.children, parentTask);
+
+        function getTaskElement(selector){
+            return parentTask.querySelector(selector);
+        }
+
+        const taskContent = getTaskElement(".task-content");
+        const taskName = getTaskElement(".task-name");
+        const taskDescription = getTaskElement(".task-description");
+        const taskEndDate =  getTaskElement(".task-end-date");
+        const taskBtns = getTaskElement(".task-btns");
+        
+        const inputForm = getTaskElement(".task-input-form");
+        const nameInput = getTaskElement(".task-name-input");
+        const descriptionInput =  getTaskElement(".task-description-input");
+        const endDateInput = getTaskElement(".task-end-date-input");
+        
+        const completionBar = getTaskElement(".task-completion-bar");
+        
+        
+        if(e.target.classList.contains("task-complete-btn")){
+            completionBar.classList.toggle("task-completed");
+            application.completeTask(index); //need to update object prop
+        }
+
+        if(e.target.classList.contains("task-input-close-btn")){ 
+            //hide input form
+            inputForm.style.display = "none";
+            //show content and buttons
+            taskContent.style.display = "flex";
+            taskBtns.style.display = "flex";
+            //reset values to match Task obj props
+            const taskData = application.getTask(index);
+            nameInput.value = taskData.title;
+            descriptionInput.innerHTML = taskData.description;
+            endDateInput.value = taskData.endDate;
+        }
+
+        if(e.target.classList.contains("task-edit-btn")){
+            //show input form 
+            inputForm.style.display = "block";
+            //hide content
+            taskContent.style.display = "none";
+            taskBtns.style.display = "none";
+        }
+
+        if(e.target.classList.contains("task-input-submit-btn")){ 
+            const taskData = application.getTask(index);
+            //update object props
+            taskData.title = nameInput.value;
+            taskData.description = descriptionInput.value;
+            taskData.endDate = endDateInput.value;
+            //display new props in dom
+            taskName.innerHTML = taskData.title;
+            taskDescription.innerHTML = taskData.description;
+            taskEndDate.innerHTML = taskData.endDate;
+            //show & hide elements
+            taskContent.style.display = "flex";
+            taskBtns.style.display = "flex";
+            inputForm.style.display = "none";
+        }
+        
     });
+
+
+    Array.from(document.getElementsByClassName("task-input-form")).forEach(form => {
+        form.addEventListener("submit",function(e) {
+            e.preventDefault();
+        })
+        
+    });
+
+    
 
     
 
@@ -84,3 +170,5 @@ projectElement.renderElement();
 
 
 // on load renderApp()
+
+            

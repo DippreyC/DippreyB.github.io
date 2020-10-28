@@ -1,11 +1,11 @@
 import Task from './task';
 
 class Project{
-    constructor(title){
+    constructor(title, active){
         this.className = "Project";
         this.title = title;
         this.tasks = [];
-        this.active = false;
+        this.active = active;
         this.loaded = false;
     }
 

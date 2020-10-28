@@ -21,12 +21,35 @@ class DomFactory{
                 </div>
             </div>
             <div class="task-btns">
-                <i class="material-icons task-remove-btn">check</i>
-                <i class="material-icons task-remove-btn">edit</i>
+                <i class="material-icons task-complete-btn">check</i>
+                <i class="material-icons task-edit-btn">edit</i>
                 <i class="material-icons task-remove-btn">delete</i>
             </div>
-            <div class="task-completion-bar">
+
+            <form class="task-input-form">
+                <div class="task-content form-content">
+                    <div class="task-content-column">
+                    <label for="title-input">Task</label>
+                        <input class="task-name-input" name="title-input" type="text" value="${this.element.title}"></input>
+                        <label for="title-input">Description</label>
+                        <textarea class="task-description-input" type="text-area"> ${this.element.description}</textarea>
+                    </div>
+                    <div class="task-content-column">
+                        <div class="task-completed-by">Complete by:</div>
+                        <input class="task-end-date-input" type="date" value="${this.element.endDate}">
+                    </div>
+                </div>
+                <div class="task-btns">
+                    <submit class="material-icons task-input-submit-btn">edit</submit>
+                    <i class="material-icons task-input-close-btn">close</i>
+                    
+                </div>
+            </form>
+
+            <div class="task-completion-bar ${this.element.complete ? "task-completed": ""}">
             </div>
+
+            
             `;
 
             newDiv.classList.add("task")

@@ -5,8 +5,8 @@ class Application {
     constructor(){
         this.currentProjectIndex = 0;
         this.projects = [];
-        this.addProject("Path of Exile");
-        this.addProject("World of Warcraft");
+        this.addProject("Path of Exile",true);
+        this.addProject("World of Warcraft",false);
         
         this.addDefaultTasks();
         this.renderApplication();
@@ -19,7 +19,6 @@ class Application {
     }
 
     renderProjects(){
-        //this.clearProjects();
         this.projects.forEach((project) => {
             new DomFactory(project).renderElement();
             project.loaded = true;
@@ -33,8 +32,8 @@ class Application {
         })
     }
 
-    addProject(title) {
-        const newProject = new Project(title);
+    addProject(title,active) {
+        const newProject = new Project(title,active);
         this.projects.push(newProject);
         this.renderProjects();
         if(this.projects.length == 1)
@@ -43,7 +42,7 @@ class Application {
 
     removeProject(index){
         
-        new DomFactory(this.projects[index]).removeElement();
+        //new DomFactory(this.projects[index]).removeElement();
         this.projects.splice(index,1);
         this.currentProjectIndex = 0;
         if(this.projects.length < 1){
@@ -55,14 +54,18 @@ class Application {
     setActiveProject(index){
         this.clearTasks();
         this.projects[this.currentProjectIndex].active = false;
-        document.getElementsByClassName("project")[this.currentProjectIndex].classList.remove("active-project");
-        
         this.currentProjectIndex = index;
         this.projects[this.currentProjectIndex].active = true;
-        document.getElementsByClassName("project")[this.currentProjectIndex].classList.toggle("active-project");
         this.renderTasks();
-        document.getElementById("tasks-header").innerHTML = this.projects[this.currentProjectIndex].title;
+    }
 
+    completeTask(index){
+        const task = this.projects[this.currentProjectIndex].tasks[index];
+        task.complete = !task.complete;
+    }
+
+    getTask(index){
+        return this.projects[this.currentProjectIndex].tasks[index];
     }
 
 
@@ -75,11 +78,11 @@ class Application {
 
 
     addDefaultTasks(){
-        this.projects[0].addTask("Get exalted orbs.","Farm heist for more orbs",false,"10/23/2020","10/24/2020");
-        this.projects[0].addTask("Level golemancer","Get to level 70",false,"10/23/2020","10/24/2020");
-        this.projects[1].addTask("Get 2.5 helm on warlock.","No idols needed, just go to AQ40.",false,"10/24/2020","10/25/2020");
-        this.projects[1].addTask("ZG GDKP","Buy idol at all costs",false,"10/24/2020","10/25/2020");
-        this.projects[1].addTask("Level hunter","For fun yo",false,"10/24/2020","10/25/2020");
+        this.projects[0].addTask("Get exalted orbs.","Farm heist for more orbs",false,"2020-10-24");
+        this.projects[0].addTask("Level golemancer","Get to level 70",false,"2020-10-24");
+        this.projects[1].addTask("Get 2.5 helm on warlock.","No idols needed, just go to AQ40.",false,"2020-10-24");
+        this.projects[1].addTask("ZG GDKP","Buy idol at all costs",false,"2020-10-24");
+        this.projects[1].addTask("Level hunter","For fun yo",false,"2020-10-24");
     }
 }
 
