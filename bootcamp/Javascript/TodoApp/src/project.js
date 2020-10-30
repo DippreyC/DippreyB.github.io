@@ -9,8 +9,8 @@ class Project{
         this.loaded = false;
     }
 
-    addTask(title,description,status,startDate,endDate){
-        const newTask = new Task(title,description,status,startDate,endDate);
+    addTask(title,description,complete,endDate){
+        const newTask = new Task(title,description,complete,endDate);
         this.tasks.push(newTask);
     }
 

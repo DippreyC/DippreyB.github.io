@@ -32,7 +32,7 @@ class DomFactory{
                     <label for="title-input">Task</label>
                         <input class="task-name-input" name="title-input" type="text" value="${this.element.title}"></input>
                         <label for="title-input">Description</label>
-                        <textarea class="task-description-input" type="text-area"> ${this.element.description}</textarea>
+                        <textarea class="task-description-input" rows="5"> ${this.element.description}</textarea>
                     </div>
                     <div class="task-content-column">
                         <div class="task-completed-by">Complete by:</div>
@@ -56,7 +56,7 @@ class DomFactory{
         }
         if(this.element.hasOwnProperty("className") && this.element.className === "Project"){
             this.parentDiv = document.getElementById("projects");
-            newDiv.innerHTML = `<div class="project-name">${this.element.title}</div><i class="material-icons project-remove-btn">delete</i>`;
+            newDiv.innerHTML = `<i class="material-icons project-remove-btn">delete</i><div class="project-name">${this.element.title}</div>`;
             newDiv.classList.add(`project`);
             if(this.element.active) newDiv.classList.add("active-project");
         }

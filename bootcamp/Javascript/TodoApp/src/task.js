@@ -7,10 +7,10 @@ class Task {
         this.endDate = endDate;
     }
 
-    updateFields(title,description,status,startDate,endDate){
+    updateFields(title,description,complete,endDate){
         this.title = title;
         this.description = description;
-        this.complete = status;
+        this.complete = complete;
         this.endDate = endDate;
     }
 

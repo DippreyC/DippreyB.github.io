@@ -41,8 +41,6 @@ class Application {
     }
 
     removeProject(index){
-        
-        //new DomFactory(this.projects[index]).removeElement();
         this.projects.splice(index,1);
         this.currentProjectIndex = 0;
         if(this.projects.length < 1){
@@ -66,6 +64,17 @@ class Application {
 
     getTask(index){
         return this.projects[this.currentProjectIndex].tasks[index];
+    }
+
+    removeTask(index){
+        
+        this.projects[this.currentProjectIndex].tasks.splice(index,1);
+        console.log("Removed a task: ", this.projects[this.currentProjectIndex].tasks)
+    }
+
+    addTask(title,description,endDate){
+        this.projects[this.currentProjectIndex].addTask(title,description,false,endDate);
+        console.log(this.projects[this.currentProjectIndex]);
     }
 
 

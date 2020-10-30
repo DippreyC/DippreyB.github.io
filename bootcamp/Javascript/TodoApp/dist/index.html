@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Todo App</title>
+</head>
+
+<body>
+  <div id="banner">To-Do App</div>
+  <div id="projects-wrapper">
+
+    <div class="projects-header">
+      <i id="add-project-btn" class="material-icons">add</i>
+      <div id="projects-header-title">Projects<span class="material-icons">keyboard_arrow_down</span></div> 
+    </div>
+    <div id="projects" class="projects-hidden">
+
+
+    </div>
+  </div>
+
+  <div id="tasks-wrapper">
+    <div id="tasks-header"></div>
+    <div id="tasks">
+
+    </div>
+
+    <div id="new-task-wrapper">
+
+      <div id="new-task-title">Create a new task! <i class="material-icons new-task-open-btn">add</i></div>
+
+      <div class="task-content form-content" style="display: none;">
+        <div class="task-content-column">
+          <label for="title-input">Task</label>
+          <input class="task-name-input" name="title-input" type="text" value=""></input>
+          <label for="task-description-input">Description</label>
+          <textarea class="task-description-input" type="text-area"></textarea>
+        </div>
+        <div class="task-content-column">
+          <div class="task-completed-by">Complete by:</div>
+          <input class="task-end-date-input" type="date" value="">
+        </div>
+      </div>
+      <div class="task-btns" style="display: none;">
+        <submit class="material-icons new-task-submit-btn">add</submit>
+        <i class="material-icons new-task-close-btn">close</i>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      
+      <div>New Project:&nbsp;</div> <input type="text" id="project-name-input" autocomplete="off" required>
+      <i class="material-icons" id="project-submit-btn" >check</i>
+      <i class="modal-close material-icons">close</i>
+    </div>
+
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

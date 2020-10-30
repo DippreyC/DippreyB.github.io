@@ -77,6 +77,7 @@ window.addEventListener("load", function(e){
     });
 
 
+    //Task button events
     document.getElementById("tasks").addEventListener("click",function(e){
 
         const parentTask = e.target.closest(".task");
@@ -141,9 +142,61 @@ window.addEventListener("load", function(e){
             taskBtns.style.display = "flex";
             inputForm.style.display = "none";
         }
+
+        if(e.target.classList.contains("task-remove-btn")){
+            //remove task from project props
+            application.removeTask(index);
+            parentTask.remove();
+        }
         
     });
 
+    //New Task events
+
+    document.querySelector("#new-task-wrapper").addEventListener("click", function(e){
+
+        const newTaskWrapper = e.target.closest("#new-task-wrapper");
+        
+        if(e.target.classList.contains("new-task-open-btn")){
+            showNewTaskForm();
+        }
+
+        if(e.target.classList.contains("new-task-close-btn")){
+            hideNewTaskForm();
+            resetNewTaskForm();
+        }
+
+        if(e.target.classList.contains("new-task-submit-btn")){
+            const taskTitle = newTaskWrapper.querySelector(".task-name-input").value;
+            const taskDescription = newTaskWrapper.querySelector(".task-description-input").value;
+            const taskEndDate = newTaskWrapper.querySelector(".task-end-date-input").value;
+            application.addTask(taskTitle, taskDescription, taskEndDate);
+            application.clearTasks();
+            application.renderTasks();
+
+            hideNewTaskForm();
+            resetNewTaskForm();
+        }
+
+        function showNewTaskForm(){
+            newTaskWrapper.querySelector(".form-content").style.display = "flex";
+            newTaskWrapper.querySelector(".task-btns").style.display="flex";
+            newTaskWrapper.querySelector(".new-task-open-btn").style.display = "none";
+        }
+
+        function hideNewTaskForm(){
+            newTaskWrapper.querySelector(".form-content").style.display = "none";
+            newTaskWrapper.querySelector(".task-btns").style.display="none";
+            newTaskWrapper.querySelector(".new-task-open-btn").style.display = "block";
+        }
+
+        function resetNewTaskForm(){
+            newTaskWrapper.querySelector(".task-name-input").value = "";
+            newTaskWrapper.querySelector(".task-description-input").value = "";
+            newTaskWrapper.querySelector(".task-end-date-input").value = "";
+        }
+
+    });
 
     Array.from(document.getElementsByClassName("task-input-form")).forEach(form => {
         form.addEventListener("submit",function(e) {
@@ -157,18 +210,6 @@ window.addEventListener("load", function(e){
     
 
 });
-/*
-const testProject = new Project("Test Project");
-testProject.addTask("caine","please work",false,"10/20/22","10/40/12");
 
-
-const projectElement = new DomFactory(testProject);
-projectElement.renderElement();
-*/
-
-
-
-
-// on load renderApp()
 
             
