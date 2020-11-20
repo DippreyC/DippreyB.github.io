@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+#personal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+#personalName {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+input {
+    text-align: center;
+}
