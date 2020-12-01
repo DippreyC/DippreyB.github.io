@@ -14,11 +14,14 @@ const App = () => {
  
  const runApp = async () => {
   let classifier =  ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/m68awb2T0/model.json',modelLoaded);
-  detect(classifier);
- }
+  setInterval( () => {
+    detect(classifier);
+  }, 100
+  )
+}
 
  const detect = async (classifier) => {
-    classifier.classify(document.querySelector("#img"), (err, results) =>{
+    classifier.classify(document.querySelector("#webcam"), (err, results) =>{
       console.log(results);
       //if(!err) setScannedCardName(getHighestConfidence(results).label);
   })
@@ -35,7 +38,7 @@ const App = () => {
   
   
   useEffect( () => {
-   
+   runApp();
 
   })   
 
@@ -44,6 +47,7 @@ const App = () => {
     <img src={queen} style={{width: "300px"}} alt="Queen Marchesa Pic" id="img"/>
     <div>{scannedCardName}</div>
     <Webcam
+          id="webcam"
           ref={webcamRef}
           muted={true} 
           style={{
