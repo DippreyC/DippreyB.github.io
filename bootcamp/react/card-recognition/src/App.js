@@ -16,7 +16,8 @@ const App = () => {
   let webCamAvailable = await getMediaStatus();
   
   let mediaElement = null;
-  if(!webCamAvailable.unmounted){
+  console.log(webCamAvailable.state);
+  if(webCamAvailable.state.hasUserMedia){
     console.log("camera running")
     mediaElement = document.querySelector("#webcam");
     setInterval( () => {
@@ -26,7 +27,7 @@ const App = () => {
   }
   else{
     console.log("using pic")
-    mediaElement = document.querySelector("#webcam");
+    mediaElement = document.querySelector("#img");
     detect(classifier,mediaElement);
   }
 }
