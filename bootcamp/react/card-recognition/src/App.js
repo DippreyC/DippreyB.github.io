@@ -51,7 +51,7 @@ const App = () => {
 
   useEffect( () => {
    runApp();
-  })   
+  },[])   
 
   return (
     <div id="webcam-container">
