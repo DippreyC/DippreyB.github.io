@@ -13,39 +13,40 @@ const App = () => {
  
  const runApp = async () => {
   let classifier =  ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/6_biR2NFv/model.json', ()=>{console.log("Model Loaded")});
-  console.log(webcamRef.current)
-  if(webcamRef.current.state.hasUserMedia){
+  let webCamAvailable = await getMediaStatus();
+  
+  let mediaElement = null;
+  if(!webCamAvailable.unmounted){
     console.log("camera running")
+    mediaElement = document.querySelector("#webcam");
     setInterval( () => {
-      detect(classifier);
-    }, 100
+      detect(classifier,mediaElement);
+    }, 1000
     )
   }
   else{
     console.log("using pic")
-    classifier.classify(document.querySelector("#img"), (err,results) =>{
-      console.log(results);
-      let cardLabel = results[0].label;
-      let percentConfidence = results[0].confidence.toFixed(3)*100;
-      if(percentConfidence > 30)
-        setScannedCardName(cardLabel+" "+percentConfidence+"%");
-      else
-        setScannedCardName("Can't read card...");
-    });
+    mediaElement = document.querySelector("#webcam");
+    detect(classifier,mediaElement);
   }
 }
 
- const detect = async (classifier) => {
-    classifier.classify(document.querySelector("#webcam"), (err, results) =>{
-      console.log(results);
-      let cardLabel = results[0].label;
-      let percentConfidence = results[0].confidence.toFixed(3)*100;
+ const detect = async (classifier,mediaElement) => {
+    let cardLabel = "";
+    let percentConfidence = "";
+    classifier.classify(mediaElement, (err, results) =>{
+      cardLabel = results[0].label;
+      percentConfidence = results[0].confidence.toFixed(3)*100;
       if(percentConfidence > 30)
         setScannedCardName(cardLabel+" "+percentConfidence+"%");
       else
         setScannedCardName("Can't read card...");
-  })
+    })
  }
+
+const getMediaStatus = async () =>{
+  return webcamRef.current;
+}
 
   
 
