@@ -13,13 +13,16 @@ const App = () => {
  
  const runApp = async () => {
   let classifier =  ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/6_biR2NFv/model.json', ()=>{console.log("Model Loaded")});
-  if(!webcamRef.current.props.muted){
+  console.log(webcamRef.current)
+  if(webcamRef.current.state.hasUserMedia){
+    console.log("camera running")
     setInterval( () => {
       detect(classifier);
     }, 100
     )
   }
   else{
+    console.log("using pic")
     classifier.classify(document.querySelector("#img"), (err,results) =>{
       console.log(results);
       let cardLabel = results[0].label;
