@@ -1,21 +1,24 @@
 import React, { useEffect, useRef } from "react";
 import Webcam from "react-webcam";
 import * as ml5 from "ml5";
+import {ReactComponent as SwitchCameraSVG} from '../img/switch-camera.svg';
 
 const WebcamView = (props) => {
     const {setScannedCardName} = props;
     const webcamRef = useRef(null);
-    const cameraInterval = null;
+    const [facingMode, setFacingMode] = React.useState("user");
+    let cameraInterval = null;
+    
+    
 
-    const runApp = async () => {
+    const runCamera = async () => {
         let classifier =  ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/6_biR2NFv/model.json', ()=>{console.log("Model Loaded")});
-        let mediaElement = null;
+        let mediaElement = document.querySelector("#webcam");
         if(true){
           console.log("camera running")
-          mediaElement = document.querySelector("#webcam");
-          setInterval( () => {
+          cameraInterval = setInterval( () => {
             detect(classifier,mediaElement);
-          }, 1000
+            }, 1000
           )
         }
     }
@@ -34,8 +37,17 @@ const WebcamView = (props) => {
      }
 
      useEffect( () => {
-        runApp();
+        runCamera();
+        return () => {
+            console.log("cleaning up...")
+            clearInterval(cameraInterval);
+        }
        },[]) 
+
+    const switchCameraClick = React.useCallback(() => {
+        setFacingMode( prevState => prevState === "user" ? "environment" : "user")
+        console.log("switched camera");
+    })
 
     const videoConstraints = {facingMode: { exact: "environment" }};
     return (
@@ -43,16 +55,15 @@ const WebcamView = (props) => {
         <Webcam
             id="webcam"
             ref={webcamRef}
-            muted={true} 
-            style={{
-            textAlign: "center",
-            zindex: 9,
-            width: "100%",
-            height: "100vh",
-            backgroundColor: "black",  
-            }}
-            videoConstraints={videoConstraints}
+            muted={true}
+            audio={false} 
+            videoConstraints={{facingMode: {facingMode}}}
         />
+        <SwitchCameraSVG 
+            id="switch-cam-btn"
+            onClick = {switchCameraClick}
+        />
+        
       </>
       )
 }
