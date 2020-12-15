@@ -1,10 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import Webcam from "react-webcam";
 import * as ml5 from "ml5";
-import {ReactComponent as SwitchCameraSVG} from '../img/switch-camera.svg';
+import {IoCameraReverseOutline} from 'react-icons/io5';
+import './Webcam.css';
 
 const WebcamView = (props) => {
-    const {setScannedCardName} = props;
+    const {setScannedCardName, scannedCardName} = props;
     const webcamRef = useRef(null);
     const [facingMode, setFacingMode] = React.useState("user");
     let cameraInterval = null;
@@ -47,9 +48,8 @@ const WebcamView = (props) => {
     const switchCameraClick = React.useCallback(() => {
         setFacingMode( prevState => prevState === "user" ? "environment" : "user")
         console.log("switched camera");
-    })
+    },[])
 
-    const videoConstraints = {facingMode: { exact: "environment" }};
     return (
     <>    
         <Webcam
@@ -59,10 +59,11 @@ const WebcamView = (props) => {
             audio={false} 
             videoConstraints={{facingMode: {facingMode}}}
         />
-        <SwitchCameraSVG 
+        <IoCameraReverseOutline 
             id="switch-cam-btn"
             onClick = {switchCameraClick}
         />
+        <div id="card-result">{scannedCardName}</div>
         
       </>
       )

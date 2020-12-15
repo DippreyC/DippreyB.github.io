@@ -1,8 +1,8 @@
 import React from "react";
-import WebcamView from './components/WebcamView';
+import WebcamView from './components/Webcam/WebcamView';
 import Navbar from './components/NavBar/Navbar';
 import {HashRouter as Router,Switch, Route} from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import './App.css';
 
 
@@ -14,10 +14,11 @@ const App = () => {
     <>
     <Router>
       <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/camera" render={(props) => (<WebcamView {...props} setScannedCardName={scannedCardName}/>)} />
-        </Switch>
+      
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/camera" render={(props) => (<WebcamView {...props} scannedCardName={scannedCardName} setScannedCardName={setScannedCardName}/>)} />
+      </Switch>
     </Router>
     </>
   );
