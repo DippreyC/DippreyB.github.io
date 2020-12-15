@@ -1,17 +1,24 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import WebcamView from './components/WebcamView';
+import Navbar from './components/NavBar/Navbar';
+import {HashRouter as Router,Switch, Route} from 'react-router-dom';
+import Home from './components/Home';
 import './App.css';
 
 
 
 const App = () => {
   const [scannedCardName,setScannedCardName] = React.useState("Scanning...");
-  const [webcamVisible, setWebcamVisibility] = React.useState(false);
 
   return (
     <>
-    {webcamVisible ? <WebcamView setScannedCardName={setScannedCardName}/> : <div>Webcam hidden</div>}
-    <button onClick={() => setWebcamVisibility(!webcamVisible)}>Show camera</button>
+    <Router>
+      <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/camera" render={(props) => (<WebcamView {...props} setScannedCardName={scannedCardName}/>)} />
+        </Switch>
+    </Router>
     </>
   );
 }

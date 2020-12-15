@@ -10,8 +10,11 @@
     "ml5": "^0.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-webcam": "^5.2.2",
+    "styled-components": "^5.2.1",
     "tesseract.js": "^2.1.4",
     "tfjs": "^0.6.0",
     "web-vitals": "^0.2.4"
