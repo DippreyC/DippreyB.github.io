@@ -69,7 +69,7 @@ const loadStaff = () => {
             staffDiv.classList.add("staff-profile");
             const staffHtml = `
                 <div class="staff-left">
-                    <img src="plc_pics/${lastName+firstName.trim().substring(0,1)}.jpg" class="staff-pic">
+                    <img src="plc_pics/${lastName.toLowerCase()+firstName.trim().substring(0,1)}.jpg" class="staff-pic">
                     <div class="staff-name">${firstName} ${lastName}</div>
                 </div>
                 <div class="staff-right">
