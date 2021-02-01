@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mtg-card-reader",
+  "private_key_id": "0f7990e6e9ad09e0de6fd892c5f994bbc9d157d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2agsqU0F3H7f1\nBwp5N498u4U9b+oFZDHwlM7DzpigViJG8cNp5th9OxHDWS+/vIKJG45D7z0yc0V3\npB3lIfgb4U5RMc0S3ecZ3xYajSkaZUGbXnmRmggUETIrpT9Cv5156eAS9tnWnFMf\nVaTBfKLrpKS4sQTudB7LKu5eBT7RLcTLH3G9oSqhSTc9p0Aa/FikyjsGfpqDoeVt\naSFHNA73gjITUbFzS13cTXG9kT/DcSxUVRSx1SB2rwPu321/O5yNV7nTN2dLvAQz\neZ8xJBvktUOJkhEBzJpmTEbi0yWf9vio9g25ZqqWfP0ncmHDGt+dDnnWKDwvcNC8\nEyRwHQZXAgMBAAECggEAAV626lpC62fqLZJTXZx+NmI0jcT4AMX2d6d82gzRXQe1\nYDHTbuMt8w4GtyBFv7t+geGA5jlQwCU/e1BY04fqx7YGEyc7/0B6MNnARIv7QaVL\nCQviy9lYgC+uecdwiMoABV9gfT2SkafagMMkgDnoaCHantlHGTQqdKPEGiHd8+id\nAiwu/a2lpO7QQhMgHI+Hev3bQVDrjOgDQZ7dlFf79j5/vzXJfRNs5TMC4xF/yoiG\n6kOU1wA3E2U37h1d61F1P9/z9dgOG2wLXGjc72zqlLmQmB5+wEhUNbTQpgqBNYms\nXTDSm9Z2Lt9aqqrmOD25d73Kaps+6e+llKGZ29IDIQKBgQD59PU1uj9sesv90DRQ\nRj0/4JnLz5UoMT9Kq/ztAT4Jpk/nLcAsFXdg2HBmDBHn5O+gv1YzAzY4A1B4j0E+\nnvzFvb+rW+AuUScHpixkDkBToKAqux86QoHiEMdb790oPgy8DJ8TXuKNO/MVYSS9\n6qCOyfW6IhedCPa107NNl0r5hwKBgQC60wxmHDk208LR+6gZf9e6kBtLIgQlVMv/\nvoz4qdd8uHWZldE8T09FMa6bTq7ZxtTXoJiSvPKAoWcCTmdYcNlUZrzcvrE6Sn8m\njI+gTe2pPujTRoxkVXWHh2/tuoA1vZ7Ebl5dJM3AfuARX1alBVc0FH8hEfcS1UF0\nviaUeCWAsQKBgQD1wAL+KfmFfE3nY7arXgOGNBrBqXvqolCp5+KqWlhWQG+6yN5x\n+UD/tIz9p8xLBGkc0EG9seCyvX92qNHq8YFwIRi7L39/ykXnXVezn9da4UfX+1W+\nf/kW/IwlNfVoRWlb0cTs1JNFbLWYRYRMPMxS1vmDYVV6DYASUOuu05rhLQKBgFtd\nLukY0FohwVrTiWe+/487Pj3GCuT+zSzq0SIiXUGfK9PKUqL93jRmkY9eMWBLPned\nEEBiqu2BAVE9aojz1zTRcXc6wo1RNVFy2CJ7OcjU/SOlkq7WpD19XJ2T4XNmoihK\nGVfP0ddbtNSKHWNicz0C8REJKh1JsVMYUuG0yBJhAoGAZkSAL5feT+4YeIkFYnFO\nL2ctqUivWDnp43xB+pFfFzxsadEzxzON3jJ9RWZg7eedE4hiD4vxeYnN77A9xjFJ\nVzffT79Mxb75nYh/HW1qGJrgBp77USAowZ9EVaWkwYXSs+9PVYc4O3S7fcZvGlaY\nGwYAIhPEo+qvJzlA+s11m4Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mtg-reader-key@mtg-card-reader.iam.gserviceaccount.com",
+  "client_id": "108511189783194277709",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mtg-reader-key%40mtg-card-reader.iam.gserviceaccount.com"
+}

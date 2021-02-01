@@ -1,0 +1,3553 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values"
+        },
+        "updated": {
+            "$t": "2021-01-11T16:27:41.453Z"
+        },
+        "category": [{
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+        }],
+        "title": {
+            "type": "text",
+            "$t": "Links"
+        },
+        "link": [{
+            "rel": "alternate",
+            "type": "application/atom+xml",
+            "href": "https://docs.google.com/spreadsheets/u/0/d/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/pubhtml"
+        }, {
+            "rel": "http://schemas.google.com/g/2005#feed",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values"
+        }, {
+            "rel": "http://schemas.google.com/g/2005#post",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values"
+        }, {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values?alt\u003djson"
+        }],
+        "author": [{
+            "name": {
+                "$t": "dippreyb"
+            },
+            "email": {
+                "$t": "dippreyb@staff.lisd.net"
+            }
+        }],
+        "openSearch$totalResults": {
+            "$t": "106"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [{
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cokwr"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Asmar, Sarah"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Algebra II, courselink: https://lisdtx.instructure.com/courses/141274"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cokwr"
+            }],
+            "gsx$name": {
+                "$t": "Asmar, Sarah"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Algebra II"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141274"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cpzh4"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Axelson, Mark"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: IP Algebra 2, courselink: https://lisdtx.instructure.com/courses/143478"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cpzh4"
+            }],
+            "gsx$name": {
+                "$t": "Axelson, Mark"
+            },
+            "gsx$coursetitle": {
+                "$t": "IP Algebra 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143478"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cre1l"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Axelson, Mark"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: IP Pre-Calculus, courselink: https://lisdtx.instructure.com/courses/141262"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cre1l"
+            }],
+            "gsx$name": {
+                "$t": "Axelson, Mark"
+            },
+            "gsx$coursetitle": {
+                "$t": "IP Pre-Calculus"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141262"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/chk2m"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Beimesch, James"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Pre-Ap Algebra 2, courselink: https://lisdtx.instructure.com/courses/141278"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/chk2m"
+            }],
+            "gsx$name": {
+                "$t": "Beimesch, James"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Pre-Ap Algebra 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141278"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ciyn3"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Beimesch, James"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Algebra 2, courselink: https://lisdtx.instructure.com/courses/141275"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ciyn3"
+            }],
+            "gsx$name": {
+                "$t": "Beimesch, James"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Algebra 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141275"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ckd7g"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Berry, Stephanie"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Technical Theatre 1, courselink: https://lisdtx.instructure.com/courses/135351"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ckd7g"
+            }],
+            "gsx$name": {
+                "$t": "Berry, Stephanie"
+            },
+            "gsx$coursetitle": {
+                "$t": "Technical Theatre 1"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/135351"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/clrrx"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Berry, Stephanie"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Technical Theatre, courselink: https://lisdtx.instructure.com/courses/148022"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/clrrx"
+            }],
+            "gsx$name": {
+                "$t": "Berry, Stephanie"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Technical Theatre"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/148022"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cyevm"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Bowling, Anne"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Aerobics, courselink: https://lisdtx.instructure.com/courses/114295"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cyevm"
+            }],
+            "gsx$name": {
+                "$t": "Bowling, Anne"
+            },
+            "gsx$coursetitle": {
+                "$t": "Aerobics"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/114295"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cztg3"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Bowling, Anne"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Virtual Dance 1, courselink: https://lisdtx.instructure.com/courses/144324"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cztg3"
+            }],
+            "gsx$name": {
+                "$t": "Bowling, Anne"
+            },
+            "gsx$coursetitle": {
+                "$t": "Virtual Dance 1"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/144324"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d180g"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Boyd, Kerri"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Chem Pap, courselink: https://lisdtx.instructure.com/courses/143494"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d180g"
+            }],
+            "gsx$name": {
+                "$t": "Boyd, Kerri"
+            },
+            "gsx$coursetitle": {
+                "$t": "Chem Pap"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143494"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d2mkx"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Boyd, Kerri"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: AP Chemistry R\u0026D, courselink: https://lisdtx.instructure.com/courses/126112"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d2mkx"
+            }],
+            "gsx$name": {
+                "$t": "Boyd, Kerri"
+            },
+            "gsx$coursetitle": {
+                "$t": "AP Chemistry R\u0026D"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126112"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cssly"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Brooking-Smith, Diana"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: US History, courselink: https://lisdtx.instructure.com/courses/126808"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cssly"
+            }],
+            "gsx$name": {
+                "$t": "Brooking-Smith, Diana"
+            },
+            "gsx$coursetitle": {
+                "$t": "US History"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126808"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cu76f"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Camille, Jackson"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V French 2, courselink: https://lisdtx.instructure.com/courses/140923"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cu76f"
+            }],
+            "gsx$name": {
+                "$t": "Camille, Jackson"
+            },
+            "gsx$coursetitle": {
+                "$t": "V French 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140923"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cvlqs"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Camille, Jackson"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V French 4AP, courselink: https://lisdtx.instructure.com/courses/140927"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cvlqs"
+            }],
+            "gsx$name": {
+                "$t": "Camille, Jackson"
+            },
+            "gsx$coursetitle": {
+                "$t": "V French 4AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140927"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cx0b9"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Camille, Jackson"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: French 4AP, courselink: https://lisdtx.instructure.com/courses/126086"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/cx0b9"
+            }],
+            "gsx$name": {
+                "$t": "Camille, Jackson"
+            },
+            "gsx$coursetitle": {
+                "$t": "French 4AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126086"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d9ney"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Camille, Jackson"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: French 6, courselink: https://lisdtx.instructure.com/courses/126094"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d9ney"
+            }],
+            "gsx$name": {
+                "$t": "Camille, Jackson"
+            },
+            "gsx$coursetitle": {
+                "$t": "French 6"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126094"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/db1zf"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Carlson, Cathy"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Spanish 1 \u0026 2, courselink: https://lisdtx.instructure.com/courses/126051"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/db1zf"
+            }],
+            "gsx$name": {
+                "$t": "Carlson, Cathy"
+            },
+            "gsx$coursetitle": {
+                "$t": "Spanish 1 \u0026 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126051"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dcgjs"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Carriker, Katherine"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Food Science: , courselink: https://lisdtx.instructure.com/courses/130136"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dcgjs"
+            }],
+            "gsx$name": {
+                "$t": "Carriker, Katherine"
+            },
+            "gsx$coursetitle": {
+                "$t": "Food Science: "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/130136"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ddv49"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Castleberg, Erica"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: French II, courselink: https://lisdtx.instructure.com/courses/126076"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ddv49"
+            }],
+            "gsx$name": {
+                "$t": "Castleberg, Erica"
+            },
+            "gsx$coursetitle": {
+                "$t": "French II"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126076"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d415a"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Castleberg, Erica"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V French II, courselink: https://lisdtx.instructure.com/courses/140921"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d415a"
+            }],
+            "gsx$name": {
+                "$t": "Castleberg, Erica"
+            },
+            "gsx$coursetitle": {
+                "$t": "V French II"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140921"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d5fpr"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Cooper, Madalyn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Photojournalism: , courselink: https://lisdtx.instructure.com/courses/129207"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d5fpr"
+            }],
+            "gsx$name": {
+                "$t": "Cooper, Madalyn"
+            },
+            "gsx$coursetitle": {
+                "$t": "Photojournalism: "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129207"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d6ua4"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Cooper, Madalyn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Yearbook: , courselink: https://lisdtx.instructure.com/courses/131127"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d6ua4"
+            }],
+            "gsx$name": {
+                "$t": "Cooper, Madalyn"
+            },
+            "gsx$coursetitle": {
+                "$t": "Yearbook: "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/131127"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d88ul"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Cooper, Madalyn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Journalism:, courselink: https://lisdtx.instructure.com/courses/131118"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/d88ul"
+            }],
+            "gsx$name": {
+                "$t": "Cooper, Madalyn"
+            },
+            "gsx$coursetitle": {
+                "$t": "Journalism:"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/131118"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dkvya"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Cummings, Karen"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: ALS Life Skills , courselink: https://lisdtx.instructure.com/courses/140359"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dkvya"
+            }],
+            "gsx$name": {
+                "$t": "Cummings, Karen"
+            },
+            "gsx$coursetitle": {
+                "$t": "ALS Life Skills "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140359"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dmair"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Cummings, Karen"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: ALS Life Skills, courselink: https://lisdtx.instructure.com/courses/140359"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dmair"
+            }],
+            "gsx$name": {
+                "$t": "Cummings, Karen"
+            },
+            "gsx$coursetitle": {
+                "$t": "ALS Life Skills"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140359"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dnp34"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Dipprey, Caine"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Computer Science, courselink: https://lisdtx.instructure.com/courses/143473"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dnp34"
+            }],
+            "gsx$name": {
+                "$t": "Dipprey, Caine"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Computer Science"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143473"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dp3nl"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Duplanty, Michael"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Anatomy and Physiology, courselink: https://lisdtx.instructure.com/courses/143556"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dp3nl"
+            }],
+            "gsx$name": {
+                "$t": "Duplanty, Michael"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Anatomy and Physiology"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143556"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/df9om"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Duplanty, Michael"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Environmental Systems, courselink: https://lisdtx.instructure.com/courses/143547"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/df9om"
+            }],
+            "gsx$name": {
+                "$t": "Duplanty, Michael"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Environmental Systems"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143547"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dgo93"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Gardner, Angela"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Psychology AP, courselink: https://lisdtx.instructure.com/courses/127609"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dgo93"
+            }],
+            "gsx$name": {
+                "$t": "Gardner, Angela"
+            },
+            "gsx$coursetitle": {
+                "$t": "Psychology AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/127609"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/di2tg"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Gardner, Angela"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Psychology AP, courselink: https://lisdtx.instructure.com/courses/143584"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/di2tg"
+            }],
+            "gsx$name": {
+                "$t": "Gardner, Angela"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Psychology AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143584"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/djhdx"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Garza, Matthew"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Pre-Calculus, courselink: https://lisdtx.instructure.com/courses/124522"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/djhdx"
+            }],
+            "gsx$name": {
+                "$t": "Garza, Matthew"
+            },
+            "gsx$coursetitle": {
+                "$t": "Pre-Calculus"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/124522"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dw4je"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Garza, Matthew"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Statistics (Garza), courselink: https://lisdtx.instructure.com/courses/125126"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dw4je"
+            }],
+            "gsx$name": {
+                "$t": "Garza, Matthew"
+            },
+            "gsx$coursetitle": {
+                "$t": "Statistics (Garza)"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/125126"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dxj3v"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Genuardi, Jeannette"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Art 2 Ceramics, courselink: https://lisdtx.instructure.com/courses/127671"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dxj3v"
+            }],
+            "gsx$name": {
+                "$t": "Genuardi, Jeannette"
+            },
+            "gsx$coursetitle": {
+                "$t": "Art 2 Ceramics"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/127671"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dyxo8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Genuardi, Jeannette"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Art 2 Sculpture, courselink: https://lisdtx.instructure.com/courses/143587"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dyxo8"
+            }],
+            "gsx$name": {
+                "$t": "Genuardi, Jeannette"
+            },
+            "gsx$coursetitle": {
+                "$t": "Art 2 Sculpture"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143587"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e0c8p"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Genuardi, Jeannette"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Ceramics 3/ Sculpture 3 , courselink: https://lisdtx.instructure.com/courses/127686/users"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e0c8p"
+            }],
+            "gsx$name": {
+                "$t": "Genuardi, Jeannette"
+            },
+            "gsx$coursetitle": {
+                "$t": "Ceramics 3/ Sculpture 3 "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/127686/users"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dqi9q"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Genuardi, Jeannette"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Art I, courselink: https://lisdtx.instructure.com/courses/127649"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dqi9q"
+            }],
+            "gsx$name": {
+                "$t": "Genuardi, Jeannette"
+            },
+            "gsx$coursetitle": {
+                "$t": "Art I"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/127649"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/drwu7"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Genuardi, Jeannette"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Art I , courselink: https://lisdtx.instructure.com/courses/144950"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/drwu7"
+            }],
+            "gsx$name": {
+                "$t": "Genuardi, Jeannette"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Art I "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/144950"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dtbek"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Goff, Kathryn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English 2, courselink: https://lisdtx.instructure.com/courses/140939"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dtbek"
+            }],
+            "gsx$name": {
+                "$t": "Goff, Kathryn"
+            },
+            "gsx$coursetitle": {
+                "$t": "English 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140939"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dupz1"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Goff, Kathryn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English 3, courselink: https://lisdtx.instructure.com/courses/140958"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/dupz1"
+            }],
+            "gsx$name": {
+                "$t": "Goff, Kathryn"
+            },
+            "gsx$coursetitle": {
+                "$t": "English 3"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140958"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e7d2q"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Goheen, Shannon"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: idk my bff jill, courselink: https://lisdtx.instructure.com/courses/110483"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e7d2q"
+            }],
+            "gsx$name": {
+                "$t": "Goheen, Shannon"
+            },
+            "gsx$coursetitle": {
+                "$t": "idk my bff jill"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/110483"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e8rn7"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Gorham, Jaden"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V PreAP Chemistry, courselink: https://lisdtx.instructure.com/courses/143525"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e8rn7"
+            }],
+            "gsx$name": {
+                "$t": "Gorham, Jaden"
+            },
+            "gsx$coursetitle": {
+                "$t": "V PreAP Chemistry"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143525"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ea67k"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Gowarty, Sherry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Principles of Business/Marketing/Finance , courselink: https://lisdtx.instructure.com/courses/152977"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ea67k"
+            }],
+            "gsx$name": {
+                "$t": "Gowarty, Sherry"
+            },
+            "gsx$coursetitle": {
+                "$t": "Principles of Business/Marketing/Finance "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/152977"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ebks1"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Gowarty, Sherry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Virtual Principles of Business/Marketing/Finance , courselink: https://lisdtx.instructure.com/courses/152979"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ebks1"
+            }],
+            "gsx$name": {
+                "$t": "Gowarty, Sherry"
+            },
+            "gsx$coursetitle": {
+                "$t": "Virtual Principles of Business/Marketing/Finance "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/152979"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e1qt2"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Haneline, Jeanny"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English 4, courselink: https://lisdtx.instructure.com/courses/140980"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e1qt2"
+            }],
+            "gsx$name": {
+                "$t": "Haneline, Jeanny"
+            },
+            "gsx$coursetitle": {
+                "$t": "English 4"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140980"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e35dj"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Haneline, Jeanny"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English 4 AP, courselink: https://lisdtx.instructure.com/courses/140990"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e35dj"
+            }],
+            "gsx$name": {
+                "$t": "Haneline, Jeanny"
+            },
+            "gsx$coursetitle": {
+                "$t": "English 4 AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140990"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e4jxw"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Hensley, Alisha"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Aquatic science, courselink: https://lisdtx.instructure.com/courses/135806"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e4jxw"
+            }],
+            "gsx$name": {
+                "$t": "Hensley, Alisha"
+            },
+            "gsx$coursetitle": {
+                "$t": "Aquatic science"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/135806"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e5yid"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Hensley, Brett"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Algebra 2, courselink: https://lisdtx.instructure.com/courses/124468"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/e5yid"
+            }],
+            "gsx$name": {
+                "$t": "Hensley, Brett"
+            },
+            "gsx$coursetitle": {
+                "$t": "Algebra 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/124468"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eilm2"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Herring, Courtney"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Latin 2, courselink: https://lisdtx.instructure.com/courses/126099"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eilm2"
+            }],
+            "gsx$name": {
+                "$t": "Herring, Courtney"
+            },
+            "gsx$coursetitle": {
+                "$t": "Latin 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126099"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ek06j"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Herring, Courtney"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Latin 2, courselink: https://lisdtx.instructure.com/courses/140931"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ek06j"
+            }],
+            "gsx$name": {
+                "$t": "Herring, Courtney"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Latin 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140931"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eleqw"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Herring, Courtney"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Latin 4 AP, courselink: https://lisdtx.instructure.com/courses/126110"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eleqw"
+            }],
+            "gsx$name": {
+                "$t": "Herring, Courtney"
+            },
+            "gsx$coursetitle": {
+                "$t": "Latin 4 AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126110"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/emtbd"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Holley, Kerry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V AP Chemistry, courselink: https://lisdtx.instructure.com/courses/147971"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/emtbd"
+            }],
+            "gsx$name": {
+                "$t": "Holley, Kerry"
+            },
+            "gsx$coursetitle": {
+                "$t": "V AP Chemistry"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/147971"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eczce"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Holley, Kerry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Pre-AP Physics, courselink: https://lisdtx.instructure.com/courses/143540"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eczce"
+            }],
+            "gsx$name": {
+                "$t": "Holley, Kerry"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Pre-AP Physics"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143540"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eedwv"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Horton, Larry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Spanish 3, courselink: https://lisdtx.instructure.com/courses/141005"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eedwv"
+            }],
+            "gsx$name": {
+                "$t": "Horton, Larry"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Spanish 3"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141005"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/efsh8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Horton, Larry"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Spanish 4 AP, courselink: https://lisdtx.instructure.com/courses/126067"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/efsh8"
+            }],
+            "gsx$name": {
+                "$t": "Horton, Larry"
+            },
+            "gsx$coursetitle": {
+                "$t": "Spanish 4 AP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126067"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eh71p"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Hutchison, Doug"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Economics, courselink: https://lisdtx.instructure.com/courses/126928"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eh71p"
+            }],
+            "gsx$name": {
+                "$t": "Hutchison, Doug"
+            },
+            "gsx$coursetitle": {
+                "$t": "Economics"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126928"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/etu5e"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Jones, Steven"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Journalism, courselink: https://lisdtx.instructure.com/courses/131113"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/etu5e"
+            }],
+            "gsx$name": {
+                "$t": "Jones, Steven"
+            },
+            "gsx$coursetitle": {
+                "$t": "Journalism"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/131113"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ev8pv"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Jones, Steven"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Broadcast, courselink: https://lisdtx.instructure.com/courses/129221"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ev8pv"
+            }],
+            "gsx$name": {
+                "$t": "Jones, Steven"
+            },
+            "gsx$coursetitle": {
+                "$t": "Broadcast"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129221"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ewna8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Jones, Steven"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Newspaper, courselink: https://lisdtx.instructure.com/courses/131148"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ewna8"
+            }],
+            "gsx$name": {
+                "$t": "Jones, Steven"
+            },
+            "gsx$coursetitle": {
+                "$t": "Newspaper"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/131148"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ey1up"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Kaehn, Aust"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Anatomy \u0026 Physiology, courselink: https://lisdtx.instructure.com/courses/160957"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ey1up"
+            }],
+            "gsx$name": {
+                "$t": "Kaehn, Aust"
+            },
+            "gsx$coursetitle": {
+                "$t": "Anatomy \u0026 Physiology"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/160957"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eo7vq"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Kaehn, Aust"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Physics, courselink: https://lisdtx.instructure.com/courses/161098"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/eo7vq"
+            }],
+            "gsx$name": {
+                "$t": "Kaehn, Aust"
+            },
+            "gsx$coursetitle": {
+                "$t": "Physics"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/161098"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/epmg7"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Mayo, Kate"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Eng 2 PreAP, courselink: https://lisdtx.instructure.com/courses/140950"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/epmg7"
+            }],
+            "gsx$name": {
+                "$t": "Mayo, Kate"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Eng 2 PreAP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140950"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/er10k"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McGinnis, Patrick"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: McGinnis US History, courselink: https://lisdtx.instructure.com/courses/140735"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/er10k"
+            }],
+            "gsx$name": {
+                "$t": "McGinnis, Patrick"
+            },
+            "gsx$coursetitle": {
+                "$t": "McGinnis US History"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140735"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/esfl1"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McGinnis, Patrick"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: McGinnis/Cowgill 3rd Period  JV Tennis, courselink: https://lisdtx.instructure.com/courses/126916"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/esfl1"
+            }],
+            "gsx$name": {
+                "$t": "McGinnis, Patrick"
+            },
+            "gsx$coursetitle": {
+                "$t": "McGinnis/Cowgill 3rd Period  JV Tennis"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126916"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a59y2"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McGinnis, Patrick"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: McGinnis/Cowgill 4th Period Varsity Tennis, courselink: https://lisdtx.instructure.com/courses/126914"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a59y2"
+            }],
+            "gsx$name": {
+                "$t": "McGinnis, Patrick"
+            },
+            "gsx$coursetitle": {
+                "$t": "McGinnis/Cowgill 4th Period Varsity Tennis"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126914"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a6oij"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McIntosh, Genoveva"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V WD History, V US History, V Economics and V Eng 4, courselink: https://lisdtx.instructure.com/courses/151782"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a6oij"
+            }],
+            "gsx$name": {
+                "$t": "McIntosh, Genoveva"
+            },
+            "gsx$coursetitle": {
+                "$t": "V WD History, V US History, V Economics and V Eng 4"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/151782"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a832w"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McLaughlin, Tina"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English IV, courselink: https://lisdtx.instructure.com/courses/125960"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a832w"
+            }],
+            "gsx$name": {
+                "$t": "McLaughlin, Tina"
+            },
+            "gsx$coursetitle": {
+                "$t": "English IV"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/125960"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a9hnd"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "McLaughlin, Tina"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English II, courselink: https://lisdtx.instructure.com/courses/140928"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a9hnd"
+            }],
+            "gsx$name": {
+                "$t": "McLaughlin, Tina"
+            },
+            "gsx$coursetitle": {
+                "$t": "English II"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140928"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/9znoe"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Meldrum, Catherine"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Precalculus PAP , courselink: https://lisdtx.instructure.com/courses/141288"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/9znoe"
+            }],
+            "gsx$name": {
+                "$t": "Meldrum, Catherine"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Precalculus PAP "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/141288"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a128v"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Meldrum, Catherine"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Algebra II PAP , courselink: https://lisdtx.instructure.com/courses/159448"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a128v"
+            }],
+            "gsx$name": {
+                "$t": "Meldrum, Catherine"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Algebra II PAP "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/159448"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a2gt8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Mentesana, Marta"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: ASL 2, courselink: https://lisdtx.instructure.com/courses/126120"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a2gt8"
+            }],
+            "gsx$name": {
+                "$t": "Mentesana, Marta"
+            },
+            "gsx$coursetitle": {
+                "$t": "ASL 2"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126120"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a3vdp"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: NAVSCI LDRSH 2 MORALES , courselink: https://lisdtx.instructure.com/courses/129267"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/a3vdp"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "NAVSCI LDRSH 2 MORALES "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129267"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/agihe"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: NAVSCI LDRSH 3 MORALES, courselink: https://lisdtx.instructure.com/courses/129271"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/agihe"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "NAVSCI LDRSH 3 MORALES"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129271"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ahx1v"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: NAVSCI LDRSH 4 MORALES , courselink: https://lisdtx.instructure.com/courses/129285"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ahx1v"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "NAVSCI LDRSH 4 MORALES "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129285"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ajbm8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V MITRY SCI 2 MORALES, courselink: https://lisdtx.instructure.com/courses/155065"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ajbm8"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "V MITRY SCI 2 MORALES"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/155065"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/akq6p"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V MITRY SCI 3 MORALES, courselink: https://lisdtx.instructure.com/courses/155070"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/akq6p"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "V MITRY SCI 3 MORALES"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/155070"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aaw7q"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V MITRY SCI 4 MORALES , courselink: https://lisdtx.instructure.com/courses/155074"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aaw7q"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "V MITRY SCI 4 MORALES "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/155074"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/acas7"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: ZERO HOUR MITRY II MORALES , courselink: https://lisdtx.instructure.com/courses/129291"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/acas7"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "ZERO HOUR MITRY II MORALES "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129291"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/adpck"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Morales, Commander"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: ZERO HOUR MITRY III MORALES , courselink: https://lisdtx.instructure.com/courses/129295"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/adpck"
+            }],
+            "gsx$name": {
+                "$t": "Morales, Commander"
+            },
+            "gsx$coursetitle": {
+                "$t": "ZERO HOUR MITRY III MORALES "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129295"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/af3x1"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Obrien, Lisa"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Biology AP (V Sci R \u0026 D), courselink: https://lisdtx.instructure.com/courses/147969"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/af3x1"
+            }],
+            "gsx$name": {
+                "$t": "Obrien, Lisa"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Biology AP (V Sci R \u0026 D)"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/147969"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/arr0q"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Obrien, Lisa"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Biology AP (R \u0026 D), courselink: https://lisdtx.instructure.com/courses/126108"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/arr0q"
+            }],
+            "gsx$name": {
+                "$t": "Obrien, Lisa"
+            },
+            "gsx$coursetitle": {
+                "$t": "Biology AP (R \u0026 D)"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126108"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/at5l7"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Pedrazinne, Carolyn"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Hebron ESL Support, courselink: https://lisdtx.instructure.com/courses/153959"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/at5l7"
+            }],
+            "gsx$name": {
+                "$t": "Pedrazinne, Carolyn"
+            },
+            "gsx$coursetitle": {
+                "$t": "Hebron ESL Support"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/153959"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/auk5k"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Phillips, Kris"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Earth and Space Science:, courselink: https://lisdtx.instructure.com/courses/137621"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/auk5k"
+            }],
+            "gsx$name": {
+                "$t": "Phillips, Kris"
+            },
+            "gsx$coursetitle": {
+                "$t": "Earth and Space Science:"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/137621"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/avyq1"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Phillips, Kris"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Food Science, courselink: https://lisdtx.instructure.com/courses/143641"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/avyq1"
+            }],
+            "gsx$name": {
+                "$t": "Phillips, Kris"
+            },
+            "gsx$coursetitle": {
+                "$t": "Food Science"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143641"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/am4r2"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Phillips, Kris"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Earth and Space Science, courselink: https://lisdtx.instructure.com/courses/158679"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/am4r2"
+            }],
+            "gsx$name": {
+                "$t": "Phillips, Kris"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Earth and Space Science"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/158679"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/anjbj"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Randle, Erica"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Creative Writing, courselink: https://lisdtx.instructure.com/courses/126449"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/anjbj"
+            }],
+            "gsx$name": {
+                "$t": "Randle, Erica"
+            },
+            "gsx$coursetitle": {
+                "$t": "Creative Writing"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126449"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aoxvw"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Randle, Erica"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Multicultural Literature, courselink: https://lisdtx.instructure.com/courses/126465"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aoxvw"
+            }],
+            "gsx$name": {
+                "$t": "Randle, Erica"
+            },
+            "gsx$coursetitle": {
+                "$t": "Multicultural Literature"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126465"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aqcgd"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Rans, Jaqueline"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Money Matters, courselink: https://lisdtx.instructure.com/courses/159108"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/aqcgd"
+            }],
+            "gsx$name": {
+                "$t": "Rans, Jaqueline"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Money Matters"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/159108"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b2zk2"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Rans, Jaqueline"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Fashion Design, courselink: https://lisdtx.instructure.com/courses/146510"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b2zk2"
+            }],
+            "gsx$name": {
+                "$t": "Rans, Jaqueline"
+            },
+            "gsx$coursetitle": {
+                "$t": "Fashion Design"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/146510"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b4e4j"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Riordan, Randi"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: PreAP Algebra II, courselink: https://lisdtx.instructure.com/courses/124502"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b4e4j"
+            }],
+            "gsx$name": {
+                "$t": "Riordan, Randi"
+            },
+            "gsx$coursetitle": {
+                "$t": "PreAP Algebra II"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/124502"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b5sow"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Rodgers, James"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: College Prep Math, courselink: https://lisdtx.instructure.com/courses/112010"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b5sow"
+            }],
+            "gsx$name": {
+                "$t": "Rodgers, James"
+            },
+            "gsx$coursetitle": {
+                "$t": "College Prep Math"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/112010"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b779d"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Rose, Lakiella"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Global Business, courselink: https://lisdtx.instructure.com/courses/148028"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b779d"
+            }],
+            "gsx$name": {
+                "$t": "Rose, Lakiella"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Global Business"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/148028"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/axdae"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Rose, Lakiella"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Business Management, courselink: https://lisdtx.instructure.com/courses/138609"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/axdae"
+            }],
+            "gsx$name": {
+                "$t": "Rose, Lakiella"
+            },
+            "gsx$coursetitle": {
+                "$t": "Business Management"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/138609"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ayruv"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Ryman, Gary"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Astronomy, courselink: https://lisdtx.instructure.com/courses/126078"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ayruv"
+            }],
+            "gsx$name": {
+                "$t": "Ryman, Gary"
+            },
+            "gsx$coursetitle": {
+                "$t": "Astronomy"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/126078"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b06f8"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Ryman, Gary"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Env Systems, courselink: https://lisdtx.instructure.com/courses/159453"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b06f8"
+            }],
+            "gsx$name": {
+                "$t": "Ryman, Gary"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Env Systems"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/159453"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b1kzp"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Sheehan, Kaysi"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Virtual English II PreAP, courselink: https://lisdtx.instructure.com/courses/157230"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b1kzp"
+            }],
+            "gsx$name": {
+                "$t": "Sheehan, Kaysi"
+            },
+            "gsx$coursetitle": {
+                "$t": "Virtual English II PreAP"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/157230"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/be856"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Sivils, Samantha"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V English 4, courselink: https://lisdtx.instructure.com/courses/140983"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/be856"
+            }],
+            "gsx$name": {
+                "$t": "Sivils, Samantha"
+            },
+            "gsx$coursetitle": {
+                "$t": "V English 4"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140983"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bfmpn"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Stinson, Megan"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: English III, courselink: https://lisdtx.instructure.com/courses/125298"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bfmpn"
+            }],
+            "gsx$name": {
+                "$t": "Stinson, Megan"
+            },
+            "gsx$coursetitle": {
+                "$t": "English III"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/125298"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bh1a0"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Stites, Jared"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Computer Science 1, courselink: https://lisdtx.instructure.com/courses/146451"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bh1a0"
+            }],
+            "gsx$name": {
+                "$t": "Stites, Jared"
+            },
+            "gsx$coursetitle": {
+                "$t": "Computer Science 1"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/146451"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bifuh"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Stites, Jared"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: AP Computer Science A, courselink: https://lisdtx.instructure.com/courses/143475"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bifuh"
+            }],
+            "gsx$name": {
+                "$t": "Stites, Jared"
+            },
+            "gsx$coursetitle": {
+                "$t": "AP Computer Science A"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143475"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b8lvi"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Stone, Lisa"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Geometry, courselink: https://lisdtx.instructure.com/courses/124426"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/b8lvi"
+            }],
+            "gsx$name": {
+                "$t": "Stone, Lisa"
+            },
+            "gsx$coursetitle": {
+                "$t": "Geometry"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/124426"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ba0fz"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Summers, Coach"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: World History, courselink: https://lisdtx.instructure.com/courses/140732"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/ba0fz"
+            }],
+            "gsx$name": {
+                "$t": "Summers, Coach"
+            },
+            "gsx$coursetitle": {
+                "$t": "World History"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/140732"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bbf0c"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Tjachyadi, Rachmad"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: Chemistry, courselink: https://lisdtx.instructure.com/courses/143488"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bbf0c"
+            }],
+            "gsx$name": {
+                "$t": "Tjachyadi, Rachmad"
+            },
+            "gsx$coursetitle": {
+                "$t": "Chemistry"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143488"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bctkt"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Weaver, Dianne"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V Money Matters, courselink: https://lisdtx.instructure.com/courses/143626"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bctkt"
+            }],
+            "gsx$name": {
+                "$t": "Weaver, Dianne"
+            },
+            "gsx$coursetitle": {
+                "$t": "V Money Matters"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/143626"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bpgoi"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Wilcox, Harold"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: NAVSCI LDRSH 1 WILCOX, courselink: https://lisdtx.instructure.com/courses/129259"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bpgoi"
+            }],
+            "gsx$name": {
+                "$t": "Wilcox, Harold"
+            },
+            "gsx$coursetitle": {
+                "$t": "NAVSCI LDRSH 1 WILCOX"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/129259"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bqv8z"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Wilcox, Harold"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: NAVSCI LDRSH 9TH 1 WILCOX , courselink: https://lisdtx.instructure.com/courses/122267"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bqv8z"
+            }],
+            "gsx$name": {
+                "$t": "Wilcox, Harold"
+            },
+            "gsx$coursetitle": {
+                "$t": "NAVSCI LDRSH 9TH 1 WILCOX "
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/122267"
+            }
+        }, {
+            "id": {
+                "$t": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bs9tc"
+            },
+            "updated": {
+                "$t": "2021-01-11T16:27:41.453Z"
+            },
+            "category": [{
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }],
+            "title": {
+                "type": "text",
+                "$t": "Wilcox, Harold"
+            },
+            "content": {
+                "type": "text",
+                "$t": "coursetitle: V MITRY SCI 2 WILCOX, courselink: https://lisdtx.instructure.com/courses/155067"
+            },
+            "link": [{
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/11wOZB94H-sPdc3uXLDLozEGL-csUZPN7w6qMSxEjWLE/od6/public/values/bs9tc"
+            }],
+            "gsx$name": {
+                "$t": "Wilcox, Harold"
+            },
+            "gsx$coursetitle": {
+                "$t": "V MITRY SCI 2 WILCOX"
+            },
+            "gsx$courselink": {
+                "$t": "https://lisdtx.instructure.com/courses/155067"
+            }
+        }]
+    }
+}

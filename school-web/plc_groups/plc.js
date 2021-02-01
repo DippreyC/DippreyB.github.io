@@ -122,12 +122,6 @@ var plc = {
         "area": "english"
     },
 
-    "english4v": {
-        "title": "V English 4",
-        "blurb": "Hello! We are Samantha Sivils and Jeanny Haneline.  We both teach English 4 Virtual at Hebron High School.  While we don’t get to see our students every day, we enjoy making connections when we can in the virtual world.  We strive to prepare our students for real world expectations.",
-        "area": "english"
-    },
-
     "esl": {
         "title": "ESL Team",
         "blurb": "We, the ESL Team, are here to support ESL students in being successful in reaching their goals. We patiently work with students to help them overcome their obstacles. Our team is available to help students with questions, tutorials, and technology interventions.",
@@ -183,11 +177,11 @@ var plc = {
         "area": "math"
     },
 
-    "psat": {
-        "title": "PSAT Prep",
-        "blurb": "PSAT Team is an invitation-only 9-week class for juniors that focuses on verbal and math skills for the PSAT that is given in October. Skills learned in this class also boost SAT performance. We rely heavily on motivated students who work hard and are willing to dig into the details of this standardized test. Students have the opportunity to become Commended and even National Merit Scholarship winners.",
-        "area": "english"
-    },
+    // "psat": {
+    //     "title": "PSAT Prep",
+    //     "blurb": "PSAT Team is an invitation-only 9-week class for juniors that focuses on verbal and math skills for the PSAT that is given in October. Skills learned in this class also boost SAT performance. We rely heavily on motivated students who work hard and are willing to dig into the details of this standardized test. Students have the opportunity to become Commended and even National Merit Scholarship winners.",
+    //     "area": "english"
+    // },
 
     "psychology": {
         "title": "Psychology",
@@ -264,11 +258,11 @@ var plc = {
         "area": "math"
     },
 
-    "base":{
-        "title": "BASE",
-        "blurb": "Hi, and Welcome to the BASE room.  Kathy Beasley and Shabana Merchant work to make this room a calming, relaxed environment that supports behavioral and academic success, particularly for students with learning or emotional differences. ",
-        "area": "electives"
-    },
+    // "base":{
+    //     "title": "BASE",
+    //     "blurb": "Hi, and Welcome to the BASE room.  Kathy Beasley and Shabana Merchant work to make this room a calming, relaxed environment that supports behavioral and academic success, particularly for students with learning or emotional differences. ",
+    //     "area": "electives"
+    // },
 
     "ipc": {
         "title": "IPC",
@@ -276,17 +270,17 @@ var plc = {
         "area": "science"
     },
 
-    "resource": {
-        "title": "Resource",
-        "blurb": "Mr. Sweany, Ms. Harvick, Mr. McElhenny welcome you to the 20-21 school year!",
-        "area": "electives"
-    },
+    // "resource": {
+    //     "title": "Resource",
+    //     "blurb": "Mr. Sweany, Ms. Harvick, Mr. McElhenny welcome you to the 20-21 school year!",
+    //     "area": "electives"
+    // },
 
-    "mathpsat": {
-        "title": "Math PSAT",
-        "blurb": "We are the Math PSAT Team Teachers. We specialize in the intricacies of the math content covered in the PSAT as well as the intricacies of the test itself. In our class, your students will how to successfully work and identify the various patterns and types of questions they’ll see on the PSAT.",
-        "area": "math"
-    },
+    // "mathpsat": {
+    //     "title": "Math PSAT",
+    //     "blurb": "We are the Math PSAT Team Teachers. We specialize in the intricacies of the math content covered in the PSAT as well as the intricacies of the test itself. In our class, your students will how to successfully work and identify the various patterns and types of questions they’ll see on the PSAT.",
+    //     "area": "math"
+    // },
 
     "lifeskills": {
         "title": "Life Skills",

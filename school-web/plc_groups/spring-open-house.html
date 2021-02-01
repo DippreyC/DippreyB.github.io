@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="plc-test.js"></script>
+    <script src="plc.js"></script>
+    <script src="cards.js"></script>
+    <link rel="stylesheet" href="plc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body onload="getJSON()">
+
+    <div class="nav-btn-container">
+        <button id="math-btn" class="nav-btn active-btn" onclick="activeNavBtn(`math`)">Math</button>
+        <button id="english-btn" class="nav-btn" onclick="activeNavBtn(`english`)">English</button>
+        <button id="social-btn" class="nav-btn" onclick="activeNavBtn(`social`)">Social Studies</button>
+        <button id="science-btn" class="nav-btn" onclick="activeNavBtn(`science`)">Science</button>
+        <button id="electives-btn" class="nav-btn" onclick="activeNavBtn(`electives`)">Electives</button>
+    </div>
+
+    <div class="subject-container" id="math-container">
+        <h1 id="math-jump">Math</h1>
+        <div class="cards" id="math">
+        </div>
+    </div>
+
+    <div class="subject-container" id="english-container">
+        <h1 id="english-jump"1>English</h1>
+        <div class="cards" id="english">
+        
+        </div>
+    </div>
+    
+    <div class="subject-container" id="social-container">
+        <h1 id="social-jump">Social Studies</h1>
+        <div class="cards" id="social">
+            
+        </div>
+    </div>
+
+    <div class="subject-container" id="science-container">
+        <h1 id="science-jump">Science</h1>
+        <div class="cards" id="science">
+            
+        </div>
+    </div>
+
+    <div class="subject-container" id="electives-container">
+        <h1 id="electives-jump">Electives & More</h1>
+        <div class="cards" id="electives">
+            
+        </div>
+
+        <div class="cards" id="languages">
+
+        </div>
+    </div>
+
+
+
+   
+    
+</body>
+</html>

@@ -10,18 +10,10 @@ function enableJQuery() {
       var $thisCell = $(this).closest('.card');
 
       if ($thisCell.hasClass('is-collapsed')) {
-          $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed').addClass('is-inactive');
+          $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed');
           $thisCell.removeClass('is-collapsed').addClass('is-expanded');
-
-          if ($cell.not($thisCell).hasClass('is-inactive')) {
-              //do nothing
-          } else {
-              $cell.not($thisCell).addClass('is-inactive');
-          }
-
       } else {
           $thisCell.removeClass('is-expanded').addClass('is-collapsed');
-          $cell.not($thisCell).removeClass('is-inactive');
       }
   });
 
@@ -34,5 +26,14 @@ function enableJQuery() {
       $cell.not($thisCell).removeClass('is-inactive');
 
   });
+
+  $cell.not($cell).click(function() {
+      console.log("test")
+      $cell.removeClass('is-expanded').addClass('is-collapsed');
+      $cell.removeClass('is-inactive');
+  })
+
+  
+
 
 };
