@@ -25,11 +25,15 @@ const castSpell = () => {
         console.log(rand);
         if(rand == 1) failCounter++;
         else passCounter++;
+
+        
     }
+    console.log("fails" + failCounter);
+    console.log("pass:" + passCounter);
 
     const resultDiv = document.getElementById('resultDiv');
     const text = `<div class="success-casts">Successful Casts: <span class="result-span">${passCounter}</span></div>
                   <br>
-                  <div class="fail-casts">Return to hand? <span class="result-span"> ${failCounter == 1 ? "Put that shit back in your hand." : "NOPE."} </span></div>`
+                  <div class="fail-casts">Return to hand? <span class="result-span"> ${failCounter >= 1 ? "Put that shit back in your hand." : "NOPE."} </span></div>`
     resultDiv.innerHTML = text;
 }
