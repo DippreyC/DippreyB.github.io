@@ -1,7 +1,13 @@
 import React from 'react';
 import axios from 'axios';
+import SearchForm from './components/SearchForm';
+import List from './components/List';
 
 const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?query=';
+const API_BASE = 'https://hn.algolia.com/api/v1';
+const API_SEARCH = '/search';
+const PARAM_SEARCH = 'query=';
+const PARAM_PAGE = "page=";
 
 const useSemiPersistentState = (key, initialState) => {
   const isMounted = React.useRef(false);
@@ -34,7 +40,8 @@ const storiesReducer = (state, action) => {
         ...state,
         isLoading: false,
         isError: false,
-        data: action.payload,
+        data: action.payload.list,
+        page: action.payload.page,
       };
     case 'STORIES_FETCH_FAILURE':
       return {
@@ -54,6 +61,8 @@ const storiesReducer = (state, action) => {
   }
 };
 
+
+
 const getSumComments = stories => {
   return stories.data.reduce(
     (result, value) => result + value.num_comments,
@@ -61,14 +70,21 @@ const getSumComments = stories => {
   );
 };
 
+const getUrl = (searchTerm, page) => `${API_BASE}${API_SEARCH}?${PARAM_SEARCH}${searchTerm}&${PARAM_PAGE}${page}`;
+const extractSearchTerm = url => url.substring(url.lastIndexOf('?') + 1, url.lastIndexOf('&')).replace(PARAM_SEARCH, '');
+
+
 const App = () => {
   const [searchTerm, setSearchTerm] = useSemiPersistentState(
     'search',
     'React'
   );
 
-  const [url, setUrl] = React.useState(
-    `${API_ENDPOINT}${searchTerm}`
+  const [urls, setUrls] = React.useState(
+    {
+      currentSearch: `${API_ENDPOINT}${searchTerm}`,
+      urlHistory: [],
+    }
   );
 
   const [stories, dispatchStories] = React.useReducer(
@@ -80,16 +96,18 @@ const App = () => {
     dispatchStories({ type: 'STORIES_FETCH_INIT' });
 
     try {
-      const result = await axios.get(url);
-
+      
+      const result = await axios.get(urls.currentSearch);
+      
       dispatchStories({
         type: 'STORIES_FETCH_SUCCESS',
-        payload: result.data.hits,
+        payload: { list: result.data.hits, page: result.data.page, }
       });
     } catch {
+      console.log("stories failed");
       dispatchStories({ type: 'STORIES_FETCH_FAILURE' });
     }
-  }, [url]);
+  }, [urls]);
 
   React.useEffect(() => {
     handleFetchStories();
@@ -107,10 +125,20 @@ const App = () => {
   };
 
   const handleSearchSubmit = event => {
-    setUrl(`${API_ENDPOINT}${searchTerm}`);
+    const lastSearch = `${API_ENDPOINT}${searchTerm}`;
+    const newHistory = urls.urlHistory;
+    newHistory.push({searchUrl: lastSearch, key: `${searchTerm}${new Date().getTime()}`});
+    if(newHistory.length > 5) newHistory.shift();
 
+    setUrls({currentSearch : `${API_ENDPOINT}${searchTerm}`, urlHistory: newHistory});
     event.preventDefault();
   };
+
+  const handleHistorySearch = (url) => {
+    console.log(url);
+    setUrls({currentSearch: url, urlHistory: urls.urlHistory});
+    setSearchTerm(url.split("query=")[1]);
+  }
 
   const sumComments = React.useMemo(() => getSumComments(stories), [
     stories,
@@ -121,9 +149,11 @@ const App = () => {
       <h1>My Hacker Stories with {sumComments} comments.</h1>
 
       <SearchForm
+        searchHistory={urls.urlHistory}
         searchTerm={searchTerm}
         onSearchInput={handleSearchInput}
         onSearchSubmit={handleSearchSubmit}
+        onHistorySubmit={handleHistorySearch}
       />
 
       <hr />
@@ -139,82 +169,12 @@ const App = () => {
   );
 };
 
-const SearchForm = ({
-  searchTerm,
-  onSearchInput,
-  onSearchSubmit,
-}) => (
-  <form onSubmit={onSearchSubmit}>
-    <InputWithLabel
-      id="search"
-      value={searchTerm}
-      isFocused
-      onInputChange={onSearchInput}
-    >
-      <strong>Search:</strong>
-    </InputWithLabel>
 
-    <button type="submit" disabled={!searchTerm}>
-      Submit
-    </button>
-  </form>
-);
 
-const InputWithLabel = ({
-  id,
-  value,
-  type = 'text',
-  onInputChange,
-  isFocused,
-  children,
-}) => {
-  const inputRef = React.useRef();
 
-  React.useEffect(() => {
-    if (isFocused) {
-      inputRef.current.focus();
-    }
-  }, [isFocused]);
 
-  return (
-    <>
-      <label htmlFor={id}>{children}</label>
-      &nbsp;
-      <input
-        ref={inputRef}
-        id={id}
-        type={type}
-        value={value}
-        onChange={onInputChange}
-      />
-    </>
-  );
-};
 
-const List = React.memo(({ list, onRemoveItem }) =>
-  list.map(item => (
-    <Item
-      key={item.objectID}
-      item={item}
-      onRemoveItem={onRemoveItem}
-    />
-  ))
-);
 
-const Item = ({ item, onRemoveItem }) => (
-  <div>
-    <span>
-      <a href={item.url}>{item.title}</a>
-    </span>
-    <span>{item.author}</span>
-    <span>{item.num_comments}</span>
-    <span>{item.points}</span>
-    <span>
-      <button type="button" onClick={() => onRemoveItem(item)}>
-        Dismiss
-      </button>
-    </span>
-  </div>
-);
+
 
 export default App;
